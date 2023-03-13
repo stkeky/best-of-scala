@@ -49,10 +49,37 @@ This curated list contains 5 awesome open-source projects with a total of 2.9K s
 
 _Miscelaneous projects that currently don't fit into any other category._
 
-<details><summary>Show 2 hidden projects...</summary>
+<details><summary><b><a href="https://github.com/lambdaworks/scountries">scountries</a></b> (🥇9 ·  ⭐ 17 · 🐣) - Scala library that provides an enumeration of ISO 3166 codes.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- <b><a href="https://github.com/lambdaworks/scountries">scountries</a></b> (🥇9 ·  ⭐ 17 · 🐣) - Scala library that provides an enumeration of ISO 3166 codes.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
-- <b><a href="https://github.com/lambdaworks/scurl-detector">scurl-detector</a></b> (🥇9 ·  ⭐ 15) - Scala library that detects and extracts URLs from text. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- [GitHub](https://github.com/lambdaworks/scountries) (👨‍💻 3 · 🔀 1 · ⏱️ 09.03.2023):
+
+	```
+	git clone https://github.com/lambdaworks/scountries
+	```
+- [Maven](https://search.maven.org/artifact/io.lambdaworks/scountries):
+	```
+	<dependency>
+		<groupId>io.lambdaworks</groupId>
+		<artifactId>scountries</artifactId>
+		<version>[VERSION]</version>
+	</dependency>
+	```
+</details>
+<details><summary><b><a href="https://github.com/lambdaworks/scurl-detector">scurl-detector</a></b> (🥇9 ·  ⭐ 15) - Scala library that detects and extracts URLs from text. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/lambdaworks/scurl-detector) (👨‍💻 5 · 🔀 1 · 📋 10 - 10% open · ⏱️ 01.02.2023):
+
+	```
+	git clone https://github.com/lambdaworks/scurl-detector
+	```
+- [Maven](https://search.maven.org/artifact/io.lambdaworks/scurl-detector):
+	```
+	<dependency>
+		<groupId>io.lambdaworks</groupId>
+		<artifactId>scurl-detector</artifactId>
+		<version>[VERSION]</version>
+	</dependency>
+	```
 </details>
 <br>
 
@@ -62,7 +89,7 @@ _Miscelaneous projects that currently don't fit into any other category._
 
 _Libraries for connecting to, operating, and querying databases._
 
-<details><summary><b><a href="https://github.com/sksamuel/elastic4s">elastic4s</a></b> (🥇25 ·  ⭐ 1.6K · ➕) - Elasticsearch Scala Client - Reactive, Non Blocking, Type.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/sksamuel/elastic4s">elastic4s</a></b> (🥇25 ·  ⭐ 1.6K) - Elasticsearch Scala Client - Reactive, Non Blocking, Type Safe,.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/sksamuel/elastic4s) (👨‍💻 390 · 🔀 670 · 📋 1.1K - 2% open · ⏱️ 25.01.2023):
 
@@ -78,7 +105,7 @@ _Libraries for connecting to, operating, and querying databases._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/scalikejdbc/scalikejdbc">scalikejdbc</a></b> (🥉22 ·  ⭐ 1.2K · ➕) - A tidy SQL-based DB access library for Scala developers... <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/scalikejdbc/scalikejdbc">scalikejdbc</a></b> (🥉22 ·  ⭐ 1.2K) - A tidy SQL-based DB access library for Scala developers. This.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/scalikejdbc/scalikejdbc) (👨‍💻 100 · 🔀 220 · 📋 480 - 5% open · ⏱️ 12.03.2023):
 
@@ -94,9 +121,21 @@ _Libraries for connecting to, operating, and querying databases._
 	</dependency>
 	```
 </details>
-<details><summary>Show 1 hidden projects...</summary>
+<details><summary><b><a href="https://github.com/lambdaworks/zio-elasticsearch">zio-elasticsearch</a></b> (🥉11 ·  ⭐ 38) - ZIO Elasticsearch is a type-safe, testable and.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://zio.dev/img/navbar_brand.png" style="display:inline;" width="13" height="13"></code></summary>
 
-- <b><a href="https://github.com/lambdaworks/zio-elasticsearch">zio-elasticsearch</a></b> (🥉11 ·  ⭐ 38) - ZIO Elasticsearch is a type-safe, testable and.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://zio.dev/img/navbar_brand.png" style="display:inline;" width="13" height="13"></code>
+- [GitHub](https://github.com/lambdaworks/zio-elasticsearch) (👨‍💻 7 · 🔀 4 · 📋 18 - 77% open · ⏱️ 13.03.2023):
+
+	```
+	git clone https://github.com/lambdaworks/zio-elasticsearch
+	```
+- [Maven](https://search.maven.org/artifact/lambdaworks.io/zio-elasticsearch):
+	```
+	<dependency>
+		<groupId>lambdaworks.io</groupId>
+		<artifactId>zio-elasticsearch</artifactId>
+		<version>[VERSION]</version>
+	</dependency>
+	```
 </details>
 
 ---
