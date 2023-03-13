@@ -1,6 +1,7 @@
 configuration:
   markdown_header_file: "config/header.md"
   markdown_footer_file: "config/footer.md"
+  min_projectrank: 5
 
 categories:
     - category: "misc"
@@ -12,20 +13,28 @@ categories:
 
 labels:
    - label: "zio"
-     image: "https://zio.dev/img/favicon.ico"
+     image: "https://zio.dev/img/navbar_brand.png"
      description: "Type-safe, composable asynchronous and concurrent programming for Scala."
 
 projects:
     - name: scountries
       github_id: lambdaworks/scountries
       maven_id: io.lambdaworks:scountries
-      category: "misc"
+      category: misc
     - name: scurl-detector
       github_id: lambdaworks/scurl-detector
       maven_id: io.lambdaworks:scurl-detector
-      category: "misc"
+      category: misc
     - name: zio-elasticsearch
       github_id: lambdaworks/zio-elasticsearch
       maven_id: lambdaworks.io:zio-elasticsearch
-      category: "db-clients"
+      category: db-clients
       labels: ["zio"]
+    - name: elastic4s
+      github_id: sksamuel/elastic4s
+      maven_id: com.sksamuel.elastic4s:elastic4s
+      category: db-clients
+    - name: scalikejdbc
+      github_id: scalikejdbc/scalikejdbc
+      maven_id: org.scalikejdbc:scalikejdbc
+      category: db-clients
