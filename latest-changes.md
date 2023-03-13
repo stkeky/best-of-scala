@@ -2,5 +2,6 @@
 
 _Projects that were recently added to this best-of list._
 
-- <b><a href="https://github.com/lambdaworks/zio-elasticsearch">zio-elasticsearch</a></b> (🥇11 ·  ⭐ 38 · ➕) - ZIO Elasticsearch is a type-safe, testable and.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://zio.dev/img/favicon.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/sksamuel/elastic4s">elastic4s</a></b> (🥇25 ·  ⭐ 1.6K · ➕) - Elasticsearch Scala Client - Reactive, Non Blocking, Type.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://github.com/scalikejdbc/scalikejdbc">scalikejdbc</a></b> (🥉22 ·  ⭐ 1.2K · ➕) - A tidy SQL-based DB access library for Scala developers... <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 
