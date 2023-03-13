@@ -3,6 +3,8 @@ configuration:
   markdown_footer_file: "config/footer.md"
 
 categories:
+    - category: "misc"
+      title: "Miscelaneous projects that currently don't fit into any other category."
   # - category: "data-engineering"
   #   title: "Machine Learning & Data Engineering"
   #   subtitle: "Best-of lists about machine learning, data engieering, data science, or other topics related to big data."
@@ -13,7 +15,11 @@ labels:
   #   description: "Best-of list with Python projects"
 
 projects:
-  # - name: best-of-ml-python
-  #   github_id: ml-tooling/best-of-ml-python
-  #   labels: ["python"]
-  #   category: "data-engineering"
+    - name: scountries
+      github_id: lambdaworks/scountries
+      category: "misc"
+      maven_id: io.lambdaworks:scountries
+    - name: scurl-detector
+      github_id: lambdaworks/scurl-detector
+      category: "misc"
+      maven_id: io.lambdaworks:scurl-detector

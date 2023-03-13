@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-    <strong>🏆&nbsp; A ranked list of awesome projects. Updated weekly.</strong>
+    <strong>🏆&nbsp; A ranked list of awesome Scala open-source libraries & tools. Updated weekly.</strong>
 </p>
 
 <p align="center">
