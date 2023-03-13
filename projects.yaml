@@ -2,6 +2,7 @@ configuration:
   markdown_header_file: "config/header.md"
   markdown_footer_file: "config/footer.md"
   min_projectrank: 5
+  min_stars: 15
 
 categories:
     - category: "misc"
