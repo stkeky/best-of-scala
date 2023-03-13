@@ -4,22 +4,28 @@ configuration:
 
 categories:
     - category: "misc"
-      title: "Miscelaneous projects that currently don't fit into any other category."
-  # - category: "data-engineering"
-  #   title: "Machine Learning & Data Engineering"
-  #   subtitle: "Best-of lists about machine learning, data engieering, data science, or other topics related to big data."
+      title: "Miscelaneous"
+      subtitle: "Miscelaneous projects that currently don't fit into any other category."
+    - category: "db-clients"
+      title: "Database Clients"
+      subtitle: "Libraries for connecting to, operating, and querying databases."
 
 labels:
-  # - label: "python"
-  #   image: "https://www.python.org/static/favicon.ico"
-  #   description: "Best-of list with Python projects"
+   - label: "zio"
+     image: "https://zio.dev/img/favicon.ico"
+     description: "Type-safe, composable asynchronous and concurrent programming for Scala."
 
 projects:
     - name: scountries
       github_id: lambdaworks/scountries
-      category: "misc"
       maven_id: io.lambdaworks:scountries
+      category: "misc"
     - name: scurl-detector
       github_id: lambdaworks/scurl-detector
-      category: "misc"
       maven_id: io.lambdaworks:scurl-detector
+      category: "misc"
+    - name: zio-elasticsearch
+      github_id: lambdaworks/zio-elasticsearch
+      maven_id: lambdaworks.io:zio-elasticsearch
+      category: "db-clients"
+      labels: ["zio"]
