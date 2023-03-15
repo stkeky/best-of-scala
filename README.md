@@ -15,14 +15,16 @@
     <a href="https://github.com/stkeky/best-of-scala/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/stkeky/best-of-scala?color=green&label=updated"></a>
 </p>
 
-This curated list contains 5 awesome open-source projects with a total of 2.9K stars grouped into 2 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/stkeky/best-of-scala/issues/new/choose), submit a [pull request](https://github.com/stkeky/best-of-scala/pulls), or directly edit the [projects.yaml](https://github.com/stkeky/best-of-scala/edit/main/projects.yaml). Contributions are very welcome!
+This curated list contains 5 awesome open-source projects with a total of 2.9K stars grouped into 4 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/stkeky/best-of-scala/issues/new/choose), submit a [pull request](https://github.com/stkeky/best-of-scala/pulls), or directly edit the [projects.yaml](https://github.com/stkeky/best-of-scala/edit/main/projects.yaml). Contributions are very welcome!
 
 > 🧙‍♂️  Discover other [best-of lists](https://best-of.org) or [create your own](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
 
 ## Contents
 
 - [Miscelaneous](#miscelaneous) _2 projects_
-- [Database Clients](#database-clients) _3 projects_
+- [Database Clients](#database-clients) _2 projects_
+- [Ecosystems](#ecosystems) _1 projects_
+- [JSON](#json) _0 projects_
 
 ## Explanation
 - 🥇🥈🥉&nbsp; Combined project-quality score
@@ -121,9 +123,21 @@ _Libraries for connecting to, operating, and querying databases._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/lambdaworks/zio-elasticsearch">zio-elasticsearch</a></b> (🥉11 ·  ⭐ 38) - ZIO Elasticsearch is a type-safe, testable and.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://zio.dev/img/navbar_brand.png" style="display:inline;" width="13" height="13"></code></summary>
+<br>
 
-- [GitHub](https://github.com/lambdaworks/zio-elasticsearch) (👨‍💻 7 · 🔀 4 · 📋 18 - 77% open · ⏱️ 13.03.2023):
+## Ecosystems
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+_Extensions and platforms that provides various abstractions._
+
+<details><summary><b><a href="https://github.com/zio/zio">zio</a></b> (🥇28 ·  ⭐ 3.8K · ➕) - ZIO A type-safe, composable library for async and concurrent programming in..</summary>
+
+
+---
+<details><summary><b><a href="https://github.com/lambdaworks/zio-elasticsearch">zio-elasticsearch</a></b> (🥉11 ·  ⭐ 40) - ZIO Elasticsearch is a type-safe, testable and.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://zio.dev/img/navbar_brand.png" style="display:inline;" width="13" height="13"></code></summary>
+
+- [GitHub](https://github.com/lambdaworks/zio-elasticsearch) (👨‍💻 7 · 🔀 4 · 📋 19 - 73% open · ⏱️ 15.03.2023):
 
 	```
 	git clone https://github.com/lambdaworks/zio-elasticsearch
@@ -137,6 +151,17 @@ _Libraries for connecting to, operating, and querying databases._
 	</dependency>
 	```
 </details>
+
+---
+</details>
+<br>
+
+## JSON
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+_Libraries that handles JSON format._
+
 
 ---
 
