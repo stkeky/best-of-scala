@@ -32,36 +32,35 @@ projects:
       category: misc
     - name: scurl-detector
       github_id: lambdaworks/scurl-detector
-      maven_id: io.lambdaworks:scurl-detector
+      maven_id: io.lambdaworks:scurl-detector_2.13
       category: misc
     - name: zio-elasticsearch
       github_id: lambdaworks/zio-elasticsearch
-      maven_id: lambdaworks.io:zio-elasticsearch
       category: db-clients
       labels: [zio]
     - name: elastic4s
       github_id: sksamuel/elastic4s
-      maven_id: com.sksamuel.elastic4s:elastic4s
+      maven_id: com.sksamuel.elastic4s:elastic4s_2.13
       category: db-clients
     - name: scalikejdbc
       github_id: scalikejdbc/scalikejdbc
-      maven_id: org.scalikejdbc:scalikejdbc
+      maven_id: org.scalikejdbc:scalikejdbc_2.13
       category: db-clients
     - name: zio
       github_id: zio/zio
-      maven_id: dev.zio:zio
+      maven_id: dev.zio:zio_2.13
       category: ecosystems
     - name: argonaut
       github_id: argonaut-io/argonaut
-      maven_id: io.argonaut:argonaut
+      maven_id: io.argonaut:argonaut_2.13
       category: json
     - name: circe
       github_id: circe/circe
-      maven_id: io.circe:circe-core
+      maven_id: io.circe:circe-core_2.13
       category: json
     - name: spray-json
       github_id: spray/spray-json
-      maven_id: io.spray:spray-json
+      maven_id: io.spray:spray-json_2.13
       category: json
     - name: ninny-json
       github_id: nrktkt/ninny-json
