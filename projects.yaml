@@ -11,7 +11,13 @@ categories:
     - category: "db-clients"
       title: "Database Clients"
       subtitle: "Libraries for connecting to, operating, and querying databases."
-
+    - category: ecosystems
+      title: Ecosystems
+      subtitle: Extensions and platforms that provides various abstractions.
+    - category: json
+      title: JSON
+      subtitle: Libraries that handles JSON format.
+      
 labels:
    - label: "zio"
      image: "https://zio.dev/img/navbar_brand.png"
@@ -31,6 +37,7 @@ projects:
       maven_id: lambdaworks.io:zio-elasticsearch
       category: db-clients
       labels: ["zio"]
+      group_id: zio
     - name: elastic4s
       github_id: sksamuel/elastic4s
       maven_id: com.sksamuel.elastic4s:elastic4s
@@ -39,3 +46,10 @@ projects:
       github_id: scalikejdbc/scalikejdbc
       maven_id: org.scalikejdbc:scalikejdbc
       category: db-clients
+    - name: zio
+      github_id: zio/zio
+      maven_id: dev.zio:zio
+      category: ecosystems
+      group: True
+      group_id: zio
+
