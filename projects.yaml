@@ -37,7 +37,6 @@ projects:
       maven_id: lambdaworks.io:zio-elasticsearch
       category: db-clients
       labels: ["zio"]
-      group_id: zio
     - name: elastic4s
       github_id: sksamuel/elastic4s
       maven_id: com.sksamuel.elastic4s:elastic4s
@@ -50,6 +49,61 @@ projects:
       github_id: zio/zio
       maven_id: dev.zio:zio
       category: ecosystems
-      group: True
-      group_id: zio
-
+    - name: argonaut
+      github_id: argonaut
+      maven_id: io.argonaut:argonaut
+      category: json
+    - name: circe
+      github_id: travisbrown/circe
+      maven_id: io.circe:circe-core
+      category: json
+    - name: spray-json
+      github_id: spray/spray-json
+      maven_id: io.spray:spray-json
+      category: json
+    - name: ninny-json
+      github_id: nrktkt/ninny-json
+      category: json
+    - name: json
+      github_id: nestorpersist/json
+      category: json
+    - name: spray-json
+      github_id: spray/spray-json
+      category: json
+    - name: scala-jsonapi
+      github_id: scala-jsonapi/scala-jsonapi
+      category: json
+    - name: play-json
+      github_id: playframework/play-json
+      category: json
+    - name: json4s
+      github_id: json4s/json4s
+      category: json
+    - name: zio-json
+      github_id: zio/zio-json
+      category: json
+      labels: ["zio"]
+    - name: sbt-json
+      github_id: battermann/sbt-json
+      category: json
+    - name: ScalaJack
+      github_id: gzoller/ScalaJack
+      category: json
+    - name: pushka
+      github_id: fomkin/pushka
+      category: json
+    - name: jackson-module-scala
+      github_id: FasterXML/jackson-module-scala
+      category: json
+    - name: diffson
+      github_id: gnieh/diffson
+      category: json
+    - name: borer
+      github_id: sirthias/borer
+      category: json
+    - name: jawn
+      github_id: non/jawn
+      category: json
+    - name: jsoniter-scala
+      github_id: plokhotnyuk/jsoniter-scala
+      category: json
