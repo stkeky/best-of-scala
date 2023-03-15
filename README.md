@@ -15,7 +15,7 @@
     <a href="https://github.com/stkeky/best-of-scala/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/stkeky/best-of-scala?color=green&label=updated"></a>
 </p>
 
-This curated list contains 23 awesome open-source projects with a total of 15K stars grouped into 4 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/stkeky/best-of-scala/issues/new/choose), submit a [pull request](https://github.com/stkeky/best-of-scala/pulls), or directly edit the [projects.yaml](https://github.com/stkeky/best-of-scala/edit/main/projects.yaml). Contributions are very welcome!
+This curated list contains 23 awesome open-source projects with a total of 17K stars grouped into 4 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/stkeky/best-of-scala/issues/new/choose), submit a [pull request](https://github.com/stkeky/best-of-scala/pulls), or directly edit the [projects.yaml](https://github.com/stkeky/best-of-scala/edit/main/projects.yaml). Contributions are very welcome!
 
 > 🧙‍♂️  Discover other [best-of lists](https://best-of.org) or [create your own](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
 
@@ -52,7 +52,23 @@ This curated list contains 23 awesome open-source projects with a total of 15K s
 
 _Miscelaneous projects that currently don't fit into any other category._
 
-<details><summary><b><a href="https://github.com/lambdaworks/scountries">scountries</a></b> (🥇9 ·  ⭐ 17 · 🐣) - Scala library that provides an enumeration of ISO 3166 codes.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/lambdaworks/scurl-detector">scurl-detector</a></b> (🥇10 ·  ⭐ 15) - Scala library that detects and extracts URLs from text. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/lambdaworks/scurl-detector) (👨‍💻 5 · 🔀 1 · 📋 10 - 10% open · ⏱️ 01.02.2023):
+
+	```
+	git clone https://github.com/lambdaworks/scurl-detector
+	```
+- [Maven](https://search.maven.org/artifact/io.lambdaworks/scurl-detector_2.13) (⏱️ 31.01.2023):
+	```
+	<dependency>
+		<groupId>io.lambdaworks</groupId>
+		<artifactId>scurl-detector_2.13</artifactId>
+		<version>[VERSION]</version>
+	</dependency>
+	```
+</details>
+<details><summary><b><a href="https://github.com/lambdaworks/scountries">scountries</a></b> (🥉9 ·  ⭐ 17 · 🐣) - Scala library that provides an enumeration of ISO 3166 codes.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/lambdaworks/scountries) (👨‍💻 3 · 🔀 1 · ⏱️ 09.03.2023):
 
@@ -64,22 +80,6 @@ _Miscelaneous projects that currently don't fit into any other category._
 	<dependency>
 		<groupId>io.lambdaworks</groupId>
 		<artifactId>scountries</artifactId>
-		<version>[VERSION]</version>
-	</dependency>
-	```
-</details>
-<details><summary><b><a href="https://github.com/lambdaworks/scurl-detector">scurl-detector</a></b> (🥇9 ·  ⭐ 15) - Scala library that detects and extracts URLs from text. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
-
-- [GitHub](https://github.com/lambdaworks/scurl-detector) (👨‍💻 5 · 🔀 1 · 📋 10 - 10% open · ⏱️ 01.02.2023):
-
-	```
-	git clone https://github.com/lambdaworks/scurl-detector
-	```
-- [Maven](https://search.maven.org/artifact/io.lambdaworks/scurl-detector):
-	```
-	<dependency>
-		<groupId>io.lambdaworks</groupId>
-		<artifactId>scurl-detector</artifactId>
 		<version>[VERSION]</version>
 	</dependency>
 	```
@@ -99,27 +99,27 @@ _Libraries for connecting to, operating, and querying databases._
 	```
 	git clone https://github.com/sksamuel/elastic4s
 	```
-- [Maven](https://search.maven.org/artifact/com.sksamuel.elastic4s/elastic4s) (📦 1 · ⏱️ 15.07.2013):
+- [Maven](https://search.maven.org/artifact/com.sksamuel.elastic4s/elastic4s_2.13):
 	```
 	<dependency>
 		<groupId>com.sksamuel.elastic4s</groupId>
-		<artifactId>elastic4s</artifactId>
+		<artifactId>elastic4s_2.13</artifactId>
 		<version>[VERSION]</version>
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/scalikejdbc/scalikejdbc">scalikejdbc</a></b> (🥉22 ·  ⭐ 1.2K) - A tidy SQL-based DB access library for Scala developers. This.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/scalikejdbc/scalikejdbc">scalikejdbc</a></b> (🥉23 ·  ⭐ 1.2K · 📈) - A tidy SQL-based DB access library for Scala developers... <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/scalikejdbc/scalikejdbc) (👨‍💻 100 · 🔀 220 · 📋 480 - 5% open · ⏱️ 12.03.2023):
 
 	```
 	git clone https://github.com/scalikejdbc/scalikejdbc
 	```
-- [Maven](https://search.maven.org/artifact/org.scalikejdbc/scalikejdbc):
+- [Maven](https://search.maven.org/artifact/org.scalikejdbc/scalikejdbc_2.13) (📦 7 · ⏱️ 31.10.2021):
 	```
 	<dependency>
 		<groupId>org.scalikejdbc</groupId>
-		<artifactId>scalikejdbc</artifactId>
+		<artifactId>scalikejdbc_2.13</artifactId>
 		<version>[VERSION]</version>
 	</dependency>
 	```
@@ -131,14 +131,6 @@ _Libraries for connecting to, operating, and querying databases._
 	```
 	git clone https://github.com/lambdaworks/zio-elasticsearch
 	```
-- [Maven](https://search.maven.org/artifact/lambdaworks.io/zio-elasticsearch):
-	```
-	<dependency>
-		<groupId>lambdaworks.io</groupId>
-		<artifactId>zio-elasticsearch</artifactId>
-		<version>[VERSION]</version>
-	</dependency>
-	```
 </details>
 <br>
 
@@ -148,18 +140,18 @@ _Libraries for connecting to, operating, and querying databases._
 
 _Extensions and platforms that provides various abstractions._
 
-<details><summary><b><a href="https://github.com/zio/zio">zio</a></b> (🥇27 ·  ⭐ 3.7K) - ZIO A type-safe, composable library for async and concurrent programming.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/zio/zio">zio</a></b> (🥇31 ·  ⭐ 3.7K · 📈) - ZIO A type-safe, composable library for async and concurrent.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/zio/zio) (👨‍💻 640 · 🔀 1.1K · 📋 2.3K - 15% open · ⏱️ 15.03.2023):
 
 	```
 	git clone https://github.com/zio/zio
 	```
-- [Maven](https://search.maven.org/artifact/dev.zio/zio):
+- [Maven](https://search.maven.org/artifact/dev.zio/zio_2.13) (📦 450 · ⏱️ 06.03.2023):
 	```
 	<dependency>
 		<groupId>dev.zio</groupId>
-		<artifactId>zio</artifactId>
+		<artifactId>zio_2.13</artifactId>
 		<version>[VERSION]</version>
 	</dependency>
 	```
@@ -172,23 +164,39 @@ _Extensions and platforms that provides various abstractions._
 
 _Libraries that handles JSON format._
 
-<details><summary><b><a href="https://github.com/circe/circe">circe</a></b> (🥇24 ·  ⭐ 2.4K) - Yet another JSON library for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/circe/circe">circe</a></b> (🥇28 ·  ⭐ 2.4K · 📈) - Yet another JSON library for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/circe/circe) (👨‍💻 260 · 🔀 530 · 📋 550 - 35% open · ⏱️ 15.03.2023):
 
 	```
 	git clone https://github.com/circe/circe
 	```
-- [Maven](https://search.maven.org/artifact/io.circe/circe-core):
+- [Maven](https://search.maven.org/artifact/io.circe/circe-core_2.13) (📦 280 · ⏱️ 03.03.2023):
 	```
 	<dependency>
 		<groupId>io.circe</groupId>
-		<artifactId>circe-core</artifactId>
+		<artifactId>circe-core_2.13</artifactId>
 		<version>[VERSION]</version>
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/json4s/json4s">json4s</a></b> (🥇20 ·  ⭐ 1.4K) - JSON library. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/argonaut-io/argonaut">argonaut</a></b> (🥇22 ·  ⭐ 540 · 📈) - Purely functional JSON parser and library in scala. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/argonaut-io/argonaut) (👨‍💻 59 · 🔀 110 · 📋 200 - 13% open · ⏱️ 11.03.2023):
+
+	```
+	git clone https://github.com/argonaut-io/argonaut
+	```
+- [Maven](https://search.maven.org/artifact/io.argonaut/argonaut_2.13) (📦 15 · ⏱️ 20.01.2022):
+	```
+	<dependency>
+		<groupId>io.argonaut</groupId>
+		<artifactId>argonaut_2.13</artifactId>
+		<version>[VERSION]</version>
+	</dependency>
+	```
+</details>
+<details><summary><b><a href="https://github.com/json4s/json4s">json4s</a></b> (🥈20 ·  ⭐ 1.4K) - JSON library. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/json4s/json4s) (👨‍💻 130 · 🔀 350 · 📋 400 - 36% open · ⏱️ 10.03.2023):
 
@@ -196,7 +204,7 @@ _Libraries that handles JSON format._
 	git clone https://github.com/json4s/json4s
 	```
 </details>
-<details><summary><b><a href="https://github.com/plokhotnyuk/jsoniter-scala">jsoniter-scala</a></b> (🥇20 ·  ⭐ 620) - Scala macros for compile-time generation of safe and ultra-fast.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/plokhotnyuk/jsoniter-scala">jsoniter-scala</a></b> (🥈20 ·  ⭐ 620) - Scala macros for compile-time generation of safe and ultra-fast.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/plokhotnyuk/jsoniter-scala) (👨‍💻 17 · 🔀 75 · 📦 1 · 📋 270 - 20% open · ⏱️ 12.03.2023):
 
@@ -204,7 +212,7 @@ _Libraries that handles JSON format._
 	git clone https://github.com/plokhotnyuk/jsoniter-scala
 	```
 </details>
-<details><summary><b><a href="https://github.com/zio/zio-json">zio-json</a></b> (🥇20 ·  ⭐ 370) - Fast, secure JSON library with tight ZIO integration. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://zio.dev/img/navbar_brand.png" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/zio/zio-json">zio-json</a></b> (🥈20 ·  ⭐ 370) - Fast, secure JSON library with tight ZIO integration. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://zio.dev/img/navbar_brand.png" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/zio/zio-json) (👨‍💻 51 · 🔀 110 · 📋 140 - 45% open · ⏱️ 13.03.2023):
 
@@ -212,7 +220,7 @@ _Libraries that handles JSON format._
 	git clone https://github.com/zio/zio-json
 	```
 </details>
-<details><summary><b><a href="https://github.com/playframework/play-json">play-json</a></b> (🥇20 ·  ⭐ 340) - The Play JSON library. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://www.playframework.com/assets/images/logos/1d627942f0b2f115f8638936a212244a-play_icon_full_color.png" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/playframework/play-json">play-json</a></b> (🥈20 ·  ⭐ 340) - The Play JSON library. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://www.playframework.com/assets/images/logos/1d627942f0b2f115f8638936a212244a-play_icon_full_color.png" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/playframework/play-json) (👨‍💻 62 · 🔀 130 · 📋 120 - 37% open · ⏱️ 09.03.2023):
 
@@ -220,7 +228,7 @@ _Libraries that handles JSON format._
 	git clone https://github.com/playframework/play-json
 	```
 </details>
-<details><summary><b><a href="https://github.com/typelevel/jawn">jawn</a></b> (🥈19 ·  ⭐ 420 · 📈) - Jawn is for parsing jay-sawn (JSON). <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/typelevel/jawn">jawn</a></b> (🥉19 ·  ⭐ 420) - Jawn is for parsing jay-sawn (JSON). <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/typelevel/jawn) (👨‍💻 45 · 🔀 67 · 📋 70 - 21% open · ⏱️ 23.02.2023):
 
@@ -268,10 +276,9 @@ _Libraries that handles JSON format._
 	git clone https://github.com/nrktkt/ninny-json
 	```
 </details>
-<details><summary>Show 6 hidden projects...</summary>
+<details><summary>Show 5 hidden projects...</summary>
 
-- <b><a href="https://github.com/spray/spray-json">spray-json</a></b> (🥇20 ·  ⭐ 970 · 💀) - A lightweight, clean and simple JSON implementation in Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
-- <b><a href="https://github.com/argonaut-io/argonaut">argonaut</a></b> (🥉17 ·  ⭐ 540 · 📈) - Purely functional JSON parser and library in scala. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/spray/spray-json">spray-json</a></b> (🥈21 ·  ⭐ 2.5K · 💀) - A lightweight, clean and simple JSON implementation in Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 - <b><a href="https://github.com/scala-jsonapi/scala-jsonapi">scala-jsonapi</a></b> (🥉11 ·  ⭐ 110 · 💀) - Scala support library for integrating the JSON API spec with.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/fomkin/pushka">pushka</a></b> (🥉10 ·  ⭐ 81 · 💀) - ABANDONED Pure Scala serialization library with annotations. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 - <b><a href="https://github.com/battermann/sbt-json">sbt-json</a></b> (🥉7 ·  ⭐ 31 · 💀) - sbt plugin that generates Scala case classes for easy, statically typed.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
