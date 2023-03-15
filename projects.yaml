@@ -19,10 +19,12 @@ categories:
       subtitle: Libraries that handles JSON format.
       
 labels:
-   - label: "zio"
-     image: "https://zio.dev/img/navbar_brand.png"
-     description: "Type-safe, composable asynchronous and concurrent programming for Scala."
-
+   - label: zio
+     image: https://zio.dev/img/navbar_brand.png
+     description: Type-safe, composable asynchronous and concurrent programming for Scala.
+   - label: play
+     image: https://www.playframework.com/assets/images/logos/1d627942f0b2f115f8638936a212244a-play_icon_full_color.png
+     description: Standalone libraries spawned or a part of PlayFramework.
 projects:
     - name: scountries
       github_id: lambdaworks/scountries
@@ -36,7 +38,7 @@ projects:
       github_id: lambdaworks/zio-elasticsearch
       maven_id: lambdaworks.io:zio-elasticsearch
       category: db-clients
-      labels: ["zio"]
+      labels: [zio]
     - name: elastic4s
       github_id: sksamuel/elastic4s
       maven_id: com.sksamuel.elastic4s:elastic4s
@@ -50,11 +52,11 @@ projects:
       maven_id: dev.zio:zio
       category: ecosystems
     - name: argonaut
-      github_id: argonaut
+      github_id: argonaut-io/argonaut
       maven_id: io.argonaut:argonaut
       category: json
     - name: circe
-      github_id: travisbrown/circe
+      github_id: circe/circe
       maven_id: io.circe:circe-core
       category: json
     - name: spray-json
@@ -67,22 +69,20 @@ projects:
     - name: json
       github_id: nestorpersist/json
       category: json
-    - name: spray-json
-      github_id: spray/spray-json
-      category: json
     - name: scala-jsonapi
       github_id: scala-jsonapi/scala-jsonapi
       category: json
     - name: play-json
       github_id: playframework/play-json
       category: json
+      labels: [play]
     - name: json4s
       github_id: json4s/json4s
       category: json
     - name: zio-json
       github_id: zio/zio-json
       category: json
-      labels: ["zio"]
+      labels: [zio]
     - name: sbt-json
       github_id: battermann/sbt-json
       category: json
@@ -102,7 +102,7 @@ projects:
       github_id: sirthias/borer
       category: json
     - name: jawn
-      github_id: non/jawn
+      github_id: typelevel/jawn
       category: json
     - name: jsoniter-scala
       github_id: plokhotnyuk/jsoniter-scala
