@@ -3,9 +3,8 @@ configuration:
   markdown_footer_file: "config/footer.md"
   min_projectrank: 5
   min_stars: 15
-  max_description_length: 1000
-  project_inactive_months: 12
-  project_dead_months: 24
+  project_inactive_months: 9
+  project_dead_months: 18
 
 categories:
     - category: misc
@@ -20,7 +19,9 @@ categories:
     - category: json
       title: JSON
       subtitle: Libraries that handles JSON format.
-      
+    - category: web-frameworks
+      title: Web Frameworks
+
 labels:
    - label: zio
      image: https://zio.dev/img/navbar_brand.png
@@ -235,3 +236,57 @@ projects:
     - name: casbah
       github_id: mongodb/casbah
       category: db-clients
+    - name: scalatra
+      github_id: scalatra/scalatra
+      category: web-frameworks
+    - name: unfiltered
+      github_id: unfiltered/unfiltered
+      category: web-frameworks
+    - name: xitrum
+      github_id: xitrum-framework/xitrum
+      category: web-frameworks
+    - name: pagelets
+      github_id: splink/pagelets
+      category: web-frameworks
+    - name: reactive
+      github_id: nafg/reactive
+      category: web-frameworks
+    - name: framework
+      github_id: lift/framework
+      category: web-frameworks
+    - name: skinny-framework
+      github_id: skinny-framework/skinny-framework
+      category: web-frameworks
+    - name: youi
+      github_id: outr/youi
+      category: web-frameworks
+    - name: colossus
+      github_id: tumblr/colossus
+      category: web-frameworks
+    - name: cask
+      github_id: com-lihaoyi/cask
+      category: web-frameworks
+    - name: finatra
+      github_id: twitter/finatra
+      category: web-frameworks
+    - name: scalajs-react
+      github_id: japgolly/scalajs-react
+      category: web-frameworks
+    - name: chaos
+      github_id: mesosphere/chaos
+      category: web-frameworks
+    - name: Binding.scala
+      github_id: ThoughtWorksInc/Binding.scala
+      category: web-frameworks
+    - name: udash-core
+      github_id: UdashFramework/udash-core
+      category: web-frameworks
+    - name: playframework
+      github_id: playframework/playframework
+      category: web-frameworks
+    - name: korolev
+      github_id: fomkin/korolev
+      category: web-frameworks
+    - name: analogweb-scala
+      github_id: analogweb/analogweb-scala
+      category: web-frameworks
