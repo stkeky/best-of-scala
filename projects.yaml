@@ -1,6 +1,6 @@
 configuration:
-  markdown_header_file: "config/header.md"
-  markdown_footer_file: "config/footer.md"
+  markdown_header_file: config/header.md
+  markdown_footer_file: config/footer.md
   min_projectrank: 5
   min_stars: 15
   project_inactive_months: 9
@@ -8,7 +8,7 @@ configuration:
 
 categories:
     - category: misc
-      title: Miscelaneous"
+      title: Miscelaneous
       subtitle: Miscelaneous projects that currently don't fit into any other category.
     - category: db-clients
       title: Database Clients
@@ -142,9 +142,6 @@ projects:
     - name: couchbase-jvm-clients
       github_id: couchbase/couchbase-jvm-clients
       category: db-clients
-    - name: mysql-binlog-stream
-      github_id: laserdisc-io/mysql-binlog-stream
-      category: db-clients
     - name: scruid
       github_id: ing-bank/scruid
       category: db-clients
@@ -152,7 +149,7 @@ projects:
       github_id: tpolecat/skunk
       category: db-clients
     - name: pulsar4s
-      github_id: sksamuel/pulsar4s
+      github_id: CleverCloud/pulsar4s
       category: db-clients
     - name: etcd4s
       github_id: mingchuno/etcd4s
@@ -183,7 +180,7 @@ projects:
       github_id: neotypes/neotypes
       category: db-clients
     - name: scanamo
-      github_id: guardian/scanamo
+      github_id: scanamo/scanamo
       category: db-clients
     - name: molecule
       github_id: scalamolecule/molecule
@@ -195,8 +192,9 @@ projects:
       github_id: tpolecat/doobie
       category: db-clients
     - name: quill
-      github_id: getquill/quill
+      github_id: zio/zio-quill
       category: db-clients
+      labels: [zio]
     - name: scalarelational
       github_id: outr/scalarelational
       category: db-clients
@@ -207,7 +205,7 @@ projects:
       github_id: lucidsoftware/relate
       category: db-clients
     - name: shade
-      github_id: alexandru/shade
+      github_id: monix/shade
       category: db-clients
     - name: kvs
       github_id: zero-deps/kvs
