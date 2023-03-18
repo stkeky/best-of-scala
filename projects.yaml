@@ -3,14 +3,17 @@ configuration:
   markdown_footer_file: "config/footer.md"
   min_projectrank: 5
   min_stars: 15
+  max_description_length: 1000
+  project_inactive_months: 12
+  project_dead_months: 24
 
 categories:
-    - category: "misc"
-      title: "Miscelaneous"
-      subtitle: "Miscelaneous projects that currently don't fit into any other category."
-    - category: "db-clients"
-      title: "Database Clients"
-      subtitle: "Libraries for connecting to, operating, and querying databases."
+    - category: misc
+      title: Miscelaneous"
+      subtitle: Miscelaneous projects that currently don't fit into any other category.
+    - category: db-clients
+      title: Database Clients
+      subtitle: Libraries for connecting to, operating, and querying databases.
     - category: ecosystems
       title: Ecosystems
       subtitle: Extensions and platforms that provides various abstractions.
@@ -25,6 +28,7 @@ labels:
    - label: play
      image: https://www.playframework.com/assets/images/logos/1d627942f0b2f115f8638936a212244a-play_icon_full_color.png
      description: Standalone libraries spawned or a part of PlayFramework.
+
 projects:
     - name: scountries
       github_id: lambdaworks/scountries
@@ -106,3 +110,128 @@ projects:
     - name: jsoniter-scala
       github_id: plokhotnyuk/jsoniter-scala
       category: json
+    - name: sangria
+      github_id: sangria-graphql/sangria
+      category: misc
+    - name: scala-forklift
+      github_id: lastland/scala-forklift
+      category: db-clients
+    - name: anorm
+      github_id: playframework/anorm
+      category: db-clients
+      labels: [play]
+    - name: slick-pg
+      github_id: tminglei/slick-pg
+      category: db-clients
+    - name: longevity
+      github_id: longevityframework/longevity
+      category: db-clients
+    - name: salat
+      github_id: salat/salat
+      category: db-clients
+    - name: finagle-postgres
+      github_id: finagle/finagle-postgres
+      category: db-clients
+    - name: slick
+      github_id: slick/slick
+      category: db-clients
+    - name: mapperdao
+      github_id: kostaskougios/mapperdao
+      category: db-clients
+    - name: couchbase-jvm-clients
+      github_id: couchbase/couchbase-jvm-clients
+      category: db-clients
+    - name: mysql-binlog-stream
+      github_id: laserdisc-io/mysql-binlog-stream
+      category: db-clients
+    - name: scruid
+      github_id: ing-bank/scruid
+      category: db-clients
+    - name: skunk
+      github_id: tpolecat/skunk
+      category: db-clients
+    - name: pulsar4s
+      github_id: sksamuel/pulsar4s
+      category: db-clients
+    - name: etcd4s
+      github_id: mingchuno/etcd4s
+      category: db-clients
+    - name: akka-persistence-gcp-datastore
+      github_id: innFactory/akka-persistence-gcp-datastore
+      category: db-clients
+    - name: couchdb-scala
+      github_id: beloglazov/couchdb-scala
+      category: db-clients
+    - name: scredis
+      github_id: Livestream/scredis
+      category: db-clients
+    - name: ReactiveCouchbase-rs-core
+      github_id: ReactiveCouchbase/ReactiveCouchbase-rs-core
+      category: db-clients
+    - name: scala-activerecord
+      github_id: aselab/scala-activerecord
+      category: db-clients
+    - name: zio-redis
+      github_id: zio/zio-redis
+      category: db-clients
+      labels: [zio]
+    - name: rediscala
+      github_id: etaty/rediscala
+      category: db-clients
+    - name: neotypes
+      github_id: neotypes/neotypes
+      category: db-clients
+    - name: scanamo
+      github_id: guardian/scanamo
+      category: db-clients
+    - name: molecule
+      github_id: scalamolecule/molecule
+      category: db-clients
+    - name: morpheus
+      github_id: outworkers/morpheus
+      category: db-clients
+    - name: doobie
+      github_id: tpolecat/doobie
+      category: db-clients
+    - name: quill
+      github_id: getquill/quill
+      category: db-clients
+    - name: scalarelational
+      github_id: outr/scalarelational
+      category: db-clients
+    - name: lucene4s
+      github_id: outr/lucene4s
+      category: db-clients
+    - name: relate
+      github_id: lucidsoftware/relate
+      category: db-clients
+    - name: shade
+      github_id: alexandru/shade
+      category: db-clients
+    - name: kvs
+      github_id: zero-deps/kvs
+      category: db-clients
+    - name: clickhouse-scala-client
+      github_id: crobox/clickhouse-scala-client
+      category: db-clients
+    - name: scala-redis
+      github_id: debasishg/scala-redis
+      category: db-clients
+    - name: ReactiveMongo
+      github_id: ReactiveMongo/ReactiveMongo
+      category: db-clients
+    - name: laserdisc
+      github_id: laserdisc-io/laserdisc
+      category: db-clients
+    - name: squeryl
+      github_id: squeryl/squeryl
+      category: db-clients
+    - name: scala-sql
+      github_id: wangzaixiang/scala-sql
+      category: db-clients
+    - name: phantom
+      github_id: outworkers/phantom
+      category: db-clients
+    - name: casbah
+      github_id: mongodb/casbah
+      category: db-clients
