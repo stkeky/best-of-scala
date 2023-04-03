@@ -26,6 +26,8 @@ categories:
       subtitle: Libraries that handles common file formats including YAML, CSV etc.
     - category: sbt
       title: SBT Plugins
+    - category: toolkits
+      title: Toolkits, extensions & ecosystems
 labels:
    - label: zio
      image: https://zio.dev/img/navbar_brand.png
@@ -307,8 +309,11 @@ projects:
     - name: kantan.csv
       github_id: nrinaudo/kantan.csv
       category: csv-yaml
+    - name: laika
+      github_id: planet42/Laika
+      category: csv-yaml
     - name: sbt-jmh
-      github_id: ktoso/sbt-jmh
+      github_id: sbt/sbt-jmh
       category: sbt
     - name: sbt-revolver
       github_id: spray/sbt-revolver
@@ -325,8 +330,8 @@ projects:
     - name: splain
       github_id: tek/splain
       category: sbt
-    - name: sbteclipse
-      github_id: typesafehub/sbteclipse
+    - name: sbt-eclipse
+      github_id: sbt/sbt-eclipse
       category: sbt
     - name: sbt-api-mappings
       github_id: ThoughtWorksInc/sbt-api-mappings
@@ -347,10 +352,10 @@ projects:
       github_id: scoverage/sbt-scoverage
       category: sbt
     - name: sbt-microsites
-      github_id: 47deg/sbt-microsites
+      github_id: 47degrees/sbt-microsites
       category: sbt
     - name: sbt-ci-release
-      github_id: olafurpg/sbt-ci-release
+      github_id: sbt/sbt-ci-release
       category: sbt
     - name: xsbt-web-plugin
       github_id: earldouglas/xsbt-web-plugin
@@ -415,3 +420,111 @@ projects:
     - name: sbt-ghpages
       github_id: sbt/sbt-ghpages
       category: sbt
+    - name: tinylog
+      github_id: pmwmedia/tinylog
+      category: toolkits
+    - name: larray
+      github_id: xerial/larray
+      category: toolkits
+    - name: chimney
+      github_id: scalalandio/chimney
+      category: toolkits
+    - name: freestyle
+      github_id: frees-io/freestyle
+      category: toolkits
+    - name: cassovary
+      github_id: twitter/cassovary
+      category: toolkits
+    - name: shapeless
+      github_id: milessabin/shapeless
+      category: toolkits
+    - name: simulacrum
+      github_id: mpilquist/simulacrum
+      category: toolkits
+    - name: freedsl
+      github_id: ISCPIF/freedsl
+      category: toolkits
+    - name: scalaz
+      github_id: scalaz/scalaz
+      category: toolkits
+    - name: eff
+      github_id: atnos-org/eff
+      category: toolkits
+    - name: izumi
+      github_id: 7mind/izumi
+      category: toolkits
+    - name: enableIf.scala
+      github_id: ThoughtWorksInc/enableIf.scala
+      category: toolkits
+    - name: enumeratum
+      github_id: lloydmeta/enumeratum
+      category: toolkits
+    - name: Scala-Logging
+      github_id: lightbend/Scala-Logging
+      category: toolkits
+    - name: Monocle
+      github_id: julien-truffaut/Monocle
+      category: toolkits
+    - name: async
+      github_id: scala/async
+      category: toolkits
+    - name: scalameta
+      github_id: scalameta/scalameta
+      category: toolkits
+    - name: squid
+      github_id: epfldata/squid
+      category: toolkits
+    - name: chronoscala
+      github_id: opt-tech/chronoscala
+      category: toolkits
+    - name: hamsters
+      github_id: scala-hamsters/hamsters
+      category: toolkits
+    - name: nscala-time
+      github_id: nscala-time/nscala-time
+      category: toolkits
+    - name: log4s
+      github_id: Log4s/log4s
+      category: toolkits
+    - name: each
+      github_id: ThoughtWorksInc/each
+      category: toolkits
+    - name: scribe
+      github_id: outr/scribe
+      category: toolkits
+    - name: scala-records
+      github_id: scala-records/scala-records
+      category: toolkits
+    - name: Ammonite
+      github_id: lihaoyi/Ammonite
+      category: toolkits
+    - name: blindsight
+      github_id: tersesystems/blindsight
+      category: toolkits
+    - name: better-files
+      github_id: pathikrit/better-files
+      category: toolkits
+    - name: scala-graph
+      github_id: scala-graph/scala-graph
+      category: toolkits
+    - name: util
+      github_id: twitter/util
+      category: toolkits
+    - name: Dsl.scala
+      github_id: ThoughtWorksInc/Dsl.scala
+      category: toolkits
+    - name: refined
+      github_id: fthomas/refined
+      category: toolkits
+    - name: Freasy-Monad
+      github_id: Thangiee/Freasy-Monad
+      category: toolkits
+    - name: lamma
+      github_id: maxcellent/lamma
+      category: toolkits
+    - name: quicklens
+      github_id: adamw/quicklens
+      category: toolkits
+    - name: cats
+      github_id: typelevel/cats
+      category: toolkits
