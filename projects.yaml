@@ -21,7 +21,11 @@ categories:
       subtitle: Libraries that handles JSON format.
     - category: web-frameworks
       title: Web Frameworks
-
+    - category: csv-yaml
+      title: Common file format processing
+      subtitle: Libraries that handles common file formats including YAML, CSV etc.
+    - category: sbt
+      title: SBT Plugins
 labels:
    - label: zio
      image: https://zio.dev/img/navbar_brand.png
@@ -288,3 +292,126 @@ projects:
     - name: analogweb-scala
       github_id: analogweb/analogweb-scala
       category: web-frameworks
+    - name: fm-flatfile
+      github_id: frugalmechanic/fm-flatfile
+      category: csv-yaml
+    - name: moultingyaml
+      github_id: jcazevedo/moultingyaml
+      category: csv-yaml
+    - name: spata
+      github_id: fingo/spata
+      category: csv-yaml
+    - name: scala-csv
+      github_id: tototoshi/scala-csv
+      category: csv-yaml
+    - name: kantan.csv
+      github_id: nrinaudo/kantan.csv
+      category: csv-yaml
+    - name: sbt-jmh
+      github_id: ktoso/sbt-jmh
+      category: sbt
+    - name: sbt-revolver
+      github_id: spray/sbt-revolver
+      category: sbt
+    - name: sbt-assembly
+      github_id: sbt/sbt-assembly
+      category: sbt
+    - name: sbt-buildinfo
+      github_id: sbt/sbt-buildinfo
+      category: sbt
+    - name: sbt-unidoc
+      github_id: sbt/sbt-unidoc
+      category: sbt
+    - name: splain
+      github_id: tek/splain
+      category: sbt
+    - name: sbteclipse
+      github_id: typesafehub/sbteclipse
+      category: sbt
+    - name: sbt-api-mappings
+      github_id: ThoughtWorksInc/sbt-api-mappings
+      category: sbt
+    - name: sbt-pack
+      github_id: xerial/sbt-pack
+      category: sbt
+    - name: better-monadic-for
+      github_id: oleg-py/better-monadic-for
+      category: sbt
+    - name: sbt-deploy-ssh
+      github_id: shmishleniy/sbt-deploy-ssh
+      category: sbt
+    - name: sbt-release
+      github_id: sbt/sbt-release
+      category: sbt
+    - name: sbt-scoverage
+      github_id: scoverage/sbt-scoverage
+      category: sbt
+    - name: sbt-microsites
+      github_id: 47deg/sbt-microsites
+      category: sbt
+    - name: sbt-ci-release
+      github_id: olafurpg/sbt-ci-release
+      category: sbt
+    - name: xsbt-web-plugin
+      github_id: earldouglas/xsbt-web-plugin
+      category: sbt
+    - name: mima
+      github_id: lightbend/mima
+      category: sbt
+    - name: sbt-dependency-check
+      github_id: albuch/sbt-dependency-check
+      category: sbt
+    - name: sbt-doctest
+      github_id: tkawachi/sbt-doctest
+      category: sbt
+    - name: sbt-docker
+      github_id: marcuslonnberg/sbt-docker
+      category: sbt
+    - name: sbt-pgp
+      github_id: sbt/sbt-pgp
+      category: sbt
+    - name: sbt-groll
+      github_id: sbt/sbt-groll
+      category: sbt
+    - name: scala-clippy
+      github_id: softwaremill/scala-clippy
+      category: sbt
+    - name: sbt-site
+      github_id: sbt/sbt-site
+      category: sbt
+    - name: sbt-scalafmt
+      github_id: scalameta/sbt-scalafmt
+      category: sbt
+    - name: sbt-ide-settings
+      github_id: Jetbrains/sbt-ide-settings
+      category: sbt
+    - name: sbt-sonatype
+      github_id: xerial/sbt-sonatype
+      category: sbt
+    - name: sbt-header
+      github_id: sbt/sbt-header
+      category: sbt
+    - name: mdoc
+      github_id: scalameta/mdoc
+      category: sbt
+    - name: sbt-updates
+      github_id: rtimush/sbt-updates
+      category: sbt
+    - name: sbt-git
+      github_id: sbt/sbt-git
+      category: sbt
+    - name: sbt-scala-js-map
+      github_id: ThoughtWorksInc/sbt-scala-js-map
+      category: sbt
+    - name: tut
+      github_id: tpolecat/tut
+      category: sbt
+    - name: sbt-native-packager
+      github_id: sbt/sbt-native-packager
+      category: sbt
+    - name: coursier
+      github_id: coursier/coursier
+      category: sbt
+    - name: sbt-ghpages
+      github_id: sbt/sbt-ghpages
+      category: sbt
