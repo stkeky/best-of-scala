@@ -28,8 +28,10 @@ categories:
       title: SBT Plugins
     - category: toolkits
       title: Toolkits, extensions & ecosystems
-    - category: Media handling
+    - category: media
       title: Audio, image and video processing
+    - category: di
+      title: Dependency injection
 
 labels:
    - label: zio
@@ -558,4 +560,27 @@ projects:
     - name: sbt-javacv
       github_id: bytedeco/sbt-javacv
       category: media
-
+    - name: scaldi
+      github_id: scaldi/scaldi
+      category: di
+    - name: izumi
+      github_id: 7mind/izumi
+      category: di
+    - name: sclasner
+      github_id: xitrum-framework/sclasner
+      category: di
+    - name: scala-guice
+      github_id: codingwell/scala-guice
+      category: di
+    - name: airframe
+      github_id: wvlet/airframe
+      category: di
+    - name: jam
+      github_id: yakivy/jam
+      category: di
+    - name: subcut
+      github_id: dickwall/subcut
+      category: di
+    - name: macwire
+      github_id: softwaremill/macwire
+      category: di
