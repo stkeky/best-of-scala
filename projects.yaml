@@ -34,7 +34,8 @@ categories:
       title: Dependency injection
     - category: http
       title: HTTP client and servers
-
+    - category: test
+      title: Libraries for testing
 labels:
    - label: zio
      image: https://zio.dev/img/navbar_brand.png
@@ -637,3 +638,57 @@ projects:
     - name: scalaj-http
       github_id: scalaj/scalaj-http
       category: http
+    - name: scalive
+      github_id: xitrum-framework/scalive
+      category: test
+    - name: spark-testing-base
+      github_id: holdenk/spark-testing-base
+      category: test
+    - name: specs2
+      github_id: etorreborre/specs2
+      category: test
+    - name: scalameter
+      github_id: scalameter/scalameter
+      category: test
+    - name: stryker4s
+      github_id: stryker-mutator/stryker4s
+      category: test
+    - name: scalaprops
+      github_id: scalaprops/scalaprops
+      category: test
+    - name: utest
+      github_id: lihaoyi/utest
+      category: test
+    - name: weaver-test
+      github_id: disneystreaming/weaver-test
+      category: test
+    - name: testcontainers-scala
+      github_id: testcontainers/testcontainers-scala
+      category: test
+    - name: minitest
+      github_id: monix/minitest
+      category: test
+    - name: mockito-scala
+      github_id: mockito/mockito-scala
+      category: test
+    - name: scalacheck
+      github_id: typelevel/scalacheck
+      category: test
+    - name: scalacheck
+      github_id: rickynils/scalacheck
+      category: test
+    - name: scalatest
+      github_id: scalatest/scalatest
+      category: test
+    - name: cornichon
+      github_id: agourlay/cornichon
+      category: test
+    - name: scalamock
+      github_id: paulbutcher/scalamock
+      category: test
+    - name: munit
+      github_id: scalameta/munit
+      category: test
+    - name: gatling
+      github_id: gatling/gatling
+      category: test
