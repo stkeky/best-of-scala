@@ -32,6 +32,8 @@ categories:
       title: Audio, image and video processing
     - category: di
       title: Dependency injection
+    - category: http
+      title: HTTP client and servers
 
 labels:
    - label: zio
@@ -584,3 +586,54 @@ projects:
     - name: macwire
       github_id: softwaremill/macwire
       category: di
+    - name: fintrospect
+      github_id: daviddenton/fintrospect
+      category: http
+    - name: tapir
+      github_id: softwaremill/tapir
+      category: http
+    - name: jefe
+      github_id: outr/jefe
+      category: http
+    - name: playframework
+      github_id: playframework/playframework
+      category: http
+    - name: requests-scala
+      github_id: lihaoyi/requests-scala
+      category: http
+    - name: scalatra
+      github_id: scalatra/scalatra
+      category: http
+    - name: http4s
+      github_id: http4s/http4s
+      category: http
+    - name: scalaxb
+      github_id: eed3si9n/scalaxb
+      category: http
+    - name: lolhttp
+      github_id: criteo/lolhttp
+      category: http
+    - name: finch
+      github_id: finagle/finch
+      category: http
+    - name: roshttp
+      github_id: hmil/roshttp
+      category: http
+    - name: endpoints4s
+      github_id: endpoints4s/endpoints4s
+      category: http
+    - name: akka-http
+      github_id: akka/akka-http
+      category: http
+    - name: sttp
+      github_id: softwaremill/sttp
+      category: http
+    - name: reboot
+      github_id: dispatch/reboot
+      category: http
+    - name: frontier
+      github_id: zero-deps/frontier
+      category: http
+    - name: scalaj-http
+      github_id: scalaj/scalaj-http
+      category: http
