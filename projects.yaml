@@ -28,6 +28,9 @@ categories:
       title: SBT Plugins
     - category: toolkits
       title: Toolkits, extensions & ecosystems
+    - category: Media handling
+      title: Audio, image and video processing
+
 labels:
    - label: zio
      image: https://zio.dev/img/navbar_brand.png
@@ -528,3 +531,31 @@ projects:
     - name: cats
       github_id: typelevel/cats
       category: toolkits
+    - name: scalismo
+      github_id: unibas-gravis/scalismo
+      category: media
+    - name: scalacollider
+      github_id: sciss/scalacollider
+      category: media
+    - name: scala-phash
+      github_id: poslegm/scala-phash
+      category: media
+    - name: chromaprint.scala
+      github_id: mgdigital/chromaprint.scala
+      category: media
+    - name: scrimage
+      github_id: sksamuel/scrimage
+      category: media
+    - name: media4s
+      github_id: outr/media4s
+      category: media
+    - name: scrimage
+      github_id: sksamuel/scrimage
+      category: media
+    - name: scalismo
+      github_id: unibas-gravis/scalismo
+      category: media
+    - name: sbt-javacv
+      github_id: bytedeco/sbt-javacv
+      category: media
+
