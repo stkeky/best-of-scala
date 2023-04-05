@@ -429,7 +429,7 @@ projects:
       github_id: sbt/sbt-ghpages
       category: sbt
     - name: tinylog
-      github_id: pmwmedia/tinylog
+      github_id: tynlog-org/tinylog
       category: toolkits
     - name: larray
       github_id: xerial/larray
@@ -447,7 +447,7 @@ projects:
       github_id: milessabin/shapeless
       category: toolkits
     - name: simulacrum
-      github_id: mpilquist/simulacrum
+      github_id: typelevel/simulacrum
       category: toolkits
     - name: freedsl
       github_id: ISCPIF/freedsl
@@ -458,23 +458,20 @@ projects:
     - name: eff
       github_id: atnos-org/eff
       category: toolkits
-    - name: izumi
-      github_id: 7mind/izumi
-      category: toolkits
     - name: enableIf.scala
       github_id: ThoughtWorksInc/enableIf.scala
       category: toolkits
     - name: enumeratum
       github_id: lloydmeta/enumeratum
       category: toolkits
-    - name: Scala-Logging
-      github_id: lightbend/Scala-Logging
+    - name: scala-logging
+      github_id: lightbend-labs/scala-logging
       category: toolkits
     - name: Monocle
-      github_id: julien-truffaut/Monocle
+      github_id: optics-dev/monocle
       category: toolkits
     - name: async
-      github_id: scala/async
+      github_id: scala/scala-async
       category: toolkits
     - name: scalameta
       github_id: scalameta/scalameta
@@ -483,7 +480,7 @@ projects:
       github_id: epfldata/squid
       category: toolkits
     - name: chronoscala
-      github_id: opt-tech/chronoscala
+      github_id: chronoscala/chronoscala
       category: toolkits
     - name: hamsters
       github_id: scala-hamsters/hamsters
@@ -503,8 +500,8 @@ projects:
     - name: scala-records
       github_id: scala-records/scala-records
       category: toolkits
-    - name: Ammonite
-      github_id: lihaoyi/Ammonite
+    - name: ammonite
+      github_id: com-lihaoyi/ammonite
       category: toolkits
     - name: blindsight
       github_id: tersesystems/blindsight
@@ -531,7 +528,7 @@ projects:
       github_id: maxcellent/lamma
       category: toolkits
     - name: quicklens
-      github_id: adamw/quicklens
+      github_id: softwaremill/quicklens
       category: toolkits
     - name: cats
       github_id: typelevel/cats
@@ -553,12 +550,6 @@ projects:
       category: media
     - name: media4s
       github_id: outr/media4s
-      category: media
-    - name: scrimage
-      github_id: sksamuel/scrimage
-      category: media
-    - name: scalismo
-      github_id: unibas-gravis/scalismo
       category: media
     - name: sbt-javacv
       github_id: bytedeco/sbt-javacv
@@ -596,11 +587,12 @@ projects:
     - name: jefe
       github_id: outr/jefe
       category: http
-    - name: playframework
-      github_id: playframework/playframework
+    - name: play-ws
+      github_id: playframework/play-ws
       category: http
+      labels: [play]
     - name: requests-scala
-      github_id: lihaoyi/requests-scala
+      github_id: com-lihaoyi/requests-scala
       category: http
     - name: scalatra
       github_id: scalatra/scalatra
@@ -657,7 +649,7 @@ projects:
       github_id: scalaprops/scalaprops
       category: test
     - name: utest
-      github_id: lihaoyi/utest
+      github_id: com-lihaoyi/utest
       category: test
     - name: weaver-test
       github_id: disneystreaming/weaver-test
@@ -673,9 +665,6 @@ projects:
       category: test
     - name: scalacheck
       github_id: typelevel/scalacheck
-      category: test
-    - name: scalacheck
-      github_id: rickynils/scalacheck
       category: test
     - name: scalatest
       github_id: scalatest/scalatest
