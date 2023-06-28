@@ -36,6 +36,10 @@ categories:
       title: HTTP client and servers
     - category: test
       title: Libraries for testing
+    - category: sec
+      title: Libraries for security, authentication and cryptography
+    - category: data
+      title: Data binding, validation and serialization
 labels:
    - label: zio
      image: https://zio.dev/img/navbar_brand.png
@@ -681,3 +685,195 @@ projects:
     - name: gatling
       github_id: gatling/gatling
       category: test
+    - name: akka-quartz-scheduler
+      github_id: enragedginger/akka-quartz-scheduler
+      category: misc
+    - name: op-rabbit
+      github_id: spingo/op-rabbit
+      category: misc
+    - name: scaloid
+      github_id: pocorall/scaloid
+      category: misc
+    - name: scala-xgettext
+      github_id: xitrum-framework/scala-xgettext
+      category: misc
+    - name: cilib
+      github_id: cirg-up/cilib
+      category: misc
+    - name: android-sdk-plugin
+      github_id: pfn/android-sdk-plugin
+      category: misc
+    - name: scaposer
+      github_id: xitrum-framework/scaposer
+      category: misc
+    - name: scalafx
+      github_id: scalafx/scalafx
+      category: misc
+    - name: sevenz4s
+      github_id: gonearewe/sevenz4s
+      category: misc
+    - name: scala-stm
+      github_id: nbronson/scala-stm
+      category: misc
+    - name: figlet4s
+      github_id: colofabrix/figlet4s
+      category: misc
+    - name: service-chassis
+      github_id: allawala/service-chassis
+      category: misc
+    - name: media4s
+      github_id: outr/media4s
+      category: misc
+    - name: fs2-aws
+      github_id: laserdisc-io/fs2-aws
+      category: misc
+    - name: eclair
+      github_id: acinq/eclair
+      category: misc
+    - name: google-api-scala
+      github_id: eckerdcollege/google-api-scala
+      category: misc
+    - name: mailgun4s
+      github_id: outr/mailgun4s
+      category: misc
+    - name: miniboxing-plugin
+      github_id: miniboxing/miniboxing-plugin
+      category: misc
+    - name: google4s
+      github_id: toknapp/google4s
+      category: misc
+    - name: spliff
+      github_id: sirthias/spliff
+      category: misc
+    - name: aptus-core
+      github_id: aptusproject/aptus-core
+      category: misc
+    - name: ostinato
+      github_id: marianogappa/ostinato
+      category: misc
+    - name: fansi
+      github_id: lihaoyi/fansi
+      category: misc
+    - name: scala-ssh
+      github_id: sirthias/scala-ssh
+      category: misc
+    - name: managerial
+      github_id: dvgica/managerial
+      category: misc
+    - name: bootzooka
+      github_id: softwaremill/bootzooka
+      category: misc
+    - name: replesent
+      github_id: marconilanna/replesent
+      category: misc
+    - name: play-swagger
+      github_id: iheartradio/play-swagger
+      category: misc
+    - name: pprint
+      github_id: lihaoyi/pprint
+      category: misc
+    - name: aws4s
+      github_id: aws4s/aws4s
+      category: misc
+    - name: pureconfig
+      github_id: pureconfig/pureconfig
+      category: misc
+    - name: ammonite
+      github_id: lihaoyi/ammonite
+      category: misc
+    - name: aws-request-signer
+      github_id: ticofab/aws-request-signer
+      category: sec
+    - name: securesocial
+      github_id: jaliss/securesocial
+      category: sec
+    - name: scala-oauth2-provider
+      github_id: nulab/scala-oauth2-provider
+      category: sec
+    - name: jose
+      github_id: blackdoor/jose
+      category: sec
+    - name: play2-auth
+      github_id: t2v/play2-auth
+      category: sec
+    - name: tsec
+      github_id: jmcardon/tsec
+      category: sec
+    - name: play-pac4j
+      github_id: pac4j/play-pac4j
+      category: sec
+    - name: akka-http-session
+      github_id: softwaremill/akka-http-session
+      category: sec
+    - name: play-googleauth
+      github_id: guardian/play-googleauth
+      category: sec
+    - name: scrypto
+      github_id: scorexproject/scrypto
+      category: sec
+    - name: oauth2-mock-play
+      github_id: zalando/oauth2-mock-play
+      category: sec
+    - name: scalafiddle-editor
+      github_id: scalafiddle/scalafiddle-editor
+      category: misc
+    - name: skuber
+      github_id: hagay3/skuber
+      category: misc
+    - name: scala-js
+      github_id: scala-js/scala-js
+      category: misc
+    - name: scowl
+      github_id: phenoscape/scowl
+      category: misc
+    - name: banana-rdf
+      github_id: banana-rdf/banana-rdf
+      category: misc
+    - name: metrics-scala
+      github_id: erikvanoosten/metrics-scala
+      category: misc
+    - name: scrooge
+      github_id: twitter/scrooge
+      category: data
+    - name: avro4s
+      github_id: sksamuel/avro4s
+      category: data
+    - name: scalapb
+      github_id: scalapb/scalapb
+      category: data
+    - name: octopus
+      github_id: krzemin/octopus
+      category: data
+    - name: scodec
+      github_id: scodec/scodec
+      category: data
+    - name: borer
+      github_id: sirthias/borer
+      category: data
+    - name: proto
+      github_id: zero-deps/proto
+      category: data
+    - name: accord
+      github_id: wix/accord
+      category: data
+    - name: fields
+      github_id: jap-company/fields
+      category: data
+    - name: avro-codegen
+      github_id: malcolmgreaves/avro-codegen
+      category: data
+    - name: msgpack-scala
+      github_id: msgpack/msgpack-scala
+      category: data
+    - name: upickle
+      github_id: lihaoyi/upickle
+      category: data
+    - name: dupin
+      github_id: yakivy/dupin
+      category: data
+    - name: veto
+      github_id: splink/veto
+      category: data
+    - name: chill
+      github_id: twitter/chill
+      category: data
