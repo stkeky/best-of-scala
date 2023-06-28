@@ -1056,7 +1056,7 @@ projects:
     - name: hepek
       github_id: sake92/hepek
       category: templating
-     - name: curiodb
+    - name: curiodb
       github_id: stephenmcd/curiodb
       category: distributed
     - name: annette
