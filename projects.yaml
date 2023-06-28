@@ -40,6 +40,20 @@ categories:
       title: Libraries for security, authentication and cryptography
     - category: data
       title: Data binding, validation and serialization
+    - category: parsers
+      title: Libraries for creating custom parsers
+    - category: reactive
+      title: Reactive programming libraries (streams, observables...)
+    - category: env
+      title: Various tooling libraries that helps with overall Scala environment
+    - category: templating
+      title: Templating engines
+    - category: sci
+      title: Libraries for data analysis, machine learning and AI
+    - category: bigdata
+      title: Libraries for processing and handling big data sets
+    - category: distributed
+      title: Libraries for distributed systems
 labels:
    - label: zio
      image: https://zio.dev/img/navbar_brand.png
@@ -865,3 +879,330 @@ projects:
     - name: chill
       github_id: twitter/chill
       category: data
+    - name: geotrellis
+      github_id: locationtech/geotrellis
+      category: misc
+    - name: decline
+      github_id: bkirwi/decline
+      category: misc
+    - name: rtree2d
+      github_id: sizmek/rtree2d
+      category: misc
+    - name: scopt
+      github_id: scopt/scopt
+      category: misc
+    - name: osm4scala
+      github_id: angelcervera/osm4scala
+      category: misc
+    - name: sfcurve
+      github_id: locationtech/sfcurve
+      category: misc
+    - name: xs4s
+      github_id: scalawilliam/xs4s
+      category: misc
+    - name: scallop
+      github_id: scallop/scallop
+      category: misc
+    - name: clist
+      github_id: backuity/clist
+      category: misc
+    - name: scala-scraper
+      github_id: ruippeixotog/scala-scraper
+      category: misc
+    - name: franklin
+      github_id: azavea/franklin
+      category: misc
+    - name: mainargs
+      github_id: com-lihaoyi/mainargs
+      category: misc
+    - name: stac4s
+      github_id: azavea/stac4s
+      category: misc
+    - name: scallion
+      github_id: epfl-lara/scallion
+      category: parsers
+    - name: scala-parser-combinators
+      github_id: scala/scala-parser-combinators
+      category: parsers
+    - name: parboiled2
+      github_id: sirthias/parboiled2
+      category: parsers
+    - name: fastparse
+      github_id: com-lihaoyi/fastparse
+      category: parsers
+    - name: atto
+      github_id: tpolecat/atto
+      category: parsers
+    - name: cats-parse
+      github_id: typelevel/cats-parse
+      category: parsers
+    - name: scalajs-router
+      github_id: sake92/scalajs-router
+      category: env
+    - name: scalastyle
+      github_id: scalastyle/scalastyle
+      category: env
+    - name: scalameta
+      github_id: scalameta/scalameta
+      category: env
+    - name: mill
+      github_id: lihaoyi/mill
+      category: env
+    - name: gitbucket
+      github_id: gitbucket/gitbucket
+      category: env
+    - name: codacy-scalameta
+      github_id: codacy/codacy-scalameta
+      category: env
+    - name: sbt
+      github_id: sbt/sbt
+      category: env
+    - name: pos
+      github_id: johnreedlol/pos
+      category: env
+    - name: scala2plantuml
+      github_id: bottech/scala2plantuml
+      category: env
+    - name: dregex
+      github_id: marianobarrios/dregex
+      category: env
+    - name: giter8
+      github_id: foundweekends/giter8
+      category: env
+    - name: scapegoat
+      github_id: sksamuel/scapegoat
+      category: env
+    - name: wartremover
+      github_id: puffnfresh/wartremover
+      category: env
+    - name: scalatex
+      github_id: lihaoyi/scalatex
+      category: env
+    - name: fastring
+      github_id: atry/fastring
+      category: env
+    - name: coursier
+      github_id: coursier/coursier
+      category: env
+    - name: scalariform
+      github_id: scala-ide/scalariform
+      category: env
+    - name: bloop
+      github_id: scalacenter/bloop
+      category: env
+    - name: fast-string-interpolator
+      github_id: sizmek/fast-string-interpolator
+      category: env
+    - name: stone
+      github_id: sake92/stone
+      category: env
+    - name: scalafix
+      github_id: scalacenter/scalafix
+      category: env
+    - name: scala-trace-debug
+      github_id: johnreedlol/scala-trace-debug
+      category: env
+    - name: metals
+      github_id: scalameta/metals
+      category: env
+    - name: rescala
+      github_id: rescala-lang/rescala
+      category: reactive
+    - name: scala.rx
+      github_id: lihaoyi/scala.rx
+      category: reactive
+    - name: scalaz-zio
+      github_id: scalaz/scalaz-zio
+      category: reactive
+    - name: synapsegrid
+      github_id: primetalk/synapsegrid
+      category: reactive
+    - name: wire-signals
+      github_id: wireapp/wire-signals
+      category: reactive
+    - name: iteratee
+      github_id: travisbrown/iteratee
+      category: reactive
+    - name: reactors
+      github_id: storm-enroute/reactors
+      category: reactive
+    - name: reactor-scala-extensions
+      github_id: reactor/reactor-scala-extensions
+      category: reactive
+    - name: monix
+      github_id: monix/monix
+      category: reactive
+    - name: rxscala
+      github_id: reactivex/rxscala
+      category: reactive
+    - name: vertx-lang-scala
+      github_id: vert-x3/vertx-lang-scala
+      category: reactive
+    - name: fs2
+      github_id: functional-streams-for-scala/fs2
+      category: reactive
+    - name: twirl
+      github_id: playframework/twirl
+      category: templating
+    - name: scalate
+      github_id: scalate/scalate
+      category: templating
+    - name: scalatags
+      github_id: lihaoyi/scalatags
+      category: templating
+    - name: beard
+      github_id: zalando/beard
+      category: templating
+    - name: hepek
+      github_id: sake92/hepek
+      category: templating
+     - name: curiodb
+      github_id: stephenmcd/curiodb
+      category: distributed
+    - name: annette
+      github_id: annetteplatform/annette
+      category: distributed
+    - name: lagom
+      github_id: lagom/lagom
+      category: distributed
+    - name: reactors
+      github_id: reactors-io/reactors
+      category: distributed
+    - name: glokka
+      github_id: xitrum-framework/glokka
+      category: distributed
+    - name: poppet
+      github_id: yakivy/poppet
+      category: distributed
+    - name: akka
+      github_id: akka/akka
+      category: distributed
+    - name: kafka
+      github_id: apache/kafka
+      category: distributed
+    - name: finagle
+      github_id: twitter/finagle
+      category: distributed
+    - name: akka-tracing
+      github_id: levkhomich/akka-tracing
+      category: distributed
+    - name: parapet
+      github_id: parapet-io/parapet
+      category: distributed
+    - name: gallia-core
+      github_id: galliaproject/gallia-core
+      category: bigdata
+    - name: spark
+      github_id: apache/spark
+      category: bigdata
+    - name: bidmach
+      github_id: biddata/bidmach
+      category: bigdata
+    - name: schemer
+      github_id: indix/schemer
+      category: bigdata
+    - name: sparkplug
+      github_id: indix/sparkplug
+      category: bigdata
+    - name: scalding
+      github_id: twitter/scalding
+      category: bigdata
+    - name: scio
+      github_id: spotify/scio
+      category: bigdata
+    - name: reactive-kafka
+      github_id: akka/reactive-kafka
+      category: bigdata
+    - name: vegas
+      github_id: vegas-viz/vegas
+      category: bigdata
+    - name: nussknacker
+      github_id: touk/nussknacker
+      category: bigdata
+    - name: sparkta
+      github_id: stratio/sparkta
+      category: bigdata
+    - name: summingbird
+      github_id: twitter/summingbird
+      category: bigdata
+    - name: gridscale
+      github_id: openmole/gridscale
+      category: bigdata
+    - name: flink
+      github_id: apache/flink
+      category: bigdata
+    - name: spark-notebook
+      github_id: andypetrella/spark-notebook
+      category: sci
+    - name: algebird
+      github_id: twitter/algebird
+      category: sci
+    - name: vecmatlib
+      github_id: hexagonnico/vecmatlib
+      category: sci
+    - name: tensorflow_scala
+      github_id: eaplatanios/tensorflow_scala
+      category: sci
+    - name: spire
+      github_id: non/spire
+      category: sci
+    - name: figaro
+      github_id: p2t2/figaro
+      category: sci
+    - name: smile
+      github_id: haifengl/smile
+      category: sci
+    - name: synapses
+      github_id: mrdimosthenis/synapses
+      category: sci
+    - name: libra
+      github_id: to-ithaca/libra
+      category: sci
+    - name: axle
+      github_id: axlelang/axle
+      category: sci
+    - name: zeppelin
+      github_id: apache/zeppelin
+      category: sci
+    - name: doddle-model
+      github_id: picnicml/doddle-model
+      category: sci
+    - name: openmole
+      github_id: openmole/openmole
+      category: sci
+    - name: optimus
+      github_id: vagmcs/optimus
+      category: sci
+    - name: spark-nlp
+      github_id: johnsnowlabs/spark-nlp
+      category: sci
+    - name: breeze
+      github_id: scalanlp/breeze
+      category: sci
+    - name: onnx-scala
+      github_id: emergentorder/onnx-scala
+      category: sci
+    - name: rings
+      github_id: poslavskysv/rings
+      category: sci
+    - name: ndscala
+      github_id: sciscala/ndscala
+      category: sci
+    - name: mgo
+      github_id: openmole/mgo
+      category: sci
+    - name: numsca
+      github_id: botkop/numsca
+      category: sci
+    - name: bigdl
+      github_id: intel-analytics/bigdl
+      category: sci
+    - name: squants
+      github_id: garykeorkunian/squants
+      category: sci
+    - name: lomrf
+      github_id: anskarl/lomrf
+      category: sci
+    - name: clustering4ever
+      github_id: clustering4ever/clustering4ever
+      category: sci
