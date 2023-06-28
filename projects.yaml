@@ -178,7 +178,7 @@ projects:
       github_id: ing-bank/scruid
       category: db-clients
     - name: skunk
-      github_id: tpolecat/skunk
+      github_id: typelevel/skunk
       category: db-clients
     - name: pulsar4s
       github_id: CleverCloud/pulsar4s
@@ -447,7 +447,7 @@ projects:
       github_id: sbt/sbt-ghpages
       category: sbt
     - name: tinylog
-      github_id: tynylog-org/tinylog
+      github_id: tinylog-org/tinylog
       category: toolkits
     - name: larray
       github_id: xerial/larray
@@ -709,7 +709,7 @@ projects:
       github_id: xitrum-framework/scala-xgettext
       category: misc
     - name: cilib
-      github_id: citren/cilib
+      github_id: ciren/cilib
       category: misc
     - name: sbt-android
       github_id: scala-android/sbt-android
@@ -886,13 +886,13 @@ projects:
       github_id: bkirwi/decline
       category: misc
     - name: rtree2d
-      github_id: sizmek/rtree2d
+      github_id: plokhotnyuk/rtree2d
       category: misc
     - name: scopt
       github_id: scopt/scopt
       category: misc
     - name: osm4scala
-      github_id: angelcervera/osm4scala
+      github_id: simplexspatial/osm4scala
       category: misc
     - name: sfcurve
       github_id: locationtech/sfcurve
@@ -916,7 +916,7 @@ projects:
       github_id: com-lihaoyi/mainargs
       category: misc
     - name: stac4s
-      github_id: azavea/stac4s
+      github_id: stac-utils/stac4s
       category: misc
     - name: scallion
       github_id: epfl-lara/scallion
@@ -946,7 +946,7 @@ projects:
       github_id: scalameta/scalameta
       category: env
     - name: mill
-      github_id: lihaoyi/mill
+      github_id: com-lihaoyi/mill
       category: env
     - name: gitbucket
       github_id: gitbucket/gitbucket
@@ -970,10 +970,10 @@ projects:
       github_id: foundweekends/giter8
       category: env
     - name: scapegoat
-      github_id: sksamuel/scapegoat
+      github_id: scapegoat-scala/scapegoat
       category: env
     - name: wartremover
-      github_id: puffnfresh/wartremover
+      github_id: wartremover/wartremover
       category: env
     - name: scalatex
       github_id: lihaoyi/scalatex
@@ -991,7 +991,7 @@ projects:
       github_id: scalacenter/bloop
       category: env
     - name: fast-string-interpolator
-      github_id: sizmek/fast-string-interpolator
+      github_id: plokhotnyuk/fast-string-interpolator
       category: env
     - name: stone
       github_id: sake92/stone
@@ -1011,9 +1011,6 @@ projects:
     - name: scala.rx
       github_id: lihaoyi/scala.rx
       category: reactive
-    - name: scalaz-zio
-      github_id: scalaz/scalaz-zio
-      category: reactive
     - name: synapsegrid
       github_id: primetalk/synapsegrid
       category: reactive
@@ -1027,7 +1024,7 @@ projects:
       github_id: storm-enroute/reactors
       category: reactive
     - name: reactor-scala-extensions
-      github_id: reactor/reactor-scala-extensions
+      github_id: spring-attic/reactor-scala-extensions
       category: reactive
     - name: monix
       github_id: monix/monix
@@ -1039,7 +1036,7 @@ projects:
       github_id: vert-x3/vertx-lang-scala
       category: reactive
     - name: fs2
-      github_id: functional-streams-for-scala/fs2
+      github_id: typelevel/fs2
       category: reactive
     - name: twirl
       github_id: playframework/twirl
@@ -1048,7 +1045,7 @@ projects:
       github_id: scalate/scalate
       category: templating
     - name: scalatags
-      github_id: lihaoyi/scalatags
+      github_id: com-lihaoyi/scalatags
       category: templating
     - name: beard
       github_id: zalando/beard
@@ -1111,7 +1108,7 @@ projects:
       github_id: spotify/scio
       category: bigdata
     - name: reactive-kafka
-      github_id: akka/reactive-kafka
+      github_id: akka/alpakka-kafk
       category: bigdata
     - name: vegas
       github_id: vegas-viz/vegas
@@ -1119,8 +1116,8 @@ projects:
     - name: nussknacker
       github_id: touk/nussknacker
       category: bigdata
-    - name: sparkta
-      github_id: stratio/sparkta
+    - name: sparta
+      github_id: Stratio/sparta
       category: bigdata
     - name: summingbird
       github_id: twitter/summingbird
@@ -1132,7 +1129,7 @@ projects:
       github_id: apache/flink
       category: bigdata
     - name: spark-notebook
-      github_id: andypetrella/spark-notebook
+      github_id: spark-notebook/spark-notebook
       category: sci
     - name: algebird
       github_id: twitter/algebird
@@ -1144,10 +1141,10 @@ projects:
       github_id: eaplatanios/tensorflow_scala
       category: sci
     - name: spire
-      github_id: non/spire
+      github_id: typelevel/spire
       category: sci
     - name: figaro
-      github_id: p2t2/figaro
+      github_id:  charles-river-analytics/figaro
       category: sci
     - name: smile
       github_id: haifengl/smile
@@ -1198,7 +1195,7 @@ projects:
       github_id: intel-analytics/bigdl
       category: sci
     - name: squants
-      github_id: garykeorkunian/squants
+      github_id: typelevel/squants
       category: sci
     - name: lomrf
       github_id: anskarl/lomrf
