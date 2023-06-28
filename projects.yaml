@@ -322,7 +322,7 @@ projects:
       github_id: nrinaudo/kantan.csv
       category: csv-yaml
     - name: laika
-      github_id: planet42/Laika
+      github_id: typelevel/Laika
       category: csv-yaml
     - name: sbt-jmh
       github_id: sbt/sbt-jmh
@@ -433,7 +433,7 @@ projects:
       github_id: sbt/sbt-ghpages
       category: sbt
     - name: tinylog
-      github_id: tynlog-org/tinylog
+      github_id: tynylog-org/tinylog
       category: toolkits
     - name: larray
       github_id: xerial/larray
@@ -598,9 +598,6 @@ projects:
     - name: requests-scala
       github_id: com-lihaoyi/requests-scala
       category: http
-    - name: scalatra
-      github_id: scalatra/scalatra
-      category: http
     - name: http4s
       github_id: http4s/http4s
       category: http
@@ -698,10 +695,10 @@ projects:
       github_id: xitrum-framework/scala-xgettext
       category: misc
     - name: cilib
-      github_id: cirg-up/cilib
+      github_id: citren/cilib
       category: misc
-    - name: android-sdk-plugin
-      github_id: pfn/android-sdk-plugin
+    - name: sbt-android
+      github_id: scala-android/sbt-android
       category: misc
     - name: scaposer
       github_id: xitrum-framework/scaposer
@@ -720,9 +717,6 @@ projects:
       category: misc
     - name: service-chassis
       github_id: allawala/service-chassis
-      category: misc
-    - name: media4s
-      github_id: outr/media4s
       category: misc
     - name: fs2-aws
       github_id: laserdisc-io/fs2-aws
@@ -752,7 +746,7 @@ projects:
       github_id: marianogappa/ostinato
       category: misc
     - name: fansi
-      github_id: lihaoyi/fansi
+      github_id: com-lihaoyi/fansi
       category: misc
     - name: scala-ssh
       github_id: sirthias/scala-ssh
@@ -770,16 +764,13 @@ projects:
       github_id: iheartradio/play-swagger
       category: misc
     - name: pprint
-      github_id: lihaoyi/pprint
+      github_id: com-lihaoyi/pprint
       category: misc
     - name: aws4s
       github_id: aws4s/aws4s
       category: misc
     - name: pureconfig
       github_id: pureconfig/pureconfig
-      category: misc
-    - name: ammonite
-      github_id: lihaoyi/ammonite
       category: misc
     - name: aws-request-signer
       github_id: ticofab/aws-request-signer
@@ -809,10 +800,10 @@ projects:
       github_id: guardian/play-googleauth
       category: sec
     - name: scrypto
-      github_id: scorexproject/scrypto
+      github_id: input-output-hk/scrypto
       category: sec
-    - name: oauth2-mock-play
-      github_id: zalando/oauth2-mock-play
+    - name: OAuth2-mock-play
+      github_id: zalando-stups/OAuth2-mock-play
       category: sec
     - name: scalafiddle-editor
       github_id: scalafiddle/scalafiddle-editor
@@ -847,14 +838,11 @@ projects:
     - name: scodec
       github_id: scodec/scodec
       category: data
-    - name: borer
-      github_id: sirthias/borer
-      category: data
     - name: proto
       github_id: zero-deps/proto
       category: data
     - name: accord
-      github_id: wix/accord
+      github_id: wix-incubator/accord
       category: data
     - name: fields
       github_id: jap-company/fields
@@ -866,7 +854,7 @@ projects:
       github_id: msgpack/msgpack-scala
       category: data
     - name: upickle
-      github_id: lihaoyi/upickle
+      github_id: com-lihaoyi/upickle
       category: data
     - name: dupin
       github_id: yakivy/dupin
