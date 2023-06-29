@@ -119,7 +119,7 @@ _Miscelaneous projects that currently don't fit into any other category._
 </details>
 <details><summary><b><a href="https://github.com/erikvanoosten/metrics-scala">metrics-scala</a></b> (🥈18 ·  ⭐ 420) - The scala API for Dropwizards Metrics. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/erikvanoosten/metrics-scala) (👨‍💻 89 · 🔀 61 · 📋 73 - 2% open · ⏱️ 08.06.2023):
+- [GitHub](https://github.com/erikvanoosten/metrics-scala) (👨‍💻 89 · 🔀 61 · 📋 73 - 2% open · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/erikvanoosten/metrics-scala
@@ -191,7 +191,7 @@ _Miscelaneous projects that currently don't fit into any other category._
 </details>
 <details><summary><b><a href="https://github.com/azavea/franklin">franklin</a></b> (🥉12 ·  ⭐ 67) - A STAC/OGC API Features Web Service. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/azavea/franklin) (👨‍💻 12 · 🔀 18 · 📋 200 - 48% open · ⏱️ 24.06.2023):
+- [GitHub](https://github.com/azavea/franklin) (👨‍💻 12 · 🔀 18 · 📋 200 - 48% open · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/azavea/franklin
@@ -343,7 +343,7 @@ _Libraries for connecting to, operating, and querying databases._
 </details>
 <details><summary><b><a href="https://github.com/zio/zio-quill">quill</a></b> (🥇23 ·  ⭐ 2.1K) - Compile-time Language Integrated Queries for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://zio.dev/img/navbar_brand.png" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/zio/zio-quill) (👨‍💻 140 · 🔀 340 · 📋 1.1K - 34% open · ⏱️ 28.06.2023):
+- [GitHub](https://github.com/zio/zio-quill) (👨‍💻 140 · 🔀 340 · 📋 1.1K - 34% open · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/zio/zio-quill
@@ -391,7 +391,7 @@ _Libraries for connecting to, operating, and querying databases._
 </details>
 <details><summary><b><a href="https://github.com/ReactiveMongo/ReactiveMongo">ReactiveMongo</a></b> (🥈20 ·  ⭐ 840) - Non-blocking, Reactive MongoDB Driver for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/ReactiveMongo/ReactiveMongo) (👨‍💻 87 · 🔀 230 · 📋 380 - 3% open · ⏱️ 27.06.2023):
+- [GitHub](https://github.com/ReactiveMongo/ReactiveMongo) (👨‍💻 87 · 🔀 230 · 📋 380 - 3% open · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/ReactiveMongo/ReactiveMongo
@@ -431,7 +431,7 @@ _Libraries for connecting to, operating, and querying databases._
 </details>
 <details><summary><b><a href="https://github.com/couchbase/couchbase-jvm-clients">couchbase-jvm-clients</a></b> (🥈17 ·  ⭐ 39) - The Couchbase Monorepo for JVM Clients: Java, Scala,.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/couchbase/couchbase-jvm-clients) (👨‍💻 19 · 🔀 34 · 📦 140 · ⏱️ 28.06.2023):
+- [GitHub](https://github.com/couchbase/couchbase-jvm-clients) (👨‍💻 19 · 🔀 34 · 📦 140 · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/couchbase/couchbase-jvm-clients
@@ -527,7 +527,7 @@ _Extensions and platforms that provides various abstractions._
 
 <details><summary><b><a href="https://github.com/zio/zio">zio</a></b> (🥇31 ·  ⭐ 3.8K) - ZIO A type-safe, composable library for async and concurrent programming.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/zio/zio) (👨‍💻 670 · 🔀 1.2K · 📋 2.4K - 16% open · ⏱️ 28.06.2023):
+- [GitHub](https://github.com/zio/zio) (👨‍💻 670 · 🔀 1.2K · 📋 2.4K - 16% open · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/zio/zio
@@ -599,7 +599,7 @@ _Libraries that handles JSON format._
 </details>
 <details><summary><b><a href="https://github.com/plokhotnyuk/jsoniter-scala">jsoniter-scala</a></b> (🥈21 ·  ⭐ 650) - Scala macros for compile-time generation of safe and ultra-fast.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/plokhotnyuk/jsoniter-scala) (👨‍💻 19 · 🔀 82 · 📦 1 · 📋 280 - 18% open · ⏱️ 24.06.2023):
+- [GitHub](https://github.com/plokhotnyuk/jsoniter-scala) (👨‍💻 19 · 🔀 82 · 📦 1 · 📋 280 - 18% open · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/plokhotnyuk/jsoniter-scala
@@ -805,7 +805,7 @@ _Libraries that handles common file formats including YAML, CSV etc._
 
 <details><summary><b><a href="https://github.com/typelevel/Laika">laika</a></b> (🥇20 ·  ⭐ 380) - Site and E-book Generator and Customizable Text Markup Transformer for.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/typelevel/Laika) (👨‍💻 18 · 🔀 40 · 📋 220 - 5% open · ⏱️ 28.06.2023):
+- [GitHub](https://github.com/typelevel/Laika) (👨‍💻 18 · 🔀 40 · 📋 220 - 5% open · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/typelevel/Laika
@@ -1091,7 +1091,7 @@ _Libraries that handles common file formats including YAML, CSV etc._
 </details>
 <details><summary><b><a href="https://github.com/fthomas/refined">refined</a></b> (🥇24 ·  ⭐ 1.6K) - Refinement types for Scala. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/fthomas/refined) (👨‍💻 77 · 🔀 150 · 📋 220 - 31% open · ⏱️ 24.06.2023):
+- [GitHub](https://github.com/fthomas/refined) (👨‍💻 77 · 🔀 150 · 📋 220 - 31% open · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/fthomas/refined
@@ -1107,7 +1107,7 @@ _Libraries that handles common file formats including YAML, CSV etc._
 </details>
 <details><summary><b><a href="https://github.com/scalameta/scalameta">scalameta</a></b> (🥈23 ·  ⭐ 1K) - Library to read, analyze, transform and generate Scala programs. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/scalameta/scalameta) (👨‍💻 110 · 🔀 210 · 📋 1.2K - 12% open · ⏱️ 28.06.2023):
+- [GitHub](https://github.com/scalameta/scalameta) (👨‍💻 110 · 🔀 210 · 📋 1.2K - 12% open · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/scalameta/scalameta
@@ -1288,7 +1288,7 @@ _Libraries that handles common file formats including YAML, CSV etc._
 </details>
 <details><summary><b><a href="https://github.com/unibas-gravis/scalismo">scalismo</a></b> (🥈17 ·  ⭐ 230) - Scalable Image Analysis and Shape Modelling. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/unibas-gravis/scalismo) (👨‍💻 22 · 🔀 64 · 📋 72 - 18% open · ⏱️ 26.03.2023):
+- [GitHub](https://github.com/unibas-gravis/scalismo) (👨‍💻 22 · 🔀 64 · 📋 73 - 17% open · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/unibas-gravis/scalismo
@@ -1325,7 +1325,7 @@ _Libraries that handles common file formats including YAML, CSV etc._
 </details>
 <details><summary><b><a href="https://github.com/7mind/izumi">izumi</a></b> (🥈22 ·  ⭐ 570) - Productivity-oriented collection of lightweight fancy stuff for Scala.. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
-- [GitHub](https://github.com/7mind/izumi) (👨‍💻 31 · 🔀 54 · 📋 460 - 17% open · ⏱️ 28.06.2023):
+- [GitHub](https://github.com/7mind/izumi) (👨‍💻 31 · 🔀 54 · 📋 460 - 17% open · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/7mind/izumi
@@ -1384,7 +1384,7 @@ _Libraries that handles common file formats including YAML, CSV etc._
 </details>
 <details><summary><b><a href="https://github.com/softwaremill/tapir">tapir</a></b> (🥇26 ·  ⭐ 1.2K) - Declarative, type-safe web endpoints library. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/softwaremill/tapir) (👨‍💻 240 · 🔀 350 · 📋 710 - 17% open · ⏱️ 27.06.2023):
+- [GitHub](https://github.com/softwaremill/tapir) (👨‍💻 240 · 🔀 350 · 📋 710 - 17% open · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/softwaremill/tapir
@@ -1400,7 +1400,7 @@ _Libraries that handles common file formats including YAML, CSV etc._
 </details>
 <details><summary><b><a href="https://github.com/finagle/finch">finch</a></b> (🥈22 ·  ⭐ 1.6K) - Scala combinator library for building Finagle HTTP services. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/finagle/finch) (👨‍💻 130 · 🔀 230 · 📋 410 - 10% open · ⏱️ 18.06.2023):
+- [GitHub](https://github.com/finagle/finch) (👨‍💻 130 · 🔀 230 · 📋 410 - 10% open · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/finagle/finch
@@ -1496,7 +1496,7 @@ _Libraries that handles common file formats including YAML, CSV etc._
 </details>
 <details><summary><b><a href="https://github.com/agourlay/cornichon">cornichon</a></b> (🥈19 ·  ⭐ 220) - Scala DSL for testing HTTP JSON API. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/agourlay/cornichon) (👨‍💻 18 · 🔀 29 · 📋 160 - 15% open · ⏱️ 28.06.2023):
+- [GitHub](https://github.com/agourlay/cornichon) (👨‍💻 18 · 🔀 29 · 📋 160 - 15% open · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/agourlay/cornichon
@@ -1815,7 +1815,7 @@ _Libraries that handles common file formats including YAML, CSV etc._
 </details>
 <details><summary><b><a href="https://github.com/scalameta/metals">metals</a></b> (🥈26 ·  ⭐ 1.9K) - Scala language server with rich IDE features. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/scalameta/metals) (👨‍💻 170 · 🔀 290 · 📥 29 · 📋 1.6K - 15% open · ⏱️ 28.06.2023):
+- [GitHub](https://github.com/scalameta/metals) (👨‍💻 170 · 🔀 290 · 📥 29 · 📋 1.6K - 15% open · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/scalameta/metals
@@ -1823,7 +1823,7 @@ _Libraries that handles common file formats including YAML, CSV etc._
 </details>
 <details><summary><b><a href="https://github.com/scalacenter/bloop">bloop</a></b> (🥈25 ·  ⭐ 850) - Bloop is a build server and CLI tool to compile, test and run Scala fast.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/scalacenter/bloop) (👨‍💻 140 · 🔀 190 · 📥 150K · 📋 700 - 16% open · ⏱️ 28.06.2023):
+- [GitHub](https://github.com/scalacenter/bloop) (👨‍💻 140 · 🔀 190 · 📥 150K · 📋 700 - 16% open · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/scalacenter/bloop
@@ -1941,7 +1941,7 @@ _Libraries that handles common file formats including YAML, CSV etc._
 
 <details><summary><b><a href="https://github.com/intel-analytics/BigDL">bigdl</a></b> (🥇33 ·  ⭐ 4.2K) - Fast, distributed, secure AI for Big Data. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/intel-analytics/BigDL) (👨‍💻 180 · 🔀 1.1K · 📦 44 · 📋 1.9K - 39% open · ⏱️ 28.06.2023):
+- [GitHub](https://github.com/intel-analytics/BigDL) (👨‍💻 180 · 🔀 1.1K · 📦 44 · 📋 1.9K - 39% open · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/intel-analytics/bigdl
@@ -1973,7 +1973,7 @@ _Libraries that handles common file formats including YAML, CSV etc._
 </details>
 <details><summary><b><a href="https://github.com/apache/zeppelin">zeppelin</a></b> (🥈21 ·  ⭐ 6.1K) - Web-based notebook that enables data-driven, interactive data.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/apache/zeppelin) (👨‍💻 520 · 🔀 2.7K · ⏱️ 27.06.2023):
+- [GitHub](https://github.com/apache/zeppelin) (👨‍💻 520 · 🔀 2.7K · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/apache/zeppelin
@@ -1997,7 +1997,7 @@ _Libraries that handles common file formats including YAML, CSV etc._
 </details>
 <details><summary><b><a href="https://github.com/openmole/openmole">openmole</a></b> (🥈17 ·  ⭐ 130) - Workflow engine for exploration of simulation models using high.. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code></summary>
 
-- [GitHub](https://github.com/openmole/openmole) (👨‍💻 47 · 🔀 34 · 📥 56 · 📋 440 - 18% open · ⏱️ 28.06.2023):
+- [GitHub](https://github.com/openmole/openmole) (👨‍💻 47 · 🔀 34 · 📥 56 · 📋 440 - 18% open · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/openmole/openmole
@@ -2066,7 +2066,7 @@ _Libraries that handles common file formats including YAML, CSV etc._
 
 <details><summary><b><a href="https://github.com/apache/spark">spark</a></b> (🥇29 ·  ⭐ 36K) - Apache Spark - A unified analytics engine for large-scale data processing. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/apache/spark) (👨‍💻 2.9K · 🔀 27K · ⏱️ 28.06.2023):
+- [GitHub](https://github.com/apache/spark) (👨‍💻 2.9K · 🔀 27K · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/apache/spark
@@ -2074,7 +2074,7 @@ _Libraries that handles common file formats including YAML, CSV etc._
 </details>
 <details><summary><b><a href="https://github.com/apache/flink">flink</a></b> (🥇27 ·  ⭐ 21K) - Apache Flink. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/apache/flink) (👨‍💻 1.7K · 🔀 12K · ⏱️ 28.06.2023):
+- [GitHub](https://github.com/apache/flink) (👨‍💻 1.7K · 🔀 12K · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/apache/flink
@@ -2088,20 +2088,20 @@ _Libraries that handles common file formats including YAML, CSV etc._
 	git clone https://github.com/spotify/scio
 	```
 </details>
+<details><summary><b><a href="https://github.com/TouK/nussknacker">nussknacker</a></b> (🥈23 ·  ⭐ 440 · 📈) - Low-code tool for automating actions on real time data |.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/TouK/nussknacker) (👨‍💻 62 · 🔀 84 · 📥 290 · 📋 440 - 15% open · ⏱️ 29.06.2023):
+
+	```
+	git clone https://github.com/touk/nussknacker
+	```
+</details>
 <details><summary><b><a href="https://github.com/twitter/scalding">scalding</a></b> (🥈22 ·  ⭐ 3.4K) - A Scala API for Cascading. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/twitter/scalding) (👨‍💻 210 · 🔀 700 · 📋 650 - 49% open · ⏱️ 28.05.2023):
 
 	```
 	git clone https://github.com/twitter/scalding
-	```
-</details>
-<details><summary><b><a href="https://github.com/TouK/nussknacker">nussknacker</a></b> (🥈22 ·  ⭐ 440) - Low-code tool for automating actions on real time data | Stream.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
-
-- [GitHub](https://github.com/TouK/nussknacker) (👨‍💻 62 · 🔀 84 · 📥 290 · 📋 440 - 15% open · ⏱️ 28.06.2023):
-
-	```
-	git clone https://github.com/touk/nussknacker
 	```
 </details>
 <details><summary><b><a href="https://github.com/twitter/summingbird">summingbird</a></b> (🥉20 ·  ⭐ 2.1K · 💤) - Streaming MapReduce with Scalding and Storm. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
@@ -2137,7 +2137,7 @@ _Libraries that handles common file formats including YAML, CSV etc._
 
 <details><summary><b><a href="https://github.com/apache/kafka">kafka</a></b> (🥇28 ·  ⭐ 25K) - Mirror of Apache Kafka. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/apache/kafka) (👨‍💻 1.2K · 🔀 13K · 📦 5 · ⏱️ 28.06.2023):
+- [GitHub](https://github.com/apache/kafka) (👨‍💻 1.2K · 🔀 13K · 📦 5 · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/apache/kafka
@@ -2153,7 +2153,7 @@ _Libraries that handles common file formats including YAML, CSV etc._
 </details>
 <details><summary><b><a href="https://github.com/lagom/lagom">lagom</a></b> (🥈22 ·  ⭐ 2.6K) - Reactive Microservices for the JVM. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/lagom/lagom) (👨‍💻 150 · 🔀 630 · 📋 1.1K - 41% open · ⏱️ 22.06.2023):
+- [GitHub](https://github.com/lagom/lagom) (👨‍💻 150 · 🔀 630 · 📋 1.1K - 41% open · ⏱️ 29.06.2023):
 
 	```
 	git clone https://github.com/lagom/lagom
@@ -2167,6 +2167,14 @@ _Libraries that handles common file formats including YAML, CSV etc._
 	git clone https://github.com/parapet-io/parapet
 	```
 </details>
+<details><summary><b><a href="https://github.com/annetteplatform/annette">annette</a></b> (🥉9 ·  ⭐ 15) - Platform to build distributed, scalable, enterprise-wide business.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/annetteplatform/annette) (⏱️ 29.12.2022):
+
+	```
+	git clone https://github.com/annetteplatform/annette
+	```
+</details>
 <details><summary><b><a href="https://github.com/yakivy/poppet">poppet</a></b> (🥉7 ·  ⭐ 21) - Minimal, type-safe RPC Scala library. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/yakivy/poppet) (👨‍💻 2 · 🔀 1 · ⏱️ 20.06.2023):
@@ -2175,13 +2183,12 @@ _Libraries that handles common file formats including YAML, CSV etc._
 	git clone https://github.com/yakivy/poppet
 	```
 </details>
-<details><summary>Show 5 hidden projects...</summary>
+<details><summary>Show 4 hidden projects...</summary>
 
-- <b><a href="https://github.com/akka/akka">akka</a></b> (🥈27 ·  ⭐ 13K) - Build highly concurrent, distributed, and resilient message-driven.. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/akka/akka">akka</a></b> (🥇28 ·  ⭐ 13K · 📈) - Build highly concurrent, distributed, and resilient message-.. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/stephenmcd/curiodb">curiodb</a></b> (🥉11 ·  ⭐ 510 · 💀) - Distributed NoSQL Database. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code>
 - <b><a href="https://github.com/levkhomich/akka-tracing">akka-tracing</a></b> (🥉11 ·  ⭐ 320 · 💀) - A distributed tracing extension for Akka. Provides.. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/xitrum-framework/glokka">glokka</a></b> (🥉9 ·  ⭐ 56 · 💀) - Library to register and lookup actors by names in an Akka cluster. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/annetteplatform/annette">annette</a></b> (🥉9 ·  ⭐ 14) - Platform to build distributed, scalable, enterprise-wide business.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 </details>
 
 ---
