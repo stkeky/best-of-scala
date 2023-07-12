@@ -963,17 +963,11 @@ projects:
     - name: scalameta
       github_id: scalameta/scalameta
       category: env
-    - name: mill
-      github_id: com-lihaoyi/mill
-      category: env
     - name: gitbucket
       github_id: gitbucket/gitbucket
       category: env
     - name: codacy-scalameta
       github_id: codacy/codacy-scalameta
-      category: env
-    - name: sbt
-      github_id: sbt/sbt
       category: env
     - name: pos
       github_id: johnreedlol/pos
