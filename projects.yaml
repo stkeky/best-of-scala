@@ -54,6 +54,8 @@ categories:
       title: Libraries for processing and handling big data sets
     - category: distributed
       title: Libraries for distributed systems
+    - category: scala-js
+      title: ScalaJS
 labels:
    - label: zio
      image: https://zio.dev/img/navbar_brand.png
@@ -825,9 +827,6 @@ projects:
     - name: skuber
       github_id: hagay3/skuber
       category: misc
-    - name: scala-js
-      github_id: scala-js/scala-js
-      category: misc
     - name: scowl
       github_id: phenoscape/scowl
       category: misc
@@ -1203,3 +1202,24 @@ projects:
     - name: clustering4ever
       github_id: clustering4ever/clustering4ever
       category: sci
+    - name: scala-js
+      github_id: scala-js/scala-js
+      category: scala-js
+    - name: scala-js-dom
+      github_id: scala-js/scala-js-dom
+      category: scala-js
+    - name: scalajs-react
+      github_id: japgolly/scalajs-react
+      category: scala-js
+    - name: scalajs-bundler
+      github_id: scalacenter/scalajs-bundler
+      category: scala-js
+    - name: nodejs
+      github_id: scalajs-io/nodejs
+      category: scala-js
+    - name: scalajs-angular
+      github_id: greencatsoft/scalajs-angular
+      category: scala-js
+    - name: Laminar
+      github_id: raquo/Laminar
+      category: scala-js
