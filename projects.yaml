@@ -1235,3 +1235,7 @@ projects:
     - name: Laminar
       github_id: raquo/Laminar
       category: scala-js
+    - name: openai-scala-client
+      github_id: cequence-io/openai-scala-client
+      maven_id: io.cequence:openai-scala-client_2.13
+      category: sci
