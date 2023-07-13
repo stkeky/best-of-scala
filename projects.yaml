@@ -10,6 +10,9 @@ categories:
     - category: misc
       title: Miscelaneous
       subtitle: Miscelaneous projects that currently don't fit into any other category.
+    - category: development-cycle
+      title: Development Cycle
+      subtitle: Tools for compiling, testing, packaging, formatting, linting, ... your Scala code
     - category: db-clients
       title: Database Clients
       subtitle: Libraries for connecting to, operating, and querying databases.
@@ -340,6 +343,21 @@ projects:
     - name: laika
       github_id: typelevel/Laika
       category: csv-yaml
+    - name: mill
+      github_id: com-lihaoyi/mill
+      category: development-cycle
+    - name: sbt
+      github_id: sbt/sbt
+      category: development-cycle
+    - name: scala-cli
+      github_id: VirtusLab/scala-cli
+      category: development-cycle
+    - name: fury
+      github_id: propensive/fury
+      category: development-cycle
+    - name: bleep
+      github_id: oyvindberg/bleep
+      category: development-cycle
     - name: sbt-jmh
       github_id: sbt/sbt-jmh
       category: sbt
@@ -940,22 +958,16 @@ projects:
       category: env
     - name: scalastyle
       github_id: scalastyle/scalastyle
-      category: env
+      category: development-cycle
     - name: scalameta
       github_id: scalameta/scalameta
-      category: env
-    - name: mill
-      github_id: com-lihaoyi/mill
-      category: env
+      category: development-cycle
     - name: gitbucket
       github_id: gitbucket/gitbucket
-      category: env
+      category: development-cycle
     - name: codacy-scalameta
       github_id: codacy/codacy-scalameta
-      category: env
-    - name: sbt
-      github_id: sbt/sbt
-      category: env
+      category: development-cycle
     - name: pos
       github_id: johnreedlol/pos
       category: env
@@ -967,13 +979,13 @@ projects:
       category: env
     - name: giter8
       github_id: foundweekends/giter8
-      category: env
+      category: development-cycle
     - name: scapegoat
       github_id: scapegoat-scala/scapegoat
-      category: env
+      category: development-cycle
     - name: wartremover
       github_id: wartremover/wartremover
-      category: env
+      category: development-cycle
     - name: scalatex
       github_id: lihaoyi/scalatex
       category: env
@@ -982,13 +994,13 @@ projects:
       category: env
     - name: coursier
       github_id: coursier/coursier
-      category: env
+      category: development-cycle
     - name: scalariform
       github_id: scala-ide/scalariform
-      category: env
+      category: development-cycle
     - name: bloop
       github_id: scalacenter/bloop
-      category: env
+      category: development-cycle
     - name: fast-string-interpolator
       github_id: plokhotnyuk/fast-string-interpolator
       category: env
@@ -997,13 +1009,13 @@ projects:
       category: env
     - name: scalafix
       github_id: scalacenter/scalafix
-      category: env
+      category: development-cycle
     - name: scala-trace-debug
       github_id: johnreedlol/scala-trace-debug
       category: env
     - name: metals
       github_id: scalameta/metals
-      category: env
+      category: development-cycle
     - name: rescala
       github_id: rescala-lang/rescala
       category: reactive
