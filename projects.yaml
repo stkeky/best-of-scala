@@ -1239,3 +1239,7 @@ projects:
       github_id: cequence-io/openai-scala-client
       maven_id: io.cequence:openai-scala-client_2.13
       category: sci
+    - name: sttp-oauth2
+      github_id: ocadotechnology/sttp-oauth2
+      maven_id: com.ocadotechnology:sttp-oauth2_2.13
+      category: sec
