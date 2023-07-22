@@ -66,6 +66,9 @@ labels:
    - label: play
      image: https://www.playframework.com/assets/images/logos/1d627942f0b2f115f8638936a212244a-play_icon_full_color.png
      description: Standalone libraries spawned or a part of PlayFramework.
+   - label: scalajs
+     image: https://www.scala-js.org/assets/img/scala-js-logo.svg
+     description: Project support Scala.js
 
 projects:
     - name: scountries
@@ -244,6 +247,7 @@ projects:
     - name: shade
       github_id: monix/shade
       category: db-clients
+      labels: [scalajs]
     - name: kvs
       github_id: zero-deps/kvs
       category: db-clients
@@ -306,7 +310,8 @@ projects:
       category: web-frameworks
     - name: scalajs-react
       github_id: japgolly/scalajs-react
-      category: web-frameworks
+      category: scala-js
+      labels: [scalajs]
     - name: chaos
       github_id: mesosphere/chaos
       category: web-frameworks
@@ -318,6 +323,7 @@ projects:
       category: web-frameworks
     - name: playframework
       github_id: playframework/playframework
+      maven_id: com.typesafe.play:play_3
       category: web-frameworks
     - name: korolev
       github_id: fomkin/korolev
@@ -454,6 +460,7 @@ projects:
     - name: sbt-scala-js-map
       github_id: ThoughtWorksInc/sbt-scala-js-map
       category: sbt
+      labels: [scalajs]
     - name: tut
       github_id: tpolecat/tut
       category: sbt
@@ -1217,24 +1224,31 @@ projects:
     - name: scala-js
       github_id: scala-js/scala-js
       category: scala-js
+      labels: [scalajs]
     - name: scala-js-dom
       github_id: scala-js/scala-js-dom
       category: scala-js
+      labels: [scalajs]
     - name: scalajs-react
       github_id: japgolly/scalajs-react
       category: scala-js
+      labels: [scalajs]
     - name: scalajs-bundler
       github_id: scalacenter/scalajs-bundler
       category: scala-js
+      labels: [scalajs]
     - name: nodejs
       github_id: scalajs-io/nodejs
       category: scala-js
+      labels: [scalajs]
     - name: scalajs-angular
       github_id: greencatsoft/scalajs-angular
       category: scala-js
+      labels: [scalajs]
     - name: Laminar
       github_id: raquo/Laminar
       category: scala-js
+      labels: [scalajs]
     - name: openai-scala-client
       github_id: cequence-io/openai-scala-client
       maven_id: io.cequence:openai-scala-client_2.13
