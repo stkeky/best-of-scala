@@ -18,47 +18,58 @@ categories:
       subtitle: Libraries for connecting to, operating, and querying databases.
     - category: ecosystems
       title: Ecosystems
-      subtitle: Extensions and platforms that provides various abstractions.
+      subtitle: Extensions and platforms that provide various abstractions.
     - category: json
       title: JSON
       subtitle: Libraries that handles JSON format.
     - category: web-frameworks
       title: Web Frameworks
     - category: csv-yaml
-      title: Common file format processing
+      title: File processing
       subtitle: Libraries that handles common file formats including YAML, CSV etc.
     - category: sbt
       title: SBT Plugins
     - category: toolkits
       title: Toolkits, extensions & ecosystems
     - category: media
-      title: Audio, image and video processing
+      title: Media processing
+      subtitle: Libraries for audio, image and video handling and processing
     - category: di
       title: Dependency injection
     - category: http
-      title: HTTP client and servers
+      title: HTTP
+      subtitle: HTTP clients and servers
     - category: test
-      title: Libraries for testing
+      title: Testing
+      title: Libraries and frameworks for various types of code testing
     - category: sec
       title: Libraries for security, authentication and cryptography
     - category: data
-      title: Data binding, validation and serialization
+      title: Data handling
+      subtitle: Libraries for data binding, validation and serialization
     - category: parsers
-      title: Libraries for creating custom parsers
+      title: Parsers
+      subtitle: Libraries for creating custom parsers
     - category: reactive
-      title: Reactive programming libraries (streams, observables...)
+      title: Reactive programming
+      subtitle: Reactive programming libraries (streams, observables...)
     - category: env
-      title: Various tooling libraries that helps with overall Scala environment
+      title: Development environment
+      subtitle: Various tooling libraries that help with overall Scala programming environment
     - category: templating
       title: Templating engines
     - category: sci
-      title: Libraries for data analysis, machine learning and AI
+      title: Business intelligence
+      subtitle: Libraries for data analysis, machine learning and AI
     - category: bigdata
-      title: Libraries for processing and handling big data sets
+      title: Big data
+      subtitle: Libraries for processing and handling big data sets
     - category: distributed
-      title: Libraries for distributed systems
+      title: Distributed
+      subtitle: Libraries and frameworks for building and maintaining distributed systems and fault-tolerant applications.
     - category: scala-js
       title: ScalaJS
+      subtitle: Libraries purely built for Scala.js
 labels:
    - label: zio
      image: https://zio.dev/img/navbar_brand.png
@@ -68,19 +79,20 @@ labels:
      description: Standalone libraries spawned or a part of PlayFramework.
    - label: scalajs
      image: https://www.scala-js.org/assets/img/scala-js-logo.svg
-     description: Project support Scala.js
+     description: Projects that support Scala.js
 
 projects:
     - name: scountries
       github_id: lambdaworks/scountries
-      maven_id: io.lambdaworks:scountries
+      maven_id: io.lambdaworks:scountries_3
       category: misc
     - name: scurl-detector
       github_id: lambdaworks/scurl-detector
-      maven_id: io.lambdaworks:scurl-detector_2.13
+      maven_id: io.lambdaworks:scurl-detector_3
       category: misc
     - name: zio-elasticsearch
       github_id: lambdaworks/zio-elasticsearch
+      maven_id: io.lambdaworks:zio-elasticsearch_3
       category: db-clients
       labels: [zio]
     - name: elastic4s
