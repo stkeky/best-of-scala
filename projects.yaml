@@ -181,7 +181,7 @@ projects:
     - name: anorm
       github_id: playframework/anorm
       category: db-clients
-      labels : [play]
+      labels: [play]
     - name: slick-pg
       github_id: tminglei/slick-pg
       category: db-clients
@@ -1242,8 +1242,8 @@ projects:
     - name: scio
       github_id: spotify/scio
       category: bigdata
-    - name: reactive-kafka
-      github_id: akka/alpakka-kafk
+    - name: alpakka-kafka
+      github_id: akka/alpakka-kafka
       category: bigdata
     - name: vegas
       github_id: vegas-viz/vegas
