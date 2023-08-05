@@ -8,8 +8,8 @@ configuration:
 
 categories:
     - category: misc
-      title: Miscelaneous
-      subtitle: Miscelaneous projects that currently don't fit into any other category.
+      title: Miscellaneous
+      subtitle: Miscellaneous projects that currently don't fit into any other category.
     - category: development-cycle
       title: Development Cycle
       subtitle: Tools for compiling, testing, packaging, formatting, linting, ... your Scala code
@@ -21,19 +21,19 @@ categories:
       subtitle: Extensions and platforms that provide various abstractions.
     - category: json
       title: JSON
-      subtitle: Libraries that handles JSON format.
+      subtitle: Libraries that handle JSON format.
     - category: web-frameworks
       title: Web Frameworks
     - category: csv-yaml
       title: File processing
-      subtitle: Libraries that handles common file formats including YAML, CSV etc.
+      subtitle: Libraries that handle common file formats including YAML, CSV, etc.
     - category: sbt
       title: SBT Plugins
     - category: toolkits
       title: Toolkits, extensions & ecosystems
     - category: media
       title: Media processing
-      subtitle: Libraries for audio, image and video handling and processing
+      subtitle: Libraries for audio, image, and video handling and processing
     - category: di
       title: Dependency injection
     - category: http
@@ -43,10 +43,10 @@ categories:
       title: Testing
       title: Libraries and frameworks for various types of code testing
     - category: sec
-      title: Libraries for security, authentication and cryptography
+      title: Libraries for security, authentication, and cryptography
     - category: data
       title: Data handling
-      subtitle: Libraries for data binding, validation and serialization
+      subtitle: Libraries for data binding, validation, and serialization
     - category: parsers
       title: Parsers
       subtitle: Libraries for creating custom parsers
@@ -55,12 +55,12 @@ categories:
       subtitle: Reactive programming libraries (streams, observables...)
     - category: env
       title: Development environment
-      subtitle: Various tooling libraries that help with overall Scala programming environment
+      subtitle: Various tooling libraries that help with the overall Scala programming environment
     - category: templating
       title: Templating engines
     - category: sci
       title: Business intelligence
-      subtitle: Libraries for data analysis, machine learning and AI
+      subtitle: Libraries for data analysis, machine learning, and AI
     - category: bigdata
       title: Big data
       subtitle: Libraries for processing and handling big data sets
@@ -73,13 +73,13 @@ categories:
 labels:
    - label: zio
      image: https://zio.dev/img/navbar_brand.png
-     description: Type-safe, composable asynchronous and concurrent programming for Scala.
+     description: Libraries compatible with ZIO
    - label: play
      image: https://www.playframework.com/assets/images/logos/1d627942f0b2f115f8638936a212244a-play_icon_full_color.png
-     description: Standalone libraries spawned or a part of PlayFramework.
+     description: Libraries spawned from or a part of PlayFramework
    - label: scalajs
      image: https://www.scala-js.org/assets/img/scala-js-logo.svg
-     description: Projects that support Scala.js
+     description: Projects compatible with Scala.js
 
 projects:
     - name: scountries
