@@ -1377,3 +1377,6 @@ projects:
       github_id: ocadotechnology/sttp-oauth2
       maven_id: com.ocadotechnology:sttp-oauth2_2.13
       category: sec
+    - name: pekko
+      github_id: apache/incubator-pekko
+      category: distributed
