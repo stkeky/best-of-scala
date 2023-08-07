@@ -80,44 +80,51 @@ labels:
    - label: scalajs
      image: https://www.scala-js.org/assets/img/scala-js-logo.svg
      description: Projects compatible with Scala.js
+   - label: scala3
+     image: https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg
+     description: Projects compatible with Scala 3
 
 projects:
     - name: scountries
       github_id: lambdaworks/scountries
       maven_id: io.lambdaworks:scountries_3
       category: misc
+      labels: [scala3]
     - name: scurl-detector
       github_id: lambdaworks/scurl-detector
       maven_id: io.lambdaworks:scurl-detector_3
       category: misc
+      labels: [scala3]
     - name: zio-elasticsearch
       github_id: lambdaworks/zio-elasticsearch
       maven_id: io.lambdaworks:zio-elasticsearch_3
       category: db-clients
-      labels: [zio]
+      labels: [zio, scala3]
     - name: elastic4s
       github_id: sksamuel/elastic4s
       maven_id: com.sksamuel.elastic4s:elastic4s_2.13
       category: db-clients
+      labels: [scala3]
     - name: scalikejdbc
       github_id: scalikejdbc/scalikejdbc
       maven_id: org.scalikejdbc:scalikejdbc_2.13
       category: db-clients
+      labels: [scala3]
     - name: zio
       github_id: zio/zio
       maven_id: dev.zio:zio_2.13
       category: ecosystems
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: argonaut
       github_id: argonaut-io/argonaut
       maven_id: io.argonaut:argonaut_2.13
       category: json
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: circe
       github_id: circe/circe
       maven_id: io.circe:circe-core_2.13
       category: json
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: spray-json
       github_id: spray/spray-json
       maven_id: io.spray:spray-json_2.13
@@ -125,6 +132,7 @@ projects:
     - name: ninny-json
       github_id: nrktkt/ninny-json
       category: json
+      labels: [scala3]
     - name: json
       github_id: nestorpersist/json
       category: json
@@ -134,21 +142,22 @@ projects:
     - name: play-json
       github_id: playframework/play-json
       category: json
-      labels: [scalajs, play]
+      labels: [scala3, scalajs, play]
     - name: json4s
       github_id: json4s/json4s
       category: json
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: zio-json
       github_id: zio/zio-json
       category: json
-      labels: [zio, scalajs]
+      labels: [zio, scala3, scalajs]
     - name: sbt-json
       github_id: battermann/sbt-json
       category: json
     - name: ScalaJack
       github_id: gzoller/ScalaJack
       category: json
+      labels: [scala3]
     - name: pushka
       github_id: fomkin/pushka
       category: json
@@ -156,32 +165,34 @@ projects:
     - name: jackson-module-scala
       github_id: FasterXML/jackson-module-scala
       category: json
+      labels: [scala3]
     - name: diffson
       github_id: gnieh/diffson
       category: json
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: borer
       github_id: sirthias/borer
       category: json
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: jawn
       github_id: typelevel/jawn
       category: json
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: jsoniter-scala
       github_id: plokhotnyuk/jsoniter-scala
       category: json
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: sangria
       github_id: sangria-graphql/sangria
       category: misc
+      labels: [scala3]
     - name: scala-forklift
       github_id: lastland/scala-forklift
       category: db-clients
     - name: anorm
       github_id: playframework/anorm
       category: db-clients
-      labels: [play]
+      labels: [scala3, play]
     - name: slick-pg
       github_id: tminglei/slick-pg
       category: db-clients
@@ -197,6 +208,7 @@ projects:
     - name: slick
       github_id: slick/slick
       category: db-clients
+      labels: [scala3]
     - name: mapperdao
       github_id: kostaskougios/mapperdao
       category: db-clients
@@ -209,10 +221,11 @@ projects:
     - name: skunk
       github_id: typelevel/skunk
       category: db-clients
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: pulsar4s
       github_id: CleverCloud/pulsar4s
       category: db-clients
+      labels: [scala3]
     - name: etcd4s
       github_id: mingchuno/etcd4s
       category: db-clients
@@ -234,7 +247,7 @@ projects:
     - name: zio-redis
       github_id: zio/zio-redis
       category: db-clients
-      labels: [zio]
+      labels: [zio, scala3]
     - name: rediscala
       github_id: etaty/rediscala
       category: db-clients
@@ -244,27 +257,29 @@ projects:
     - name: scanamo
       github_id: scanamo/scanamo
       category: db-clients
+      labels: [scala3]
     - name: molecule
       github_id: scalamolecule/molecule
       category: db-clients
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: morpheus
       github_id: outworkers/morpheus
       category: db-clients
     - name: doobie
       github_id: tpolecat/doobie
       category: db-clients
+      labels: [scala3]
     - name: quill
       github_id: zio/zio-quill
       category: db-clients
-      labels: [zio, scalajs]
+      labels: [zio, scala3, scalajs]
     - name: scalarelational
       github_id: outr/scalarelational
       category: db-clients
     - name: lucene4s
       github_id: outr/lucene4s
       category: db-clients
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: relate
       github_id: lucidsoftware/relate
       category: db-clients
@@ -283,6 +298,7 @@ projects:
     - name: ReactiveMongo
       github_id: ReactiveMongo/ReactiveMongo
       category: db-clients
+      labels: [scala3]
     - name: laserdisc
       github_id: laserdisc-io/laserdisc
       category: db-clients
@@ -290,9 +306,11 @@ projects:
     - name: squeryl
       github_id: squeryl/squeryl
       category: db-clients
+      labels: [scala3]
     - name: scala-sql
       github_id: wangzaixiang/scala-sql
       category: db-clients
+      labels: [scala3]
     - name: phantom
       github_id: outworkers/phantom
       category: db-clients
@@ -302,9 +320,11 @@ projects:
     - name: scalatra
       github_id: scalatra/scalatra
       category: web-frameworks
+      labels: [scala3]
     - name: unfiltered
       github_id: unfiltered/unfiltered
       category: web-frameworks
+      labels: [scala3]
     - name: xitrum
       github_id: xitrum-framework/xitrum
       category: web-frameworks
@@ -331,21 +351,21 @@ projects:
     - name: cask
       github_id: com-lihaoyi/cask
       category: web-frameworks
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: finatra
       github_id: twitter/finatra
       category: web-frameworks
     - name: scalajs-react
       github_id: japgolly/scalajs-react
       category: scala-js
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: chaos
       github_id: mesosphere/chaos
       category: web-frameworks
     - name: Binding.scala
       github_id: ThoughtWorksInc/Binding.scala
       category: web-frameworks
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: udash-core
       github_id: UdashFramework/udash-core
       category: web-frameworks
@@ -354,26 +374,30 @@ projects:
       github_id: playframework/playframework
       maven_id: com.typesafe.play:play_3
       category: web-frameworks
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: korolev
       github_id: fomkin/korolev
       category: web-frameworks
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: analogweb-scala
       github_id: analogweb/analogweb-scala
       category: web-frameworks
+      labels: [scala3]
     - name: fm-flatfile
       github_id: frugalmechanic/fm-flatfile
       category: csv-yaml
+      labels: [scala3]
     - name: moultingyaml
       github_id: jcazevedo/moultingyaml
       category: csv-yaml
     - name: spata
       github_id: fingo/spata
       category: csv-yaml
+      labels: [scala3]
     - name: scala-csv
       github_id: tototoshi/scala-csv
       category: csv-yaml
+      labels: [scala3]
     - name: kantan.csv
       github_id: nrinaudo/kantan.csv
       category: csv-yaml
@@ -381,22 +405,25 @@ projects:
     - name: laika
       github_id: typelevel/Laika
       category: csv-yaml
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: mill
       github_id: com-lihaoyi/mill
       category: development-cycle
     - name: sbt
       github_id: sbt/sbt
       category: development-cycle
+      labels: [scala3]
     - name: scala-cli
       github_id: VirtusLab/scala-cli
       category: development-cycle
+      labels: [scala3]
     - name: fury
       github_id: propensive/fury
       category: development-cycle
     - name: bleep
       github_id: oyvindberg/bleep
       category: development-cycle
+      labels: [scala3]
     - name: sbt-jmh
       github_id: sbt/sbt-jmh
       category: sbt
@@ -448,6 +475,7 @@ projects:
     - name: mima
       github_id: lightbend/mima
       category: sbt
+      labels: [scala3]
     - name: sbt-dependency-check
       github_id: albuch/sbt-dependency-check
       category: sbt
@@ -484,6 +512,7 @@ projects:
     - name: mdoc
       github_id: scalameta/mdoc
       category: sbt
+      labels: [scala3]
     - name: sbt-updates
       github_id: rtimush/sbt-updates
       category: sbt
@@ -516,7 +545,7 @@ projects:
     - name: chimney
       github_id: scalalandio/chimney
       category: toolkits
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: freestyle
       github_id: frees-io/freestyle
       category: toolkits
@@ -527,7 +556,7 @@ projects:
     - name: shapeless
       github_id: milessabin/shapeless
       category: toolkits
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: simulacrum
       github_id: typelevel/simulacrum
       category: toolkits
@@ -538,25 +567,26 @@ projects:
     - name: scalaz
       github_id: scalaz/scalaz
       category: toolkits
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: eff
       github_id: atnos-org/eff
       category: toolkits
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: enableIf.scala
       github_id: ThoughtWorksInc/enableIf.scala
       category: toolkits
     - name: enumeratum
       github_id: lloydmeta/enumeratum
       category: toolkits
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: scala-logging
       github_id: lightbend-labs/scala-logging
       category: toolkits
+      labels: [scala3]
     - name: Monocle
       github_id: optics-dev/monocle
       category: toolkits
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: async
       github_id: scala/scala-async
       category: toolkits
@@ -571,7 +601,7 @@ projects:
     - name: chronoscala
       github_id: chronoscala/chronoscala
       category: toolkits
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: hamsters
       github_id: scala-hamsters/hamsters
       category: toolkits
@@ -579,11 +609,11 @@ projects:
     - name: nscala-time
       github_id: nscala-time/nscala-time
       category: toolkits
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: log4s
       github_id: Log4s/log4s
       category: toolkits
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: each
       github_id: ThoughtWorksInc/each
       category: toolkits
@@ -591,7 +621,7 @@ projects:
     - name: scribe
       github_id: outr/scribe
       category: toolkits
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: scala-records
       github_id: scala-records/scala-records
       category: toolkits
@@ -599,12 +629,15 @@ projects:
     - name: ammonite
       github_id: com-lihaoyi/ammonite
       category: toolkits
+      labels: [scala3]
     - name: blindsight
       github_id: tersesystems/blindsight
       category: toolkits
+      labels: [scala3]
     - name: better-files
       github_id: pathikrit/better-files
       category: toolkits
+      labels: [scala3]
     - name: scala-graph
       github_id: scala-graph/scala-graph
       category: toolkits
@@ -612,14 +645,15 @@ projects:
     - name: util
       github_id: twitter/util
       category: toolkits
+      labels: [scala3]
     - name: Dsl.scala
       github_id: ThoughtWorksInc/Dsl.scala
       category: toolkits
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: refined
       github_id: fthomas/refined
       category: toolkits
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: Freasy-Monad
       github_id: Thangiee/Freasy-Monad
       category: toolkits
@@ -630,18 +664,19 @@ projects:
     - name: quicklens
       github_id: softwaremill/quicklens
       category: toolkits
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: cats
       github_id: typelevel/cats
       category: toolkits
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: scalismo
       github_id: unibas-gravis/scalismo
       category: media
+      labels: [scala3]
     - name: scalacollider
       github_id: sciss/scalacollider
       category: media
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: scala-phash
       github_id: poslegm/scala-phash
       category: media
@@ -663,49 +698,51 @@ projects:
     - name: izumi
       github_id: 7mind/izumi
       category: di
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: sclasner
       github_id: xitrum-framework/sclasner
       category: di
     - name: scala-guice
       github_id: codingwell/scala-guice
       category: di
+      labels: [scala3]
     - name: airframe
       github_id: wvlet/airframe
       category: di
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: jam
       github_id: yakivy/jam
       category: di
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: subcut
       github_id: dickwall/subcut
       category: di
     - name: macwire
       github_id: softwaremill/macwire
       category: di
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: fintrospect
       github_id: daviddenton/fintrospect
       category: http
     - name: tapir
       github_id: softwaremill/tapir
       category: http
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: jefe
       github_id: outr/jefe
       category: http
     - name: play-ws
       github_id: playframework/play-ws
       category: http
-      labels: [play]
+      labels: [scala3, play]
     - name: requests-scala
       github_id: com-lihaoyi/requests-scala
       category: http
+      labels: [scala3]
     - name: http4s
       github_id: http4s/http4s
       category: http
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: scalaxb
       github_id: eed3si9n/scalaxb
       category: http
@@ -722,14 +759,15 @@ projects:
     - name: endpoints4s
       github_id: endpoints4s/endpoints4s
       category: http
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: akka-http
       github_id: akka/akka-http
       category: http
+      labels: [scala3]
     - name: sttp
       github_id: softwaremill/sttp
       category: http
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: reboot
       github_id: dispatch/reboot
       category: http
@@ -748,43 +786,45 @@ projects:
     - name: specs2
       github_id: etorreborre/specs2
       category: test
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: scalameter
       github_id: scalameter/scalameter
       category: test
     - name: stryker4s
       github_id: stryker-mutator/stryker4s
       category: test
+      labels: [scala3]
     - name: scalaprops
       github_id: scalaprops/scalaprops
       category: test
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: utest
       github_id: com-lihaoyi/utest
       category: test
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: weaver-test
       github_id: disneystreaming/weaver-test
       category: test
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: testcontainers-scala
       github_id: testcontainers/testcontainers-scala
       category: test
+      labels: [scala3]
     - name: minitest
       github_id: monix/minitest
       category: test
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: mockito-scala
       github_id: mockito/mockito-scala
       category: test
     - name: scalacheck
       github_id: typelevel/scalacheck
       category: test
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: scalatest
       github_id: scalatest/scalatest
       category: test
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: cornichon
       github_id: agourlay/cornichon
       category: test
@@ -795,13 +835,14 @@ projects:
     - name: munit
       github_id: scalameta/munit
       category: test
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: gatling
       github_id: gatling/gatling
       category: test
     - name: akka-quartz-scheduler
       github_id: enragedginger/akka-quartz-scheduler
       category: misc
+      labels: [scala3]
     - name: op-rabbit
       github_id: spingo/op-rabbit
       category: misc
@@ -823,6 +864,7 @@ projects:
     - name: scalafx
       github_id: scalafx/scalafx
       category: misc
+      labels: [scala3]
     - name: sevenz4s
       github_id: gonearewe/sevenz4s
       category: misc
@@ -838,6 +880,7 @@ projects:
     - name: fs2-aws
       github_id: laserdisc-io/fs2-aws
       category: misc
+      labels: [scala3]
     - name: eclair
       github_id: acinq/eclair
       category: misc
@@ -847,6 +890,7 @@ projects:
     - name: mailgun4s
       github_id: outr/mailgun4s
       category: misc
+      labels: [scala3]
     - name: miniboxing-plugin
       github_id: miniboxing/miniboxing-plugin
       category: misc
@@ -856,23 +900,26 @@ projects:
     - name: spliff
       github_id: sirthias/spliff
       category: misc
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: aptus-core
       github_id: aptusproject/aptus-core
       category: misc
+      labels: [scala3]
     - name: ostinato
       github_id: marianogappa/ostinato
       category: misc
     - name: fansi
       github_id: com-lihaoyi/fansi
       category: misc
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: scala-ssh
       github_id: sirthias/scala-ssh
       category: misc
+      labels: [scala3]
     - name: managerial
       github_id: dvgica/managerial
       category: misc
+      labels: [scala3]
     - name: bootzooka
       github_id: softwaremill/bootzooka
       category: misc
@@ -885,13 +932,14 @@ projects:
     - name: pprint
       github_id: com-lihaoyi/pprint
       category: misc
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: aws4s
       github_id: aws4s/aws4s
       category: misc
     - name: pureconfig
       github_id: pureconfig/pureconfig
       category: misc
+      labels: [scala3]
     - name: aws-request-signer
       github_id: ticofab/aws-request-signer
       category: sec
@@ -904,12 +952,14 @@ projects:
     - name: jose
       github_id: blackdoor/jose
       category: sec
+      labels: [scala3]
     - name: play2-auth
       github_id: t2v/play2-auth
       category: sec
     - name: tsec
       github_id: jmcardon/tsec
       category: sec
+      labels: [scala3]
     - name: play-pac4j
       github_id: pac4j/play-pac4j
       category: sec
@@ -932,9 +982,11 @@ projects:
     - name: skuber
       github_id: hagay3/skuber
       category: misc
+      labels: [scala3]
     - name: scowl
       github_id: phenoscape/scowl
       category: misc
+      labels: [scala3]
     - name: banana-rdf
       github_id: banana-rdf/banana-rdf
       category: misc
@@ -942,16 +994,18 @@ projects:
     - name: metrics-scala
       github_id: erikvanoosten/metrics-scala
       category: misc
+      labels: [scala3]
     - name: scrooge
       github_id: twitter/scrooge
       category: data
     - name: avro4s
       github_id: sksamuel/avro4s
       category: data
+      labels: [scala3]
     - name: scalapb
       github_id: scalapb/scalapb
       category: data
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: octopus
       github_id: krzemin/octopus
       category: data
@@ -959,10 +1013,11 @@ projects:
     - name: scodec
       github_id: scodec/scodec
       category: data
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: proto
       github_id: zero-deps/proto
       category: data
+      labels: [scala3]
     - name: accord
       github_id: wix-incubator/accord
       category: data
@@ -970,6 +1025,7 @@ projects:
     - name: fields
       github_id: jap-company/fields
       category: data
+      labels: [scala3]
     - name: avro-codegen
       github_id: malcolmgreaves/avro-codegen
       category: data
@@ -979,11 +1035,11 @@ projects:
     - name: upickle
       github_id: com-lihaoyi/upickle
       category: data
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: dupin
       github_id: yakivy/dupin
       category: data
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: veto
       github_id: splink/veto
       category: data
@@ -996,15 +1052,15 @@ projects:
     - name: decline
       github_id: bkirwi/decline
       category: misc
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: rtree2d
       github_id: plokhotnyuk/rtree2d
       category: misc
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: scopt
       github_id: scopt/scopt
       category: misc
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: osm4scala
       github_id: simplexspatial/osm4scala
       category: misc
@@ -1014,23 +1070,25 @@ projects:
     - name: xs4s
       github_id: scalawilliam/xs4s
       category: misc
+      labels: [scala3]
     - name: scallop
       github_id: scallop/scallop
       category: misc
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: clist
       github_id: backuity/clist
       category: misc
     - name: scala-scraper
       github_id: ruippeixotog/scala-scraper
       category: misc
+      labels: [scala3]
     - name: franklin
       github_id: azavea/franklin
       category: misc
     - name: mainargs
       github_id: com-lihaoyi/mainargs
       category: misc
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: stac4s
       github_id: stac-utils/stac4s
       category: misc
@@ -1041,23 +1099,23 @@ projects:
     - name: scala-parser-combinators
       github_id: scala/scala-parser-combinators
       category: parsers
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: parboiled2
       github_id: sirthias/parboiled2
       category: parsers
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: fastparse
       github_id: com-lihaoyi/fastparse
       category: parsers
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: atto
       github_id: tpolecat/atto
       category: parsers
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: cats-parse
       github_id: typelevel/cats-parse
       category: parsers
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: scalajs-router
       github_id: sake92/scalajs-router
       category: env
@@ -1093,6 +1151,7 @@ projects:
     - name: wartremover
       github_id: wartremover/wartremover
       category: development-cycle
+      labels: [scala3]
     - name: scalatex
       github_id: lihaoyi/scalatex
       category: env
@@ -1115,7 +1174,7 @@ projects:
     - name: fast-string-interpolator
       github_id: plokhotnyuk/fast-string-interpolator
       category: env
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: stone
       github_id: sake92/stone
       category: env
@@ -1130,10 +1189,11 @@ projects:
     - name: metals
       github_id: scalameta/metals
       category: development-cycle
+      labels: [scala3]
     - name: rescala
       github_id: rescala-lang/rescala
       category: reactive
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: scala.rx
       github_id: lihaoyi/scala.rx
       category: reactive
@@ -1144,10 +1204,11 @@ projects:
     - name: wire-signals
       github_id: wireapp/wire-signals
       category: reactive
+      labels: [scala3]
     - name: iteratee
       github_id: travisbrown/iteratee
       category: reactive
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: reactors
       github_id: storm-enroute/reactors
       category: reactive
@@ -1157,7 +1218,7 @@ projects:
     - name: monix
       github_id: monix/monix
       category: reactive
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: rxscala
       github_id: reactivex/rxscala
       category: reactive
@@ -1167,25 +1228,25 @@ projects:
     - name: fs2
       github_id: typelevel/fs2
       category: reactive
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: twirl
       github_id: playframework/twirl
       category: templating
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: scalate
       github_id: scalate/scalate
       category: templating
     - name: scalatags
       github_id: com-lihaoyi/scalatags
       category: templating
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: beard
       github_id: zalando/beard
       category: templating
     - name: hepek
       github_id: sake92/hepek
       category: templating
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: curiodb
       github_id: stephenmcd/curiodb
       category: distributed
@@ -1205,10 +1266,11 @@ projects:
     - name: poppet
       github_id: yakivy/poppet
       category: distributed
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: akka
       github_id: akka/akka
       category: distributed
+      labels: [scala3]
     - name: kafka
       github_id: apache/kafka
       category: distributed
@@ -1245,6 +1307,7 @@ projects:
     - name: alpakka-kafka
       github_id: akka/alpakka-kafka
       category: bigdata
+      labels: [scala3]
     - name: vegas
       github_id: vegas-viz/vegas
       category: bigdata
@@ -1260,6 +1323,7 @@ projects:
     - name: gridscale
       github_id: openmole/gridscale
       category: bigdata
+      labels: [scala3]
     - name: flink
       github_id: apache/flink
       category: bigdata
@@ -1278,13 +1342,14 @@ projects:
     - name: spire
       github_id: typelevel/spire
       category: sci
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: figaro
       github_id:  charles-river-analytics/figaro
       category: sci
     - name: smile
       github_id: haifengl/smile
       category: sci
+      labels: [scala3]
     - name: synapses
       github_id: mrdimosthenis/synapses
       category: sci
@@ -1307,16 +1372,18 @@ projects:
     - name: optimus
       github_id: vagmcs/optimus
       category: sci
+      labels: [scala3]
     - name: spark-nlp
       github_id: johnsnowlabs/spark-nlp
       category: sci
     - name: breeze
       github_id: scalanlp/breeze
       category: sci
+      labels: [scala3]
     - name: onnx-scala
       github_id: emergentorder/onnx-scala
       category: sci
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: rings
       github_id: poslavskysv/rings
       category: sci
@@ -1326,6 +1393,7 @@ projects:
     - name: mgo
       github_id: openmole/mgo
       category: sci
+      labels: [scala3]
     - name: numsca
       github_id: botkop/numsca
       category: sci
@@ -1335,7 +1403,7 @@ projects:
     - name: squants
       github_id: typelevel/squants
       category: sci
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: lomrf
       github_id: anskarl/lomrf
       category: sci
@@ -1349,11 +1417,11 @@ projects:
     - name: scala-js-dom
       github_id: scala-js/scala-js-dom
       category: scala-js
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: scalajs-react
       github_id: japgolly/scalajs-react
       category: scala-js
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: scalajs-bundler
       github_id: scalacenter/scalajs-bundler
       category: scala-js
@@ -1368,11 +1436,12 @@ projects:
     - name: Laminar
       github_id: raquo/Laminar
       category: scala-js
-      labels: [scalajs]
+      labels: [scala3, scalajs]
     - name: openai-scala-client
       github_id: cequence-io/openai-scala-client
       maven_id: io.cequence:openai-scala-client_2.13
       category: sci
+      labels: [scala3]
     - name: sttp-oauth2
       github_id: ocadotechnology/sttp-oauth2
       maven_id: com.ocadotechnology:sttp-oauth2_2.13
@@ -1380,6 +1449,8 @@ projects:
     - name: pekko-http
       github_id: apache/incubator-pekko-http
       category: http
+      labels: [scala3]
     - name: pekko
       github_id: apache/incubator-pekko
       category: distributed
+      labels: [scala3]
