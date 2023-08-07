@@ -1380,3 +1380,6 @@ projects:
     - name: pekko-http
       github_id: apache/incubator-pekko-http
       category: http
+    - name: pekko
+      github_id: apache/incubator-pekko
+      category: distributed
