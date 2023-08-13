@@ -7,9 +7,6 @@ configuration:
   project_dead_months: 18
 
 categories:
-    - category: misc
-      title: Miscellaneous
-      subtitle: Miscellaneous projects that currently don't fit into any other category.
     - category: development-cycle
       title: Development Cycle
       subtitle: Tools for compiling, testing, packaging, formatting, linting, ... your Scala code
@@ -87,12 +84,10 @@ projects:
     - name: scountries
       github_id: lambdaworks/scountries
       maven_id: io.lambdaworks:scountries_3
-      category: misc
       labels: [scala3]
     - name: scurl-detector
       github_id: lambdaworks/scurl-detector
       maven_id: io.lambdaworks:scurl-detector_3
-      category: misc
       labels: [scala3]
     - name: zio-elasticsearch
       github_id: lambdaworks/zio-elasticsearch
@@ -183,7 +178,6 @@ projects:
       labels: [scala3, scalajs]
     - name: sangria
       github_id: sangria-graphql/sangria
-      category: misc
       labels: [scala3]
     - name: scala-forklift
       github_id: lastland/scala-forklift
@@ -840,104 +834,74 @@ projects:
       category: test
     - name: akka-quartz-scheduler
       github_id: enragedginger/akka-quartz-scheduler
-      category: misc
       labels: [scala3]
     - name: op-rabbit
       github_id: spingo/op-rabbit
-      category: misc
     - name: scaloid
       github_id: pocorall/scaloid
-      category: misc
     - name: scala-xgettext
       github_id: xitrum-framework/scala-xgettext
-      category: misc
     - name: cilib
       github_id: ciren/cilib
-      category: misc
     - name: sbt-android
       github_id: scala-android/sbt-android
-      category: misc
     - name: scaposer
       github_id: xitrum-framework/scaposer
-      category: misc
     - name: scalafx
       github_id: scalafx/scalafx
-      category: misc
       labels: [scala3]
     - name: sevenz4s
       github_id: gonearewe/sevenz4s
-      category: misc
     - name: scala-stm
       github_id: nbronson/scala-stm
-      category: misc
     - name: figlet4s
       github_id: colofabrix/figlet4s
-      category: misc
     - name: service-chassis
       github_id: allawala/service-chassis
-      category: misc
     - name: fs2-aws
       github_id: laserdisc-io/fs2-aws
-      category: misc
       labels: [scala3]
     - name: eclair
       github_id: acinq/eclair
-      category: misc
     - name: google-api-scala
       github_id: eckerdcollege/google-api-scala
-      category: misc
     - name: mailgun4s
       github_id: outr/mailgun4s
-      category: misc
       labels: [scala3]
     - name: miniboxing-plugin
       github_id: miniboxing/miniboxing-plugin
-      category: misc
     - name: google4s
       github_id: toknapp/google4s
-      category: misc
     - name: spliff
       github_id: sirthias/spliff
-      category: misc
       labels: [scala3, scalajs]
     - name: aptus-core
       github_id: aptusproject/aptus-core
-      category: misc
       labels: [scala3]
     - name: ostinato
       github_id: marianogappa/ostinato
-      category: misc
     - name: fansi
       github_id: com-lihaoyi/fansi
-      category: misc
       labels: [scala3, scalajs]
     - name: scala-ssh
       github_id: sirthias/scala-ssh
-      category: misc
       labels: [scala3]
     - name: managerial
       github_id: dvgica/managerial
-      category: misc
       labels: [scala3]
     - name: bootzooka
       github_id: softwaremill/bootzooka
-      category: misc
     - name: replesent
       github_id: marconilanna/replesent
-      category: misc
     - name: play-swagger
       github_id: iheartradio/play-swagger
-      category: misc
     - name: pprint
       github_id: com-lihaoyi/pprint
-      category: misc
       labels: [scala3, scalajs]
     - name: aws4s
       github_id: aws4s/aws4s
-      category: misc
     - name: pureconfig
       github_id: pureconfig/pureconfig
-      category: misc
       labels: [scala3]
     - name: aws-request-signer
       github_id: ticofab/aws-request-signer
@@ -977,22 +941,17 @@ projects:
       category: sec
     - name: scalafiddle-editor
       github_id: scalafiddle/scalafiddle-editor
-      category: misc
     - name: skuber
       github_id: hagay3/skuber
-      category: misc
       labels: [scala3]
     - name: scowl
       github_id: phenoscape/scowl
-      category: misc
       labels: [scala3]
     - name: banana-rdf
       github_id: banana-rdf/banana-rdf
-      category: misc
       labels: [scalajs]
     - name: metrics-scala
       github_id: erikvanoosten/metrics-scala
-      category: misc
       labels: [scala3]
     - name: scrooge
       github_id: twitter/scrooge
@@ -1047,50 +1006,37 @@ projects:
       category: data
     - name: geotrellis
       github_id: locationtech/geotrellis
-      category: misc
     - name: decline
       github_id: bkirwi/decline
-      category: misc
       labels: [scala3, scalajs]
     - name: rtree2d
       github_id: plokhotnyuk/rtree2d
-      category: misc
       labels: [scala3, scalajs]
     - name: scopt
       github_id: scopt/scopt
-      category: misc
       labels: [scala3, scalajs]
     - name: osm4scala
       github_id: simplexspatial/osm4scala
-      category: misc
     - name: sfcurve
       github_id: locationtech/sfcurve
-      category: misc
     - name: xs4s
       github_id: scalawilliam/xs4s
-      category: misc
       labels: [scala3]
     - name: scallop
       github_id: scallop/scallop
-      category: misc
       labels: [scala3, scalajs]
     - name: clist
       github_id: backuity/clist
-      category: misc
     - name: scala-scraper
       github_id: ruippeixotog/scala-scraper
-      category: misc
       labels: [scala3]
     - name: franklin
       github_id: azavea/franklin
-      category: misc
     - name: mainargs
       github_id: com-lihaoyi/mainargs
-      category: misc
       labels: [scala3, scalajs]
     - name: stac4s
       github_id: stac-utils/stac4s
-      category: misc
       labels: [scalajs]
     - name: scallion
       github_id: epfl-lara/scallion
