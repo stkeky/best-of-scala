@@ -16,9 +16,6 @@ categories:
     - category: db-clients
       title: Database Clients
       subtitle: Libraries for connecting to, operating, and querying databases.
-    - category: ecosystems
-      title: Ecosystems
-      subtitle: Extensions and platforms that provide various abstractions.
     - category: json
       title: JSON
       subtitle: Libraries that handle JSON format.
@@ -31,6 +28,7 @@ categories:
       title: SBT Plugins
     - category: toolkits
       title: Toolkits, Extensions & Ecosystems
+      subtitle: Extensions and platforms that provide various abstractions.
     - category: media
       title: Media Processing
       subtitle: Libraries for audio, image, and video handling and processing
@@ -114,7 +112,7 @@ projects:
     - name: zio
       github_id: zio/zio
       maven_id: dev.zio:zio_2.13
-      category: ecosystems
+      category: toolkits
       labels: [scala3, scalajs]
     - name: argonaut
       github_id: argonaut-io/argonaut
