@@ -25,44 +25,45 @@ categories:
     - category: web-frameworks
       title: Web Frameworks
     - category: csv-yaml
-      title: File processing
+      title: File Processing
       subtitle: Libraries that handle common file formats including YAML, CSV, etc.
     - category: sbt
       title: SBT Plugins
     - category: toolkits
-      title: Toolkits, extensions & ecosystems
+      title: Toolkits, Extensions & Ecosystems
     - category: media
-      title: Media processing
+      title: Media Processing
       subtitle: Libraries for audio, image, and video handling and processing
     - category: di
-      title: Dependency injection
+      title: Dependency Injection
     - category: http
       title: HTTP
       subtitle: HTTP clients and servers
     - category: test
       title: Testing
-      title: Libraries and frameworks for various types of code testing
+      subtitle: Libraries and frameworks for various types of code testing
     - category: sec
-      title: Libraries for security, authentication, and cryptography
+      title: Security
+      subtitle: Libraries for security, authentication, and cryptography
     - category: data
-      title: Data handling
+      title: Data Handling
       subtitle: Libraries for data binding, validation, and serialization
     - category: parsers
       title: Parsers
       subtitle: Libraries for creating custom parsers
     - category: reactive
-      title: Reactive programming
+      title: Reactive Programming
       subtitle: Reactive programming libraries (streams, observables...)
     - category: env
-      title: Development environment
+      title: Development Environment
       subtitle: Various tooling libraries that help with the overall Scala programming environment
     - category: templating
-      title: Templating engines
+      title: Templating Engines
     - category: sci
-      title: Business intelligence
+      title: Business Intelligence
       subtitle: Libraries for data analysis, machine learning, and AI
     - category: bigdata
-      title: Big data
+      title: Big Data
       subtitle: Libraries for processing and handling big data sets
     - category: distributed
       title: Distributed
