@@ -66,6 +66,9 @@ categories:
     - category: scala-js
       title: ScalaJS
       subtitle: Libraries purely built for Scala.js
+    - category: logging
+      title: Logging
+      subtitle: Libraries for working with and generating logs.
 labels:
    - label: zio
      image: https://zio.dev/img/navbar_brand.png
@@ -531,7 +534,7 @@ projects:
       category: sbt
     - name: tinylog
       github_id: tinylog-org/tinylog
-      category: toolkits
+      category: logging
     - name: larray
       github_id: xerial/larray
       category: toolkits
@@ -574,7 +577,7 @@ projects:
       labels: [scala3, scalajs]
     - name: scala-logging
       github_id: lightbend-labs/scala-logging
-      category: toolkits
+      category: logging
       labels: [scala3]
     - name: Monocle
       github_id: optics-dev/monocle
@@ -605,7 +608,7 @@ projects:
       labels: [scala3, scalajs]
     - name: log4s
       github_id: Log4s/log4s
-      category: toolkits
+      category: logging
       labels: [scala3, scalajs]
     - name: each
       github_id: ThoughtWorksInc/each
@@ -625,7 +628,7 @@ projects:
       labels: [scala3]
     - name: blindsight
       github_id: tersesystems/blindsight
-      category: toolkits
+      category: logging
       labels: [scala3]
     - name: better-files
       github_id: pathikrit/better-files
