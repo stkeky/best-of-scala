@@ -1406,3 +1406,7 @@ projects:
       github_id: norbert-radyk/spoiwo
       category: csv-yaml
       labels: [scala3]
+    - name: zio-dynamodb
+      github_id: zio/zio-dynamodb
+      category: db-clients
+      labels: [zio, scala3]
