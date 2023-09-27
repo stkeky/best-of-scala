@@ -1402,3 +1402,7 @@ projects:
       github_id: apache/incubator-pekko
       category: distributed
       labels: [scala3]
+    - name: spoiwo
+      github_id: norbert-radyk/spoiwo
+      category: csv-yaml
+      labels: [scala3]
