@@ -1414,3 +1414,6 @@ projects:
       github_id: softwaremill/ox
       category: toolkits
       labels: [scala3]
+    - name: Snowplow
+      github_id: snowplow/snowplow
+      category: sci
