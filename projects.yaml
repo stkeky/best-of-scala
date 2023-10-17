@@ -1410,3 +1410,7 @@ projects:
       github_id: zio/zio-dynamodb
       category: db-clients
       labels: [zio, scala3]
+    - name: ox
+      github_id: softwaremill/ox
+      category: toolkits
+      labels: [scala3]
