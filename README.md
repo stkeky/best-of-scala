@@ -16,7 +16,7 @@
     <a href="https://github.com/stkeky/best-of-scala/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/stkeky/best-of-scala?color=green&label=updated"></a>
 </p>
 
-This curated list contains 390 awesome open-source projects with a total of 380K stars grouped into 22 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/stkeky/best-of-scala/issues/new/choose), submit a [pull request](https://github.com/stkeky/best-of-scala/pulls), or directly edit the [projects.yaml](https://github.com/stkeky/best-of-scala/edit/main/projects.yaml). Contributions are very welcome!
+This curated list contains 390 awesome open-source projects with a total of 390K stars grouped into 22 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/stkeky/best-of-scala/issues/new/choose), submit a [pull request](https://github.com/stkeky/best-of-scala/pulls), or directly edit the [projects.yaml](https://github.com/stkeky/best-of-scala/edit/main/projects.yaml). Contributions are very welcome!
 
 > 🧙‍♂️  Discover other [best-of lists](https://best-of.org) or [create your own](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
 
@@ -28,7 +28,7 @@ This curated list contains 390 awesome open-source projects with a total of 380K
 - [Web Frameworks](#web-frameworks) _17 projects_
 - [File Processing](#file-processing) _7 projects_
 - [SBT Plugins](#sbt-plugins) _36 projects_
-- [Toolkits, Extensions & Ecosystems](#toolkits-extensions--ecosystems) _32 projects_
+- [Toolkits, Extensions & Ecosystems](#toolkits-extensions--ecosystems) _33 projects_
 - [Media Processing](#media-processing) _7 projects_
 - [Dependency Injection](#dependency-injection) _8 projects_
 - [HTTP](#http) _17 projects_
@@ -39,7 +39,7 @@ This curated list contains 390 awesome open-source projects with a total of 380K
 - [Reactive Programming](#reactive-programming) _11 projects_
 - [Development Environment](#development-environment) _9 projects_
 - [Templating Engines](#templating-engines) _5 projects_
-- [Business Intelligence](#business-intelligence) _26 projects_
+- [Business Intelligence](#business-intelligence) _27 projects_
 - [Big Data](#big-data) _14 projects_
 - [Distributed](#distributed) _11 projects_
 - [ScalaJS](#scalajs) _7 projects_
@@ -76,7 +76,7 @@ _Tools for compiling, testing, packaging, formatting, linting, ... your Scala co
 
 <details><summary><b><a href="https://github.com/gitbucket/gitbucket">gitbucket</a></b> (🥇33 ·  ⭐ 9K) - A Git platform powered by Scala with easy installation, high.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/gitbucket/gitbucket) (👨‍💻 200 · 🔀 1.2K · 📥 760K · 📦 18 · 📋 1.8K - 18% open · ⏱️ 10.10.2023):
+- [GitHub](https://github.com/gitbucket/gitbucket) (👨‍💻 200 · 🔀 1.2K · 📥 760K · 📦 19 · 📋 1.8K - 18% open · ⏱️ 18.10.2023):
 
 	```
 	git clone https://github.com/gitbucket/gitbucket
@@ -84,7 +84,7 @@ _Tools for compiling, testing, packaging, formatting, linting, ... your Scala co
 </details>
 <details><summary><b><a href="https://github.com/sbt/sbt">sbt</a></b> (🥇33 ·  ⭐ 4.7K) - sbt, the interactive build tool. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/sbt/sbt) (👨‍💻 410 · 🔀 920 · 📥 12M · 📋 4.1K - 18% open · ⏱️ 12.10.2023):
+- [GitHub](https://github.com/sbt/sbt) (👨‍💻 410 · 🔀 920 · 📥 12M · 📋 4.1K - 18% open · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/sbt/sbt
@@ -92,7 +92,7 @@ _Tools for compiling, testing, packaging, formatting, linting, ... your Scala co
 </details>
 <details><summary><b><a href="https://github.com/com-lihaoyi/mill">mill</a></b> (🥈29 ·  ⭐ 1.9K) - Your shiny new Java/Scala build tool!. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/com-lihaoyi/mill) (👨‍💻 200 · 🔀 280 · 📥 1.2M · 📋 780 - 13% open · ⏱️ 12.10.2023):
+- [GitHub](https://github.com/com-lihaoyi/mill) (👨‍💻 200 · 🔀 280 · 📥 1.2M · 📋 780 - 13% open · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/com-lihaoyi/mill
@@ -100,7 +100,7 @@ _Tools for compiling, testing, packaging, formatting, linting, ... your Scala co
 </details>
 <details><summary><b><a href="https://github.com/scalameta/metals">metals</a></b> (🥈26 ·  ⭐ 1.9K) - Scala language server with rich IDE features. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/scalameta/metals) (👨‍💻 170 · 🔀 300 · 📥 29 · 📋 1.7K - 15% open · ⏱️ 12.10.2023):
+- [GitHub](https://github.com/scalameta/metals) (👨‍💻 170 · 🔀 300 · 📥 29 · 📋 1.7K - 15% open · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/scalameta/metals
@@ -108,7 +108,7 @@ _Tools for compiling, testing, packaging, formatting, linting, ... your Scala co
 </details>
 <details><summary><b><a href="https://github.com/scalacenter/bloop">bloop</a></b> (🥈26 ·  ⭐ 860) - Bloop is a build server and CLI tool to compile, test and run.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/scalacenter/bloop) (👨‍💻 140 · 🔀 190 · 📥 160K · 📋 720 - 17% open · ⏱️ 11.10.2023):
+- [GitHub](https://github.com/scalacenter/bloop) (👨‍💻 140 · 🔀 190 · 📥 170K · 📋 720 - 17% open · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/scalacenter/bloop
@@ -116,7 +116,7 @@ _Tools for compiling, testing, packaging, formatting, linting, ... your Scala co
 </details>
 <details><summary><b><a href="https://github.com/VirtusLab/scala-cli">scala-cli</a></b> (🥈26 ·  ⭐ 440) - Scala CLI is a command-line tool to interact with the Scala.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/VirtusLab/scala-cli) (👨‍💻 67 · 🔀 94 · 📥 580K · 📋 700 - 25% open · ⏱️ 12.10.2023):
+- [GitHub](https://github.com/VirtusLab/scala-cli) (👨‍💻 68 · 🔀 94 · 📥 600K · 📋 700 - 25% open · ⏱️ 17.10.2023):
 
 	```
 	git clone https://github.com/VirtusLab/scala-cli
@@ -124,7 +124,7 @@ _Tools for compiling, testing, packaging, formatting, linting, ... your Scala co
 </details>
 <details><summary><b><a href="https://github.com/foundweekends/giter8">giter8</a></b> (🥉23 ·  ⭐ 1.7K) - a command line tool to apply templates defined on GitHub. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/foundweekends/giter8) (👨‍💻 83 · 🔀 230 · 📋 270 - 16% open · ⏱️ 21.09.2023):
+- [GitHub](https://github.com/foundweekends/giter8) (👨‍💻 83 · 🔀 230 · 📋 270 - 15% open · ⏱️ 14.10.2023):
 
 	```
 	git clone https://github.com/foundweekends/giter8
@@ -132,7 +132,7 @@ _Tools for compiling, testing, packaging, formatting, linting, ... your Scala co
 </details>
 <details><summary><b><a href="https://github.com/scalacenter/scalafix">scalafix</a></b> (🥉22 ·  ⭐ 770) - Refactoring and linting tool for Scala. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/scalacenter/scalafix) (👨‍💻 100 · 🔀 170 · 📥 35 · 📋 650 - 10% open · ⏱️ 12.09.2023):
+- [GitHub](https://github.com/scalacenter/scalafix) (👨‍💻 100 · 🔀 170 · 📥 35 · 📋 650 - 10% open · ⏱️ 15.10.2023):
 
 	```
 	git clone https://github.com/scalacenter/scalafix
@@ -140,7 +140,7 @@ _Tools for compiling, testing, packaging, formatting, linting, ... your Scala co
 </details>
 <details><summary><b><a href="https://github.com/wartremover/wartremover">wartremover</a></b> (🥉20 ·  ⭐ 1K) - Flexible Scala code linting tool. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/wartremover/wartremover) (👨‍💻 58 · 🔀 120 · 📥 490 · 📋 340 - 31% open · ⏱️ 10.10.2023):
+- [GitHub](https://github.com/wartremover/wartremover) (👨‍💻 58 · 🔀 120 · 📥 490 · 📋 340 - 31% open · ⏱️ 12.10.2023):
 
 	```
 	git clone https://github.com/wartremover/wartremover
@@ -148,7 +148,7 @@ _Tools for compiling, testing, packaging, formatting, linting, ... your Scala co
 </details>
 <details><summary><b><a href="https://github.com/scapegoat-scala/scapegoat">scapegoat</a></b> (🥉20 ·  ⭐ 490) - Scala compiler plugin for static code analysis. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/scapegoat-scala/scapegoat) (👨‍💻 63 · 🔀 82 · 📋 240 - 17% open · ⏱️ 27.09.2023):
+- [GitHub](https://github.com/scapegoat-scala/scapegoat) (👨‍💻 63 · 🔀 82 · 📋 240 - 17% open · ⏱️ 18.10.2023):
 
 	```
 	git clone https://github.com/scapegoat-scala/scapegoat
@@ -166,7 +166,7 @@ _Tools for compiling, testing, packaging, formatting, linting, ... your Scala co
 
 - <b><a href="https://github.com/scala-ide/scalariform">scalariform</a></b> (🥉18 ·  ⭐ 530 · 💀) - Scala source code formatter. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/scalastyle/scalastyle">scalastyle</a></b> (🥉16 ·  ⭐ 680 · 💀) - scalastyle. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
-- <b><a href="https://github.com/propensive/fury">fury</a></b> (🥉13 ·  ⭐ 12) - A build tool for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://github.com/propensive/fury">fury</a></b> (🥉13 ·  ⭐ 13) - A build tool for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 - <b><a href="https://github.com/codacy/codacy-scalameta">codacy-scalameta</a></b> (🥉10 ·  ⭐ 35) - Codacy tool for Scalameta. <code>❗Unlicensed</code>
 </details>
 <br>
@@ -179,7 +179,7 @@ _Libraries for connecting to, operating, and querying databases._
 
 <details><summary><b><a href="https://github.com/slick/slick">slick</a></b> (🥇25 ·  ⭐ 2.6K) - Slick (Scala Language Integrated Connection Kit) is a modern.. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/slick/slick) (👨‍💻 200 · 🔀 620 · 📋 1.4K - 30% open · ⏱️ 15.09.2023):
+- [GitHub](https://github.com/slick/slick) (👨‍💻 200 · 🔀 620 · 📋 1.4K - 30% open · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/slick/slick
@@ -187,7 +187,7 @@ _Libraries for connecting to, operating, and querying databases._
 </details>
 <details><summary><b><a href="https://github.com/tpolecat/doobie">doobie</a></b> (🥇25 ·  ⭐ 2.1K) - Functional JDBC layer for Scala. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/tpolecat/doobie) (👨‍💻 170 · 🔀 340 · 📋 530 - 27% open · ⏱️ 04.10.2023):
+- [GitHub](https://github.com/tpolecat/doobie) (👨‍💻 170 · 🔀 340 · 📋 530 - 27% open · ⏱️ 17.10.2023):
 
 	```
 	git clone https://github.com/tpolecat/doobie
@@ -211,7 +211,7 @@ _Libraries for connecting to, operating, and querying databases._
 </details>
 <details><summary><b><a href="https://github.com/zio/zio-quill">quill</a></b> (🥇24 ·  ⭐ 2.1K) - Compile-time Language Integrated Queries for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://zio.dev/img/navbar_brand.png" style="display:inline;" width="13" height="13"></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/zio/zio-quill) (👨‍💻 150 · 🔀 340 · 📋 1.1K - 29% open · ⏱️ 10.10.2023):
+- [GitHub](https://github.com/zio/zio-quill) (👨‍💻 150 · 🔀 340 · 📋 1.1K - 29% open · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/zio/zio-quill
@@ -219,7 +219,7 @@ _Libraries for connecting to, operating, and querying databases._
 </details>
 <details><summary><b><a href="https://github.com/scalikejdbc/scalikejdbc">scalikejdbc</a></b> (🥇23 ·  ⭐ 1.2K) - A tidy SQL-based DB access library for Scala developers... <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/scalikejdbc/scalikejdbc) (👨‍💻 100 · 🔀 220 · 📋 480 - 5% open · ⏱️ 09.10.2023):
+- [GitHub](https://github.com/scalikejdbc/scalikejdbc) (👨‍💻 100 · 🔀 220 · 📋 480 - 5% open · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/scalikejdbc/scalikejdbc
@@ -251,7 +251,7 @@ _Libraries for connecting to, operating, and querying databases._
 </details>
 <details><summary><b><a href="https://github.com/scanamo/scanamo">scanamo</a></b> (🥈20 ·  ⭐ 320) - Simpler DynamoDB access for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/scanamo/scanamo) (👨‍💻 84 · 🔀 120 · 📋 230 - 32% open · ⏱️ 15.09.2023):
+- [GitHub](https://github.com/scanamo/scanamo) (👨‍💻 85 · 🔀 120 · 📋 230 - 32% open · ⏱️ 18.10.2023):
 
 	```
 	git clone https://github.com/scanamo/scanamo
@@ -259,7 +259,7 @@ _Libraries for connecting to, operating, and querying databases._
 </details>
 <details><summary><b><a href="https://github.com/ReactiveMongo/ReactiveMongo">ReactiveMongo</a></b> (🥈19 ·  ⭐ 850) - Non-blocking, Reactive MongoDB Driver for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/ReactiveMongo/ReactiveMongo) (👨‍💻 88 · 🔀 230 · 📋 390 - 4% open · ⏱️ 07.10.2023):
+- [GitHub](https://github.com/ReactiveMongo/ReactiveMongo) (👨‍💻 88 · 🔀 230 · 📋 390 - 4% open · ⏱️ 15.10.2023):
 
 	```
 	git clone https://github.com/ReactiveMongo/ReactiveMongo
@@ -275,7 +275,7 @@ _Libraries for connecting to, operating, and querying databases._
 </details>
 <details><summary><b><a href="https://github.com/squeryl/squeryl">squeryl</a></b> (🥈17 ·  ⭐ 580) - A Scala DSL for talking with databases with minimum verbosity.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/squeryl/squeryl) (👨‍💻 60 · 🔀 140 · 📋 150 - 26% open · ⏱️ 26.09.2023):
+- [GitHub](https://github.com/squeryl/squeryl) (👨‍💻 60 · 🔀 140 · 📋 150 - 26% open · ⏱️ 13.10.2023):
 
 	```
 	git clone https://github.com/squeryl/squeryl
@@ -283,7 +283,7 @@ _Libraries for connecting to, operating, and querying databases._
 </details>
 <details><summary><b><a href="https://github.com/playframework/anorm">anorm</a></b> (🥈17 ·  ⭐ 230) - The Anorm database library. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.playframework.com/assets/images/logos/1d627942f0b2f115f8638936a212244a-play_icon_full_color.png" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/playframework/anorm) (👨‍💻 55 · 🔀 71 · 📋 69 - 10% open · ⏱️ 18.09.2023):
+- [GitHub](https://github.com/playframework/anorm) (👨‍💻 55 · 🔀 71 · 📋 69 - 10% open · ⏱️ 17.10.2023):
 
 	```
 	git clone https://github.com/playframework/anorm
@@ -307,7 +307,7 @@ _Libraries for connecting to, operating, and querying databases._
 </details>
 <details><summary><b><a href="https://github.com/zio/zio-redis">zio-redis</a></b> (🥈16 ·  ⭐ 110) - A ZIO-based redis client. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://zio.dev/img/navbar_brand.png" style="display:inline;" width="13" height="13"></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/zio/zio-redis) (👨‍💻 39 · 🔀 61 · 📋 130 - 15% open · ⏱️ 27.09.2023):
+- [GitHub](https://github.com/zio/zio-redis) (👨‍💻 39 · 🔀 61 · 📋 130 - 15% open · ⏱️ 17.10.2023):
 
 	```
 	git clone https://github.com/zio/zio-redis
@@ -315,7 +315,7 @@ _Libraries for connecting to, operating, and querying databases._
 </details>
 <details><summary><b><a href="https://github.com/lambdaworks/zio-elasticsearch">zio-elasticsearch</a></b> (🥈16 ·  ⭐ 56) - ZIO Elasticsearch is a type-safe and streaming-.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://zio.dev/img/navbar_brand.png" style="display:inline;" width="13" height="13"></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/lambdaworks/zio-elasticsearch) (👨‍💻 18 · 🔀 17 · 📋 45 - 24% open · ⏱️ 03.10.2023):
+- [GitHub](https://github.com/lambdaworks/zio-elasticsearch) (👨‍💻 18 · 🔀 17 · 📋 45 - 24% open · ⏱️ 18.10.2023):
 
 	```
 	git clone https://github.com/lambdaworks/zio-elasticsearch
@@ -331,7 +331,7 @@ _Libraries for connecting to, operating, and querying databases._
 </details>
 <details><summary><b><a href="https://github.com/couchbase/couchbase-jvm-clients">couchbase-jvm-clients</a></b> (🥉15 ·  ⭐ 42) - The Couchbase Monorepo for JVM Clients: Java, Scala,.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/couchbase/couchbase-jvm-clients) (👨‍💻 22 · 🔀 36 · ⏱️ 12.10.2023):
+- [GitHub](https://github.com/couchbase/couchbase-jvm-clients) (👨‍💻 22 · 🔀 36 · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/couchbase/couchbase-jvm-clients
@@ -345,7 +345,7 @@ _Libraries for connecting to, operating, and querying databases._
 	git clone https://github.com/zio/zio-dynamodb
 	```
 </details>
-<details><summary><b><a href="https://github.com/crobox/clickhouse-scala-client">clickhouse-scala-client</a></b> (🥉14 ·  ⭐ 110) - Clickhouse Scala Client with Reactive Streams support. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/crobox/clickhouse-scala-client">clickhouse-scala-client</a></b> (🥉13 ·  ⭐ 110 · 📉) - Clickhouse Scala Client with Reactive Streams support. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/crobox/clickhouse-scala-client) (👨‍💻 17 · 🔀 22 · 📋 33 - 39% open · ⏱️ 03.10.2023):
 
@@ -371,7 +371,7 @@ _Libraries for connecting to, operating, and querying databases._
 </details>
 <details><summary>Show 22 hidden projects...</summary>
 
-- <b><a href="https://github.com/outworkers/phantom">phantom</a></b> (🥈19 ·  ⭐ 1K · 💀) - Schema safe, type-safe, reactive Scala driver for.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://github.com/outworkers/phantom">phantom</a></b> (🥈19 ·  ⭐ 1.1K · 💀) - Schema safe, type-safe, reactive Scala driver for.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 - <b><a href="https://github.com/etaty/rediscala">rediscala</a></b> (🥈17 ·  ⭐ 790 · 💀) - Non-blocking, Reactive Redis driver for Scala (with Sentinel.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 - <b><a href="https://github.com/aselab/scala-activerecord">scala-activerecord</a></b> (🥉15 ·  ⭐ 320 · 💀) - ActiveRecord-like ORM library for Scala. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/debasishg/scala-redis">scala-redis</a></b> (🥉14 ·  ⭐ 1K · 💀) - A scala library for connecting to a redis server, or a.. <code>❗Unlicensed</code>
@@ -418,14 +418,14 @@ _Libraries that handle JSON format._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/argonaut-io/argonaut">argonaut</a></b> (🥇22 ·  ⭐ 540) - Purely functional JSON parser and library in scala. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/argonaut-io/argonaut">argonaut</a></b> (🥇23 ·  ⭐ 550 · 📈) - Purely functional JSON parser and library in scala. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/argonaut-io/argonaut) (👨‍💻 59 · 🔀 110 · 📋 200 - 13% open · ⏱️ 09.10.2023):
+- [GitHub](https://github.com/argonaut-io/argonaut) (👨‍💻 59 · 🔀 110 · 📋 200 - 13% open · ⏱️ 14.10.2023):
 
 	```
 	git clone https://github.com/argonaut-io/argonaut
 	```
-- [Maven](https://search.maven.org/artifact/io.argonaut/argonaut_2.13) (📦 15 · ⏱️ 20.01.2022):
+- [Maven](https://search.maven.org/artifact/io.argonaut/argonaut_2.13) (📦 21 · ⏱️ 09.10.2023):
 	```
 	<dependency>
 		<groupId>io.argonaut</groupId>
@@ -436,7 +436,7 @@ _Libraries that handle JSON format._
 </details>
 <details><summary><b><a href="https://github.com/json4s/json4s">json4s</a></b> (🥈20 ·  ⭐ 1.5K) - JSON library. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/json4s/json4s) (👨‍💻 130 · 🔀 350 · 📋 420 - 39% open · ⏱️ 29.09.2023):
+- [GitHub](https://github.com/json4s/json4s) (👨‍💻 130 · 🔀 350 · 📋 420 - 39% open · ⏱️ 14.10.2023):
 
 	```
 	git clone https://github.com/json4s/json4s
@@ -444,7 +444,7 @@ _Libraries that handle JSON format._
 </details>
 <details><summary><b><a href="https://github.com/plokhotnyuk/jsoniter-scala">jsoniter-scala</a></b> (🥈20 ·  ⭐ 680) - Scala macros for compile-time generation of safe and.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/plokhotnyuk/jsoniter-scala) (👨‍💻 20 · 🔀 86 · 📦 1 · 📋 290 - 20% open · ⏱️ 11.10.2023):
+- [GitHub](https://github.com/plokhotnyuk/jsoniter-scala) (👨‍💻 20 · 🔀 86 · 📦 1 · 📋 290 - 20% open · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/plokhotnyuk/jsoniter-scala
@@ -468,13 +468,13 @@ _Libraries that handle JSON format._
 </details>
 <details><summary><b><a href="https://github.com/FasterXML/jackson-module-scala">jackson-module-scala</a></b> (🥉18 ·  ⭐ 490) - Add-on module for Jackson.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/FasterXML/jackson-module-scala) (👨‍💻 59 · 🔀 140 · 📋 460 - 10% open · ⏱️ 10.10.2023):
+- [GitHub](https://github.com/FasterXML/jackson-module-scala) (👨‍💻 59 · 🔀 140 · 📋 460 - 10% open · ⏱️ 16.10.2023):
 
 	```
 	git clone https://github.com/FasterXML/jackson-module-scala
 	```
 </details>
-<details><summary><b><a href="https://github.com/typelevel/jawn">jawn</a></b> (🥉18 ·  ⭐ 430 · 📉) - Jawn is for parsing jay-sawn (JSON). <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/typelevel/jawn">jawn</a></b> (🥉18 ·  ⭐ 430) - Jawn is for parsing jay-sawn (JSON). <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/typelevel/jawn) (👨‍💻 48 · 🔀 71 · 📋 69 - 18% open · ⏱️ 04.08.2023):
 
@@ -490,12 +490,20 @@ _Libraries that handle JSON format._
 	git clone https://github.com/gnieh/diffson
 	```
 </details>
-<details><summary><b><a href="https://github.com/sirthias/borer">borer</a></b> (🥉12 ·  ⭐ 200) - Efficient CBOR and JSON (de)serialization in Scala. <code><a href="http://bit.ly/3postzC">MPL-2.0</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/sirthias/borer">borer</a></b> (🥉13 ·  ⭐ 210) - Efficient CBOR and JSON (de)serialization in Scala. <code><a href="http://bit.ly/3postzC">MPL-2.0</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/sirthias/borer) (👨‍💻 9 · 🔀 13 · 📋 120 - 6% open · ⏱️ 31.07.2023):
+- [GitHub](https://github.com/sirthias/borer) (👨‍💻 9 · 🔀 13 · 📋 120 - 6% open · ⏱️ 13.10.2023):
 
 	```
 	git clone https://github.com/sirthias/borer
+	```
+</details>
+<details><summary><b><a href="https://github.com/gzoller/ScalaJack">ScalaJack</a></b> (🥉11 ·  ⭐ 110 · 💤) - Fast JSON parser/generator for Scala. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
+
+- [GitHub](https://github.com/gzoller/ScalaJack) (👨‍💻 13 · 🔀 8 · 📋 51 - 3% open · ⏱️ 15.11.2022):
+
+	```
+	git clone https://github.com/gzoller/ScalaJack
 	```
 </details>
 <details><summary><b><a href="https://github.com/nrktkt/ninny-json">ninny-json</a></b> (🥉11 ·  ⭐ 21) - JSON typeclasses that know the difference between null and.. <code><a href="http://bit.ly/3rvuUlR">Unlicense</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
@@ -504,14 +512,6 @@ _Libraries that handle JSON format._
 
 	```
 	git clone https://github.com/nrktkt/ninny-json
-	```
-</details>
-<details><summary><b><a href="https://github.com/gzoller/ScalaJack">ScalaJack</a></b> (🥉10 ·  ⭐ 110 · 💤) - Fast JSON parser/generator for Scala. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
-
-- [GitHub](https://github.com/gzoller/ScalaJack) (👨‍💻 13 · 🔀 8 · 📋 51 - 3% open · ⏱️ 15.11.2022):
-
-	```
-	git clone https://github.com/gzoller/ScalaJack
 	```
 </details>
 <details><summary>Show 5 hidden projects...</summary>
@@ -530,7 +530,7 @@ _Libraries that handle JSON format._
 
 <details><summary><b><a href="https://github.com/playframework/playframework">playframework</a></b> (🥇33 ·  ⭐ 12K) - Play Framework. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/playframework/playframework) (👨‍💻 960 · 🔀 4.1K · 📦 18 · 📋 3.7K - 12% open · ⏱️ 07.10.2023):
+- [GitHub](https://github.com/playframework/playframework) (👨‍💻 960 · 🔀 4.1K · 📦 19 · 📋 3.7K - 12% open · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/playframework/playframework
@@ -554,7 +554,7 @@ _Libraries that handle JSON format._
 </details>
 <details><summary><b><a href="https://github.com/lift/framework">framework</a></b> (🥇21 ·  ⭐ 1.3K) - Lift Framework. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/lift/framework) (👨‍💻 120 · 🔀 280 · 📋 1.5K - 9% open · ⏱️ 11.04.2023):
+- [GitHub](https://github.com/lift/framework) (👨‍💻 120 · 🔀 280 · 📋 1.5K - 10% open · ⏱️ 11.04.2023):
 
 	```
 	git clone https://github.com/lift/framework
@@ -562,7 +562,7 @@ _Libraries that handle JSON format._
 </details>
 <details><summary><b><a href="https://github.com/UdashFramework/udash-core">udash-core</a></b> (🥈20 ·  ⭐ 440) - Scala framework for building beautiful and maintainable web.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/UdashFramework/udash-core) (👨‍💻 37 · 🔀 36 · 📋 120 - 25% open · ⏱️ 06.10.2023):
+- [GitHub](https://github.com/UdashFramework/udash-core) (👨‍💻 37 · 🔀 36 · 📋 120 - 25% open · ⏱️ 13.10.2023):
 
 	```
 	git clone https://github.com/UdashFramework/udash-core
@@ -594,7 +594,7 @@ _Libraries that handle JSON format._
 </details>
 <details><summary><b><a href="https://github.com/unfiltered/unfiltered">unfiltered</a></b> (🥉17 ·  ⭐ 710) - A toolkit for servicing HTTP requests in Scala. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/unfiltered/unfiltered) (👨‍💻 88 · 🔀 110 · 📋 210 - 30% open · ⏱️ 10.10.2023):
+- [GitHub](https://github.com/unfiltered/unfiltered) (👨‍💻 88 · 🔀 110 · 📋 210 - 30% open · ⏱️ 17.10.2023):
 
 	```
 	git clone https://github.com/unfiltered/unfiltered
@@ -634,9 +634,9 @@ _Libraries that handle JSON format._
 
 _Libraries that handle common file formats including YAML, CSV, etc._
 
-<details><summary><b><a href="https://github.com/typelevel/Laika">laika</a></b> (🥇20 ·  ⭐ 390 · 📉) - Site and E-book Generator and Customizable Text Markup.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/typelevel/Laika">laika</a></b> (🥇20 ·  ⭐ 390) - Site and E-book Generator and Customizable Text Markup.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/typelevel/Laika) (👨‍💻 19 · 🔀 42 · 📋 220 - 4% open · ⏱️ 24.09.2023):
+- [GitHub](https://github.com/typelevel/Laika) (👨‍💻 19 · 🔀 42 · 📋 220 - 4% open · ⏱️ 18.10.2023):
 
 	```
 	git clone https://github.com/typelevel/Laika
@@ -680,7 +680,7 @@ _Libraries that handle common file formats including YAML, CSV, etc._
 
 <details><summary><b><a href="https://github.com/coursier/coursier">coursier</a></b> (🥇28 ·  ⭐ 2K) - Pure Scala Artifact Fetching. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/coursier/coursier) (👨‍💻 140 · 🔀 290 · 📥 9.1M · 📋 1.1K - 33% open · ⏱️ 09.09.2023):
+- [GitHub](https://github.com/coursier/coursier) (👨‍💻 140 · 🔀 290 · 📥 9.2M · 📋 1.1K - 33% open · ⏱️ 09.09.2023):
 
 	```
 	git clone https://github.com/coursier/coursier
@@ -712,15 +712,15 @@ _Libraries that handle common file formats including YAML, CSV, etc._
 </details>
 <details><summary><b><a href="https://github.com/lightbend/mima">mima</a></b> (🥇20 ·  ⭐ 440) - A tool for catching binary incompatibility in Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/lightbend/mima) (👨‍💻 48 · 🔀 67 · 📋 210 - 12% open · ⏱️ 25.09.2023):
+- [GitHub](https://github.com/lightbend/mima) (👨‍💻 48 · 🔀 67 · 📋 210 - 12% open · ⏱️ 16.10.2023):
 
 	```
 	git clone https://github.com/lightbend/mima
 	```
 </details>
-<details><summary><b><a href="https://github.com/scalameta/mdoc">mdoc</a></b> (🥇20 ·  ⭐ 370 · 📈) - Typechecked markdown documentation for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/scalameta/mdoc">mdoc</a></b> (🥇20 ·  ⭐ 370) - Typechecked markdown documentation for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/scalameta/mdoc) (👨‍💻 45 · 🔀 71 · 📋 200 - 26% open · ⏱️ 12.10.2023):
+- [GitHub](https://github.com/scalameta/mdoc) (👨‍💻 46 · 🔀 74 · 📋 200 - 27% open · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/scalameta/mdoc
@@ -776,7 +776,7 @@ _Libraries that handle common file formats including YAML, CSV, etc._
 </details>
 <details><summary><b><a href="https://github.com/scalameta/sbt-scalafmt">sbt-scalafmt</a></b> (🥈18 ·  ⭐ 170) - sbt plugin for Scalafmt. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/scalameta/sbt-scalafmt) (👨‍💻 27 · 🔀 35 · 📋 62 - 4% open · ⏱️ 18.09.2023):
+- [GitHub](https://github.com/scalameta/sbt-scalafmt) (👨‍💻 27 · 🔀 35 · 📋 63 - 4% open · ⏱️ 18.09.2023):
 
 	```
 	git clone https://github.com/scalameta/sbt-scalafmt
@@ -800,7 +800,7 @@ _Libraries that handle common file formats including YAML, CSV, etc._
 </details>
 <details><summary><b><a href="https://github.com/sbt/sbt-ci-release">sbt-ci-release</a></b> (🥈17 ·  ⭐ 270) - sbt plugin to automate Sonatype releases from GitHub Actions. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/sbt/sbt-ci-release) (👨‍💻 55 · 🔀 65 · 📋 81 - 17% open · ⏱️ 27.09.2023):
+- [GitHub](https://github.com/sbt/sbt-ci-release) (👨‍💻 55 · 🔀 66 · 📋 81 - 17% open · ⏱️ 27.09.2023):
 
 	```
 	git clone https://github.com/sbt/sbt-ci-release
@@ -816,26 +816,26 @@ _Libraries that handle common file formats including YAML, CSV, etc._
 </details>
 <details><summary><b><a href="https://github.com/earldouglas/xsbt-web-plugin">xsbt-web-plugin</a></b> (🥉16 ·  ⭐ 380) - Servlet support for sbt. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/earldouglas/xsbt-web-plugin) (👨‍💻 33 · 🔀 98 · 📋 260 - 4% open · ⏱️ 07.10.2023):
+- [GitHub](https://github.com/earldouglas/xsbt-web-plugin) (👨‍💻 33 · 🔀 98 · 📋 260 - 4% open · ⏱️ 14.10.2023):
 
 	```
 	git clone https://github.com/earldouglas/xsbt-web-plugin
 	```
 </details>
-<details><summary><b><a href="https://github.com/tkawachi/sbt-doctest">sbt-doctest</a></b> (🥉16 ·  ⭐ 180) - Doctest for scala. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/sbt/sbt-git">sbt-git</a></b> (🥉16 ·  ⭐ 340 · 💤) - A git plugin for sbt. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
-- [GitHub](https://github.com/tkawachi/sbt-doctest) (👨‍💻 26 · 🔀 27 · 📋 62 - 24% open · ⏱️ 30.09.2023):
-
-	```
-	git clone https://github.com/tkawachi/sbt-doctest
-	```
-</details>
-<details><summary><b><a href="https://github.com/sbt/sbt-git">sbt-git</a></b> (🥉15 ·  ⭐ 340 · 💤) - A git plugin for sbt. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
-
-- [GitHub](https://github.com/sbt/sbt-git) (👨‍💻 50 · 🔀 95 · 📋 110 - 25% open · ⏱️ 22.11.2022):
+- [GitHub](https://github.com/sbt/sbt-git) (👨‍💻 50 · 🔀 96 · 📋 110 - 25% open · ⏱️ 22.11.2022):
 
 	```
 	git clone https://github.com/sbt/sbt-git
+	```
+</details>
+<details><summary><b><a href="https://github.com/tkawachi/sbt-doctest">sbt-doctest</a></b> (🥉16 ·  ⭐ 180) - Doctest for scala. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/tkawachi/sbt-doctest) (👨‍💻 26 · 🔀 27 · 📋 62 - 24% open · ⏱️ 16.10.2023):
+
+	```
+	git clone https://github.com/tkawachi/sbt-doctest
 	```
 </details>
 <details><summary><b><a href="https://github.com/albuch/sbt-dependency-check">sbt-dependency-check</a></b> (🥉15 ·  ⭐ 260) - SBT Plugin for OWASP DependencyCheck. Monitor your.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
@@ -856,7 +856,7 @@ _Libraries that handle common file formats including YAML, CSV, etc._
 </details>
 <details><summary><b><a href="https://github.com/tek/splain">splain</a></b> (🥉14 ·  ⭐ 370) - better implicit errors for scala. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/tek/splain) (👨‍💻 18 · 🔀 30 · 📥 160 · 📋 68 - 20% open · ⏱️ 12.10.2023):
+- [GitHub](https://github.com/tek/splain) (👨‍💻 18 · 🔀 30 · 📥 180 · 📋 68 - 20% open · ⏱️ 12.10.2023):
 
 	```
 	git clone https://github.com/tek/splain
@@ -886,7 +886,7 @@ _Libraries that handle common file formats including YAML, CSV, etc._
 	git clone https://github.com/Jetbrains/sbt-ide-settings
 	```
 </details>
-<details><summary><b><a href="https://github.com/ThoughtWorksInc/sbt-scala-js-map">sbt-scala-js-map</a></b> (🥉12 ·  ⭐ 36) - A Sbt plugin that configures source mapping for.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/ThoughtWorksInc/sbt-scala-js-map">sbt-scala-js-map</a></b> (🥉11 ·  ⭐ 36 · 📉) - A Sbt plugin that configures source mapping for.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/ThoughtWorksInc/sbt-scala-js-map) (👨‍💻 4 · 🔀 3 · 📋 5 - 60% open · ⏱️ 15.07.2023):
 
@@ -916,7 +916,7 @@ _Extensions and platforms that provide various abstractions._
 
 <details><summary><b><a href="https://github.com/zio/zio">zio</a></b> (🥇32 ·  ⭐ 3.9K) - ZIO A type-safe, composable library for async and concurrent.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/zio/zio) (👨‍💻 680 · 🔀 1.2K · 📋 2.4K - 15% open · ⏱️ 12.10.2023):
+- [GitHub](https://github.com/zio/zio) (👨‍💻 680 · 🔀 1.2K · 📋 2.4K - 15% open · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/zio/zio
@@ -930,7 +930,15 @@ _Extensions and platforms that provide various abstractions._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/com-lihaoyi/Ammonite">ammonite</a></b> (🥇27 ·  ⭐ 2.6K) - Scala Scripting. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/milessabin/shapeless">shapeless</a></b> (🥇26 ·  ⭐ 3.3K · 📈) - Generic programming for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
+
+- [GitHub](https://github.com/milessabin/shapeless) (👨‍💻 150 · 🔀 540 · 📦 110 · 📋 420 - 8% open · ⏱️ 19.10.2023):
+
+	```
+	git clone https://github.com/milessabin/shapeless
+	```
+</details>
+<details><summary><b><a href="https://github.com/com-lihaoyi/Ammonite">ammonite</a></b> (🥇26 ·  ⭐ 2.6K · 📉) - Scala Scripting. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/com-lihaoyi/Ammonite) (👨‍💻 140 · 🔀 370 · 📥 870K · 📋 800 - 15% open · ⏱️ 29.09.2023):
 
@@ -938,17 +946,9 @@ _Extensions and platforms that provide various abstractions._
 	git clone https://github.com/com-lihaoyi/ammonite
 	```
 </details>
-<details><summary><b><a href="https://github.com/milessabin/shapeless">shapeless</a></b> (🥇25 ·  ⭐ 3.3K) - Generic programming for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
-
-- [GitHub](https://github.com/milessabin/shapeless) (👨‍💻 150 · 🔀 540 · 📦 110 · 📋 420 - 8% open · ⏱️ 27.09.2023):
-
-	```
-	git clone https://github.com/milessabin/shapeless
-	```
-</details>
 <details><summary><b><a href="https://github.com/fthomas/refined">refined</a></b> (🥈24 ·  ⭐ 1.7K) - Refinement types for Scala. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/fthomas/refined) (👨‍💻 77 · 🔀 150 · 📋 220 - 31% open · ⏱️ 08.10.2023):
+- [GitHub](https://github.com/fthomas/refined) (👨‍💻 77 · 🔀 150 · 📋 220 - 31% open · ⏱️ 18.10.2023):
 
 	```
 	git clone https://github.com/fthomas/refined
@@ -964,18 +964,10 @@ _Extensions and platforms that provide various abstractions._
 </details>
 <details><summary><b><a href="https://github.com/optics-dev/Monocle">Monocle</a></b> (🥈22 ·  ⭐ 1.6K) - Optics library for Scala. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/optics-dev/Monocle) (👨‍💻 120 · 🔀 200 · 📋 380 - 11% open · ⏱️ 08.10.2023):
+- [GitHub](https://github.com/optics-dev/Monocle) (👨‍💻 120 · 🔀 200 · 📋 380 - 11% open · ⏱️ 18.10.2023):
 
 	```
 	git clone https://github.com/optics-dev/monocle
-	```
-</details>
-<details><summary><b><a href="https://github.com/scalalandio/chimney">chimney</a></b> (🥈21 ·  ⭐ 1K · 📈) - Scala library for boilerplate-free, type-safe data.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
-
-- [GitHub](https://github.com/scalalandio/chimney) (👨‍💻 28 · 🔀 76 · 📋 160 - 13% open · ⏱️ 12.10.2023):
-
-	```
-	git clone https://github.com/scalalandio/chimney
 	```
 </details>
 <details><summary><b><a href="https://github.com/twitter/util">util</a></b> (🥈20 ·  ⭐ 2.7K) - Wonderful reusable code from Twitter. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
@@ -986,9 +978,17 @@ _Extensions and platforms that provide various abstractions._
 	git clone https://github.com/twitter/util
 	```
 </details>
+<details><summary><b><a href="https://github.com/scalalandio/chimney">chimney</a></b> (🥈20 ·  ⭐ 1.1K · 📉) - Scala library for boilerplate-free, type-safe data.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
+
+- [GitHub](https://github.com/scalalandio/chimney) (👨‍💻 28 · 🔀 77 · 📋 170 - 14% open · ⏱️ 12.10.2023):
+
+	```
+	git clone https://github.com/scalalandio/chimney
+	```
+</details>
 <details><summary><b><a href="https://github.com/atnos-org/eff">eff</a></b> (🥈20 ·  ⭐ 560) - Eff monad for cats - https://atnos-org.github.io/eff. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/atnos-org/eff) (👨‍💻 42 · 🔀 80 · 📋 67 - 5% open · ⏱️ 28.09.2023):
+- [GitHub](https://github.com/atnos-org/eff) (👨‍💻 42 · 🔀 80 · 📋 67 - 5% open · ⏱️ 14.10.2023):
 
 	```
 	git clone https://github.com/atnos-org/eff
@@ -996,7 +996,7 @@ _Extensions and platforms that provide various abstractions._
 </details>
 <details><summary><b><a href="https://github.com/softwaremill/quicklens">quicklens</a></b> (🥈19 ·  ⭐ 800) - Modify deeply nested case class fields. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/softwaremill/quicklens) (👨‍💻 25 · 🔀 49 · 📋 49 - 40% open · ⏱️ 11.10.2023):
+- [GitHub](https://github.com/softwaremill/quicklens) (👨‍💻 25 · 🔀 49 · 📋 49 - 40% open · ⏱️ 14.10.2023):
 
 	```
 	git clone https://github.com/softwaremill/quicklens
@@ -1008,6 +1008,14 @@ _Extensions and platforms that provide various abstractions._
 
 	```
 	git clone https://github.com/pathikrit/better-files
+	```
+</details>
+<details><summary><b><a href="https://github.com/lloydmeta/enumeratum">enumeratum</a></b> (🥈18 ·  ⭐ 1.2K) - A type-safe, reflection-free, powerful enumeration.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
+
+- [GitHub](https://github.com/lloydmeta/enumeratum) (👨‍💻 89 · 🔀 150 · 📋 120 - 21% open · ⏱️ 21.07.2023):
+
+	```
+	git clone https://github.com/lloydmeta/enumeratum
 	```
 </details>
 <details><summary><b><a href="https://github.com/scala/scala-async">async</a></b> (🥈18 ·  ⭐ 1.1K) - An asynchronous programming facility for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
@@ -1024,14 +1032,6 @@ _Extensions and platforms that provide various abstractions._
 
 	```
 	git clone https://github.com/outr/scribe
-	```
-</details>
-<details><summary><b><a href="https://github.com/lloydmeta/enumeratum">enumeratum</a></b> (🥉17 ·  ⭐ 1.2K) - A type-safe, reflection-free, powerful enumeration.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
-
-- [GitHub](https://github.com/lloydmeta/enumeratum) (👨‍💻 89 · 🔀 150 · 📋 120 - 21% open · ⏱️ 21.07.2023):
-
-	```
-	git clone https://github.com/lloydmeta/enumeratum
 	```
 </details>
 <details><summary><b><a href="https://github.com/ThoughtWorksInc/Dsl.scala">Dsl.scala</a></b> (🥉16 ·  ⭐ 260) - A framework to create embedded Domain-Specific Languages.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
@@ -1058,9 +1058,9 @@ _Extensions and platforms that provide various abstractions._
 	git clone https://github.com/typelevel/simulacrum
 	```
 </details>
-<details><summary><b><a href="https://github.com/nscala-time/nscala-time">nscala-time</a></b> (🥉15 ·  ⭐ 870 · 📉) - A new Scala wrapper for Joda Time based on scala-time. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/nscala-time/nscala-time">nscala-time</a></b> (🥉15 ·  ⭐ 870) - A new Scala wrapper for Joda Time based on scala-time. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/nscala-time/nscala-time) (👨‍💻 25 · 🔀 86 · 📋 55 - 10% open · ⏱️ 16.09.2023):
+- [GitHub](https://github.com/nscala-time/nscala-time) (👨‍💻 25 · 🔀 86 · 📋 55 - 10% open · ⏱️ 12.10.2023):
 
 	```
 	git clone https://github.com/nscala-time/nscala-time
@@ -1098,13 +1098,14 @@ _Extensions and platforms that provide various abstractions._
 	git clone https://github.com/ThoughtWorksInc/enableIf.scala
 	```
 </details>
-<details><summary>Show 10 hidden projects...</summary>
+<details><summary>Show 11 hidden projects...</summary>
 
-- <b><a href="https://github.com/typelevel/cats">cats</a></b> (🥇27 ·  ⭐ 5K) - Lightweight, modular, and extensible library for functional.. <code>❗Unlicensed</code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/typelevel/cats">cats</a></b> (🥇27 ·  ⭐ 5.1K) - Lightweight, modular, and extensible library for.. <code>❗Unlicensed</code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/scalaz/scalaz">scalaz</a></b> (🥈20 ·  ⭐ 4.6K) - Principled Functional Programming in Scala. <code>❗Unlicensed</code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/twitter/cassovary">cassovary</a></b> (🥉17 ·  ⭐ 1K · 💀) - Cassovary is a simple big graph processing library for the JVM. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 - <b><a href="https://github.com/frees-io/freestyle">freestyle</a></b> (🥉17 ·  ⭐ 620 · 💀) - A cohesive & pragmatic framework of FP centric Scala.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/scala-hamsters/hamsters">hamsters</a></b> (🥉14 ·  ⭐ 290 · 💀) - A mini Scala utility library. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/softwaremill/ox">ox</a></b> (🥉14 ·  ⭐ 220 · ➕) - Developer-friendly structured concurrency library for the JVM. <code>❗Unlicensed</code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/epfldata/squid">squid</a></b> (🥉12 ·  ⭐ 200 · 💀) - Squid type-safe metaprogramming and compilation framework for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 - <b><a href="https://github.com/scala-records/scala-records">scala-records</a></b> (🥉11 ·  ⭐ 160 · 💀) - Labeled records for Scala based on structural.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/Thangiee/Freasy-Monad">Freasy-Monad</a></b> (🥉8 ·  ⭐ 110 · 💀) - Easy way to create Free Monad using Scala macros with.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code>
@@ -1119,15 +1120,15 @@ _Extensions and platforms that provide various abstractions._
 
 _Libraries for audio, image, and video handling and processing_
 
-<details><summary><b><a href="https://github.com/sksamuel/scrimage">scrimage</a></b> (🥇20 ·  ⭐ 990) - JVM - Java, Kotlin, Scala image processing library. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/sksamuel/scrimage">scrimage</a></b> (🥇21 ·  ⭐ 990 · 📈) - JVM - Java, Kotlin, Scala image processing library. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/sksamuel/scrimage) (👨‍💻 56 · 🔀 140 · 📋 200 - 2% open · ⏱️ 09.10.2023):
+- [GitHub](https://github.com/sksamuel/scrimage) (👨‍💻 56 · 🔀 140 · 📋 200 - 2% open · ⏱️ 16.10.2023):
 
 	```
 	git clone https://github.com/sksamuel/scrimage
 	```
 </details>
-<details><summary><b><a href="https://github.com/unibas-gravis/scalismo">scalismo</a></b> (🥈17 ·  ⭐ 230) - Scalable Image Analysis and Shape Modelling. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/unibas-gravis/scalismo">scalismo</a></b> (🥈17 ·  ⭐ 240) - Scalable Image Analysis and Shape Modelling. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/unibas-gravis/scalismo) (👨‍💻 22 · 🔀 64 · 📋 76 - 17% open · ⏱️ 30.06.2023):
 
@@ -1158,7 +1159,7 @@ _Libraries for audio, image, and video handling and processing_
 
 <details><summary><b><a href="https://github.com/wvlet/airframe">airframe</a></b> (🥇21 ·  ⭐ 620) - Essential Building Blocks for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/wvlet/airframe) (👨‍💻 43 · 🔀 61 · 📋 590 - 16% open · ⏱️ 12.10.2023):
+- [GitHub](https://github.com/wvlet/airframe) (👨‍💻 43 · 🔀 61 · 📋 590 - 16% open · ⏱️ 18.10.2023):
 
 	```
 	git clone https://github.com/wvlet/airframe
@@ -1166,7 +1167,7 @@ _Libraries for audio, image, and video handling and processing_
 </details>
 <details><summary><b><a href="https://github.com/7mind/izumi">izumi</a></b> (🥇21 ·  ⭐ 580) - Productivity-oriented collection of lightweight fancy stuff for.. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/7mind/izumi) (👨‍💻 31 · 🔀 57 · 📋 450 - 13% open · ⏱️ 11.10.2023):
+- [GitHub](https://github.com/7mind/izumi) (👨‍💻 31 · 🔀 57 · 📋 450 - 13% open · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/7mind/izumi
@@ -1219,7 +1220,7 @@ _HTTP clients and servers_
 
 <details><summary><b><a href="https://github.com/http4s/http4s">http4s</a></b> (🥇27 ·  ⭐ 2.5K) - A minimal, idiomatic Scala interface for HTTP. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/http4s/http4s) (👨‍💻 450 · 🔀 780 · 📋 1.5K - 21% open · ⏱️ 10.10.2023):
+- [GitHub](https://github.com/http4s/http4s) (👨‍💻 450 · 🔀 780 · 📋 1.5K - 21% open · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/http4s/http4s
@@ -1227,7 +1228,7 @@ _HTTP clients and servers_
 </details>
 <details><summary><b><a href="https://github.com/softwaremill/tapir">tapir</a></b> (🥇27 ·  ⭐ 1.2K) - Declarative, type-safe web endpoints library. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/softwaremill/tapir) (👨‍💻 260 · 🔀 360 · 📋 730 - 14% open · ⏱️ 12.10.2023):
+- [GitHub](https://github.com/softwaremill/tapir) (👨‍💻 260 · 🔀 360 · 📋 730 - 14% open · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/softwaremill/tapir
@@ -1235,13 +1236,13 @@ _HTTP clients and servers_
 </details>
 <details><summary><b><a href="https://github.com/softwaremill/sttp">sttp</a></b> (🥈25 ·  ⭐ 1.4K) - The Scala HTTP client you always wanted!. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/softwaremill/sttp) (👨‍💻 200 · 🔀 270 · 📋 410 - 13% open · ⏱️ 12.10.2023):
+- [GitHub](https://github.com/softwaremill/sttp) (👨‍💻 200 · 🔀 270 · 📋 410 - 13% open · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/softwaremill/sttp
 	```
 </details>
-<details><summary><b><a href="https://github.com/eed3si9n/scalaxb">scalaxb</a></b> (🥈23 ·  ⭐ 330 · 📈) - scalaxb is an XML data binding tool for Scala. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/eed3si9n/scalaxb">scalaxb</a></b> (🥈23 ·  ⭐ 330) - scalaxb is an XML data binding tool for Scala. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/eed3si9n/scalaxb) (👨‍💻 68 · 🔀 150 · 📋 440 - 35% open · ⏱️ 12.10.2023):
 
@@ -1251,7 +1252,7 @@ _HTTP clients and servers_
 </details>
 <details><summary><b><a href="https://github.com/finagle/finch">finch</a></b> (🥈22 ·  ⭐ 1.6K) - Scala combinator library for building Finagle HTTP services. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/finagle/finch) (👨‍💻 130 · 🔀 230 · 📋 410 - 10% open · ⏱️ 17.09.2023):
+- [GitHub](https://github.com/finagle/finch) (👨‍💻 130 · 🔀 230 · 📋 410 - 10% open · ⏱️ 17.10.2023):
 
 	```
 	git clone https://github.com/finagle/finch
@@ -1259,7 +1260,7 @@ _HTTP clients and servers_
 </details>
 <details><summary><b><a href="https://github.com/endpoints4s/endpoints4s">endpoints4s</a></b> (🥈19 ·  ⭐ 400) - Describe HTTP endpoints in Scala and derive clients,.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/endpoints4s/endpoints4s) (👨‍💻 59 · 🔀 93 · 📋 200 - 18% open · ⏱️ 16.09.2023):
+- [GitHub](https://github.com/endpoints4s/endpoints4s) (👨‍💻 60 · 🔀 94 · 📋 200 - 18% open · ⏱️ 18.10.2023):
 
 	```
 	git clone https://github.com/endpoints4s/endpoints4s
@@ -1267,7 +1268,7 @@ _HTTP clients and servers_
 </details>
 <details><summary><b><a href="https://github.com/playframework/play-ws">play-ws</a></b> (🥈19 ·  ⭐ 220) - Standalone Play WS, an async HTTP client with fluent API. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.playframework.com/assets/images/logos/1d627942f0b2f115f8638936a212244a-play_icon_full_color.png" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/playframework/play-ws) (👨‍💻 49 · 🔀 84 · 📋 150 - 48% open · ⏱️ 06.10.2023):
+- [GitHub](https://github.com/playframework/play-ws) (👨‍💻 49 · 🔀 86 · 📋 150 - 48% open · ⏱️ 06.10.2023):
 
 	```
 	git clone https://github.com/playframework/play-ws
@@ -1275,7 +1276,7 @@ _HTTP clients and servers_
 </details>
 <details><summary><b><a href="https://github.com/apache/incubator-pekko-http">pekko-http</a></b> (🥉18 ·  ⭐ 120) - The Streaming-first HTTP server/module of Apache Pekko. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/apache/incubator-pekko-http) (👨‍💻 360 · 🔀 21 · 📋 64 - 26% open · ⏱️ 10.10.2023):
+- [GitHub](https://github.com/apache/incubator-pekko-http) (👨‍💻 360 · 🔀 22 · 📋 64 - 26% open · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/apache/incubator-pekko-http
@@ -1297,7 +1298,7 @@ _HTTP clients and servers_
 	git clone https://github.com/scalaj/scalaj-http
 	```
 </details>
-<details><summary><b><a href="https://github.com/criteo/lolhttp">lolhttp</a></b> (🥉11 ·  ⭐ 93) - An HTTP Server and Client library for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/criteo/lolhttp">lolhttp</a></b> (🥉12 ·  ⭐ 93) - An HTTP Server and Client library for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/criteo/lolhttp) (👨‍💻 20 · 🔀 18 · 📋 37 - 78% open · ⏱️ 17.07.2023):
 
@@ -1324,7 +1325,7 @@ _Libraries and frameworks for various types of code testing_
 
 <details><summary><b><a href="https://github.com/gatling/gatling">gatling</a></b> (🥇28 ·  ⭐ 6.1K) - Modern Load Testing as Code. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/gatling/gatling) (👨‍💻 230 · 🔀 1.2K · 📦 20 · 📋 3.7K - 1% open · ⏱️ 09.10.2023):
+- [GitHub](https://github.com/gatling/gatling) (👨‍💻 230 · 🔀 1.2K · 📦 21 · 📋 3.7K - 1% open · ⏱️ 09.10.2023):
 
 	```
 	git clone https://github.com/gatling/gatling
@@ -1346,9 +1347,9 @@ _Libraries and frameworks for various types of code testing_
 	git clone https://github.com/typelevel/scalacheck
 	```
 </details>
-<details><summary><b><a href="https://github.com/holdenk/spark-testing-base">spark-testing-base</a></b> (🥈22 ·  ⭐ 1.5K · 📈) - Base classes to use when writing tests with Spark. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/holdenk/spark-testing-base">spark-testing-base</a></b> (🥈22 ·  ⭐ 1.5K) - Base classes to use when writing tests with Spark. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/holdenk/spark-testing-base) (👨‍💻 60 · 🔀 360 · 📦 35 · 📋 220 - 46% open · ⏱️ 10.10.2023):
+- [GitHub](https://github.com/holdenk/spark-testing-base) (👨‍💻 60 · 🔀 360 · 📦 35 · 📋 220 - 45% open · ⏱️ 14.10.2023):
 
 	```
 	git clone https://github.com/holdenk/spark-testing-base
@@ -1356,29 +1357,37 @@ _Libraries and frameworks for various types of code testing_
 </details>
 <details><summary><b><a href="https://github.com/agourlay/cornichon">cornichon</a></b> (🥈19 ·  ⭐ 220) - Testing tool in Scala for HTTP JSON API. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/agourlay/cornichon) (👨‍💻 18 · 🔀 29 · 📋 160 - 14% open · ⏱️ 05.10.2023):
+- [GitHub](https://github.com/agourlay/cornichon) (👨‍💻 18 · 🔀 29 · 📋 160 - 13% open · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/agourlay/cornichon
 	```
 </details>
-<details><summary><b><a href="https://github.com/paulbutcher/ScalaMock">scalamock</a></b> (🥈18 ·  ⭐ 490) - Native Scala mocking framework. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/stryker-mutator/stryker4s">stryker4s</a></b> (🥈19 ·  ⭐ 180) - Mutation testing for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/paulbutcher/ScalaMock) (👨‍💻 33 · 🔀 91 · 📋 220 - 10% open · ⏱️ 01.07.2023):
+- [GitHub](https://github.com/stryker-mutator/stryker4s) (👨‍💻 31 · 🔀 30 · 📋 160 - 19% open · ⏱️ 19.10.2023):
+
+	```
+	git clone https://github.com/stryker-mutator/stryker4s
+	```
+</details>
+<details><summary><b><a href="https://github.com/paulbutcher/ScalaMock">scalamock</a></b> (🥉18 ·  ⭐ 490) - Native Scala mocking framework. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
+
+- [GitHub](https://github.com/paulbutcher/ScalaMock) (👨‍💻 33 · 🔀 91 · 📋 220 - 10% open · ⏱️ 14.10.2023):
 
 	```
 	git clone https://github.com/paulbutcher/scalamock
 	```
 </details>
-<details><summary><b><a href="https://github.com/scalameta/munit">munit</a></b> (🥈18 ·  ⭐ 390) - Scala testing library with actionable errors and extensible.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/scalameta/munit">munit</a></b> (🥉18 ·  ⭐ 390) - Scala testing library with actionable errors and extensible.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/scalameta/munit) (👨‍💻 46 · 🔀 72 · 📋 140 - 30% open · ⏱️ 22.09.2023):
+- [GitHub](https://github.com/scalameta/munit) (👨‍💻 46 · 🔀 72 · 📋 140 - 30% open · ⏱️ 16.10.2023):
 
 	```
 	git clone https://github.com/scalameta/munit
 	```
 </details>
-<details><summary><b><a href="https://github.com/mockito/mockito-scala">mockito-scala</a></b> (🥈18 ·  ⭐ 330) - Mockito for Scala language. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/mockito/mockito-scala">mockito-scala</a></b> (🥉18 ·  ⭐ 330) - Mockito for Scala language. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/mockito/mockito-scala) (👨‍💻 30 · 🔀 54 · 📋 120 - 20% open · ⏱️ 23.09.2023):
 
@@ -1386,15 +1395,7 @@ _Libraries and frameworks for various types of code testing_
 	git clone https://github.com/mockito/mockito-scala
 	```
 </details>
-<details><summary><b><a href="https://github.com/stryker-mutator/stryker4s">stryker4s</a></b> (🥈18 ·  ⭐ 180 · 📉) - Mutation testing for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
-
-- [GitHub](https://github.com/stryker-mutator/stryker4s) (👨‍💻 31 · 🔀 29 · 📋 160 - 21% open · ⏱️ 05.10.2023):
-
-	```
-	git clone https://github.com/stryker-mutator/stryker4s
-	```
-</details>
-<details><summary><b><a href="https://github.com/testcontainers/testcontainers-scala">testcontainers-scala</a></b> (🥉15 ·  ⭐ 590) - Docker containers for testing in scala. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/testcontainers/testcontainers-scala">testcontainers-scala</a></b> (🥉15 ·  ⭐ 600) - Docker containers for testing in scala. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/testcontainers/testcontainers-scala) (👨‍💻 76 · 🔀 110 · 📋 100 - 30% open · ⏱️ 29.08.2023):
 
@@ -1404,7 +1405,7 @@ _Libraries and frameworks for various types of code testing_
 </details>
 <details><summary><b><a href="https://github.com/scalaprops/scalaprops">scalaprops</a></b> (🥉14 ·  ⭐ 280) - property based testing library for Scala. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/scalaprops/scalaprops) (👨‍💻 12 · 🔀 21 · 📋 20 - 40% open · ⏱️ 02.10.2023):
+- [GitHub](https://github.com/scalaprops/scalaprops) (👨‍💻 12 · 🔀 21 · 📋 20 - 40% open · ⏱️ 14.10.2023):
 
 	```
 	git clone https://github.com/scalaprops/scalaprops
@@ -1427,7 +1428,7 @@ _Libraries and frameworks for various types of code testing_
 
 _Libraries for security, authentication, and cryptography_
 
-<details><summary><b><a href="https://github.com/nulab/scala-oauth2-provider">scala-oauth2-provider</a></b> (🥇18 ·  ⭐ 530) - OAuth 2.0 server-side implementation written in Scala. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/nulab/scala-oauth2-provider">scala-oauth2-provider</a></b> (🥇19 ·  ⭐ 530 · 📈) - OAuth 2.0 server-side implementation written in Scala. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/nulab/scala-oauth2-provider) (👨‍💻 28 · 🔀 100 · 📋 67 - 5% open · ⏱️ 06.10.2023):
 
@@ -1445,7 +1446,7 @@ _Libraries for security, authentication, and cryptography_
 </details>
 <details><summary><b><a href="https://github.com/pac4j/play-pac4j">play-pac4j</a></b> (🥈15 ·  ⭐ 400) - Security library for Play framework 2 in Java and Scala: OAuth,.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/pac4j/play-pac4j) (👨‍💻 47 · 🔀 100 · ⏱️ 07.10.2023):
+- [GitHub](https://github.com/pac4j/play-pac4j) (👨‍💻 47 · 🔀 100 · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/pac4j/play-pac4j
@@ -1453,7 +1454,7 @@ _Libraries for security, authentication, and cryptography_
 </details>
 <details><summary><b><a href="https://github.com/ocadotechnology/sttp-oauth2">sttp-oauth2</a></b> (🥉12 ·  ⭐ 68) - OAuth2 client library implemented in Scala using sttp. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/ocadotechnology/sttp-oauth2) (👨‍💻 14 · 🔀 20 · 📋 43 - 53% open · ⏱️ 12.09.2023):
+- [GitHub](https://github.com/ocadotechnology/sttp-oauth2) (👨‍💻 14 · 🔀 20 · 📋 43 - 53% open · ⏱️ 17.10.2023):
 
 	```
 	git clone https://github.com/ocadotechnology/sttp-oauth2
@@ -1500,9 +1501,9 @@ _Libraries for security, authentication, and cryptography_
 
 _Libraries for data binding, validation, and serialization_
 
-<details><summary><b><a href="https://github.com/scalapb/ScalaPB">scalapb</a></b> (🥇25 ·  ⭐ 1.3K) - Protocol buffer compiler for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/scalapb/ScalaPB">scalapb</a></b> (🥇26 ·  ⭐ 1.3K · 📈) - Protocol buffer compiler for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/scalapb/ScalaPB) (👨‍💻 120 · 🔀 270 · 📥 420K · 📋 560 - 2% open · ⏱️ 11.10.2023):
+- [GitHub](https://github.com/scalapb/ScalaPB) (👨‍💻 120 · 🔀 270 · 📥 420K · 📋 560 - 2% open · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/scalapb/scalapb
@@ -1516,7 +1517,7 @@ _Libraries for data binding, validation, and serialization_
 	git clone https://github.com/twitter/scrooge
 	```
 </details>
-<details><summary><b><a href="https://github.com/com-lihaoyi/upickle">upickle</a></b> (🥇19 ·  ⭐ 680 · 📉) - uPickle: a simple, fast, dependency-free JSON & Binary.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/com-lihaoyi/upickle">upickle</a></b> (🥇19 ·  ⭐ 680) - uPickle: a simple, fast, dependency-free JSON & Binary.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/com-lihaoyi/upickle) (👨‍💻 52 · 🔀 150 · 📋 280 - 5% open · ⏱️ 16.09.2023):
 
@@ -1590,13 +1591,13 @@ _Libraries for creating custom parsers_
 
 <details><summary><b><a href="https://github.com/typelevel/cats-parse">cats-parse</a></b> (🥇18 ·  ⭐ 220) - A parsing library for the cats ecosystem. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/typelevel/cats-parse) (👨‍💻 31 · 🔀 47 · 📋 94 - 26% open · ⏱️ 07.10.2023):
+- [GitHub](https://github.com/typelevel/cats-parse) (👨‍💻 31 · 🔀 47 · 📋 94 - 26% open · ⏱️ 14.10.2023):
 
 	```
 	git clone https://github.com/typelevel/cats-parse
 	```
 </details>
-<details><summary><b><a href="https://github.com/com-lihaoyi/fastparse">fastparse</a></b> (🥈17 ·  ⭐ 1K) - Writing Fast Parsers Fast in Scala. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/com-lihaoyi/fastparse">fastparse</a></b> (🥈17 ·  ⭐ 1.1K) - Writing Fast Parsers Fast in Scala. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/com-lihaoyi/fastparse) (👨‍💻 52 · 🔀 170 · 📋 140 - 13% open · ⏱️ 10.07.2023):
 
@@ -1606,7 +1607,7 @@ _Libraries for creating custom parsers_
 </details>
 <details><summary><b><a href="https://github.com/scala/scala-parser-combinators">scala-parser-combinators</a></b> (🥈17 ·  ⭐ 630) - simple combinator-based parsing for Scala. formerly.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/scala/scala-parser-combinators) (👨‍💻 70 · 🔀 130 · 📋 120 - 18% open · ⏱️ 27.09.2023):
+- [GitHub](https://github.com/scala/scala-parser-combinators) (👨‍💻 70 · 🔀 130 · 📋 120 - 18% open · ⏱️ 17.10.2023):
 
 	```
 	git clone https://github.com/scala/scala-parser-combinators
@@ -1622,7 +1623,7 @@ _Libraries for creating custom parsers_
 </details>
 <details><summary><b><a href="https://github.com/epfl-lara/scallion">scallion</a></b> (🥉9 ·  ⭐ 51 · 💤) - LL(1) parser combinators in Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/epfl-lara/scallion) (👨‍💻 8 · 🔀 16 · 📥 420 · 📋 5 - 60% open · ⏱️ 03.10.2022):
+- [GitHub](https://github.com/epfl-lara/scallion) (👨‍💻 8 · 🔀 15 · 📥 420 · 📋 5 - 60% open · ⏱️ 03.10.2022):
 
 	```
 	git clone https://github.com/epfl-lara/scallion
@@ -1642,7 +1643,7 @@ _Reactive programming libraries (streams, observables...)_
 
 <details><summary><b><a href="https://github.com/monix/monix">monix</a></b> (🥇21 ·  ⭐ 1.9K) - Asynchronous, Reactive Programming for Scala and Scala.js. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/monix/monix) (👨‍💻 100 · 🔀 240 · 📋 660 - 12% open · ⏱️ 03.05.2023):
+- [GitHub](https://github.com/monix/monix) (👨‍💻 100 · 🔀 240 · 📋 660 - 12% open · ⏱️ 17.10.2023):
 
 	```
 	git clone https://github.com/monix/monix
@@ -1663,7 +1664,7 @@ _Reactive programming libraries (streams, observables...)_
 - <b><a href="https://github.com/travisbrown/iteratee">iteratee</a></b> (🥈15 ·  ⭐ 190 · 💀) - Iteratees for Cats. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/spring-attic/reactor-scala-extensions">reactor-scala-extensions</a></b> (🥉13 ·  ⭐ 52 · 💀) - A scala extension for Project Reactors Flux and Mono. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 - <b><a href="https://github.com/lihaoyi/scala.rx">scala.rx</a></b> (🥉12 ·  ⭐ 990 · 💀) - An experimental library for Functional Reactive.. <code>❗Unlicensed</code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code>
-- <b><a href="https://github.com/vert-x3/vertx-lang-scala">vertx-lang-scala</a></b> (🥉11 ·  ⭐ 110) - Vert.x for Scala. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/vert-x3/vertx-lang-scala">vertx-lang-scala</a></b> (🥉10 ·  ⭐ 110) - Vert.x for Scala. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/wireapp/wire-signals">wire-signals</a></b> (🥉10 ·  ⭐ 23 · 💀) - A small and effective event-handling library for Scala. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/Primetalk/SynapseGrid">synapsegrid</a></b> (🥉8 ·  ⭐ 120 · 💀) - SynapseGrid is a framework for constructing dynamic low.. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/storm-enroute/reactors">reactors</a></b> (🥉8 ·  ⭐ 4 · 💀) - A concurrent reactive programming framework. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
@@ -1676,9 +1677,9 @@ _Reactive programming libraries (streams, observables...)_
 
 _Various tooling libraries that help with the overall Scala programming environment_
 
-<details><summary><b><a href="https://github.com/marianobarrios/dregex">dregex</a></b> (🥇13 ·  ⭐ 39) - Dregex is a JVM library that implements a regular expression engine using.. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/marianobarrios/dregex">dregex</a></b> (🥇13 ·  ⭐ 39) - Dregex is a Java library that implements a regular expression engine using.. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
-- [GitHub](https://github.com/marianobarrios/dregex) (👨‍💻 6 · 🔀 4 · 📋 5 - 40% open · ⏱️ 15.09.2023):
+- [GitHub](https://github.com/marianobarrios/dregex) (👨‍💻 6 · 🔀 4 · 📋 5 - 40% open · ⏱️ 18.10.2023):
 
 	```
 	git clone https://github.com/marianobarrios/dregex
@@ -1725,7 +1726,7 @@ _Various tooling libraries that help with the overall Scala programming environm
 </details>
 <details><summary><b><a href="https://github.com/scalate/scalate">scalate</a></b> (🥈17 ·  ⭐ 600) - Scalate is a Scala based template engine which supports HAML,.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/scalate/scalate) (👨‍💻 73 · 🔀 100 · 📋 64 - 48% open · ⏱️ 10.10.2023):
+- [GitHub](https://github.com/scalate/scalate) (👨‍💻 73 · 🔀 100 · 📋 64 - 48% open · ⏱️ 18.10.2023):
 
 	```
 	git clone https://github.com/scalate/scalate
@@ -1761,7 +1762,7 @@ _Libraries for data analysis, machine learning, and AI_
 
 <details><summary><b><a href="https://github.com/intel-analytics/BigDL">bigdl</a></b> (🥇32 ·  ⭐ 4.4K) - Accelerate LLM with low-bit (INT3 / INT4 / NF4 / INT5 / INT8).. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/intel-analytics/BigDL) (👨‍💻 180 · 🔀 1.1K · 📦 45 · 📋 2.1K - 38% open · ⏱️ 12.10.2023):
+- [GitHub](https://github.com/intel-analytics/BigDL) (👨‍💻 180 · 🔀 1.1K · 📦 45 · 📋 2.1K - 38% open · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/intel-analytics/bigdl
@@ -1769,10 +1770,18 @@ _Libraries for data analysis, machine learning, and AI_
 </details>
 <details><summary><b><a href="https://github.com/JohnSnowLabs/spark-nlp">spark-nlp</a></b> (🥇29 ·  ⭐ 3.5K) - State of the Art Natural Language Processing. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/JohnSnowLabs/spark-nlp) (👨‍💻 110 · 🔀 670 · 📦 340 · 📋 830 - 4% open · ⏱️ 10.10.2023):
+- [GitHub](https://github.com/JohnSnowLabs/spark-nlp) (👨‍💻 110 · 🔀 670 · 📦 350 · 📋 830 - 4% open · ⏱️ 10.10.2023):
 
 	```
 	git clone https://github.com/johnsnowlabs/spark-nlp
+	```
+</details>
+<details><summary><b><a href="https://github.com/snowplow/snowplow">Snowplow</a></b> (🥇27 ·  ⭐ 6.6K · ➕) - The enterprise-grade behavioral data engine (web, mobile,.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/snowplow/snowplow) (👨‍💻 100 · 🔀 1.2K · 📥 5.3K · 📦 19 · 📋 4K - 1% open · ⏱️ 16.10.2023):
+
+	```
+	git clone https://github.com/snowplow/snowplow
 	```
 </details>
 <details><summary><b><a href="https://github.com/twitter/algebird">algebird</a></b> (🥈24 ·  ⭐ 2.3K) - Abstract Algebra for Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
@@ -1785,7 +1794,7 @@ _Libraries for data analysis, machine learning, and AI_
 </details>
 <details><summary><b><a href="https://github.com/apache/zeppelin">zeppelin</a></b> (🥈23 ·  ⭐ 6.2K) - Web-based notebook that enables data-driven, interactive data.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/apache/zeppelin) (👨‍💻 530 · 🔀 2.8K · 📦 18 · ⏱️ 11.10.2023):
+- [GitHub](https://github.com/apache/zeppelin) (👨‍💻 530 · 🔀 2.8K · 📦 19 · ⏱️ 17.10.2023):
 
 	```
 	git clone https://github.com/apache/zeppelin
@@ -1809,7 +1818,7 @@ _Libraries for data analysis, machine learning, and AI_
 </details>
 <details><summary><b><a href="https://github.com/openmole/openmole">openmole</a></b> (🥈18 ·  ⭐ 140) - Workflow engine for exploration of simulation models using high.. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code></summary>
 
-- [GitHub](https://github.com/openmole/openmole) (👨‍💻 48 · 🔀 34 · 📥 56 · 📋 440 - 17% open · ⏱️ 12.10.2023):
+- [GitHub](https://github.com/openmole/openmole) (👨‍💻 48 · 🔀 34 · 📥 56 · 📋 440 - 17% open · ⏱️ 18.10.2023):
 
 	```
 	git clone https://github.com/openmole/openmole
@@ -1823,7 +1832,7 @@ _Libraries for data analysis, machine learning, and AI_
 	git clone https://github.com/typelevel/squants
 	```
 </details>
-<details><summary><b><a href="https://github.com/eaplatanios/tensorflow_scala">tensorflow_scala</a></b> (🥈16 ·  ⭐ 930 · 💤) - TensorFlow API for the Scala Programming Language. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/eaplatanios/tensorflow_scala">tensorflow_scala</a></b> (🥉16 ·  ⭐ 930 · 💤) - TensorFlow API for the Scala Programming Language. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/eaplatanios/tensorflow_scala) (👨‍💻 12 · 🔀 99 · 📋 150 - 19% open · ⏱️ 22.06.2022):
 
@@ -1833,7 +1842,7 @@ _Libraries for data analysis, machine learning, and AI_
 </details>
 <details><summary><b><a href="https://github.com/cequence-io/openai-scala-client">openai-scala-client</a></b> (🥉14 ·  ⭐ 120) - Scala client for OpenAI API. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/cequence-io/openai-scala-client) (👨‍💻 3 · 🔀 9 · 📋 29 - 31% open · ⏱️ 02.10.2023):
+- [GitHub](https://github.com/cequence-io/openai-scala-client) (👨‍💻 3 · 🔀 10 · 📋 29 - 31% open · ⏱️ 02.10.2023):
 
 	```
 	git clone https://github.com/cequence-io/openai-scala-client
@@ -1847,20 +1856,20 @@ _Libraries for data analysis, machine learning, and AI_
 	</dependency>
 	```
 </details>
+<details><summary><b><a href="https://github.com/EmergentOrder/onnx-scala">onnx-scala</a></b> (🥉13 ·  ⭐ 130) - An ONNX (Open Neural Network eXchange) API and.. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
+
+- [GitHub](https://github.com/EmergentOrder/onnx-scala) (👨‍💻 4 · 🔀 10 · 📋 10 - 20% open · ⏱️ 16.10.2023):
+
+	```
+	git clone https://github.com/emergentorder/onnx-scala
+	```
+</details>
 <details><summary><b><a href="https://github.com/vagmcs/Optimus">optimus</a></b> (🥉12 ·  ⭐ 140 · 💤) - Optimus is a mathematical programming library for Scala. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/vagmcs/Optimus) (👨‍💻 9 · 🔀 26 · 📥 1.8K · ⏱️ 27.08.2022):
 
 	```
 	git clone https://github.com/vagmcs/optimus
-	```
-</details>
-<details><summary><b><a href="https://github.com/EmergentOrder/onnx-scala">onnx-scala</a></b> (🥉12 ·  ⭐ 130) - An ONNX (Open Neural Network eXchange) API and.. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
-
-- [GitHub](https://github.com/EmergentOrder/onnx-scala) (👨‍💻 4 · 🔀 10 · 📋 10 - 20% open · ⏱️ 31.07.2023):
-
-	```
-	git clone https://github.com/emergentorder/onnx-scala
 	```
 </details>
 <details><summary><b><a href="https://github.com/botkop/numsca">numsca</a></b> (🥉11 ·  ⭐ 180) - numsca is numpy for scala. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
@@ -1881,9 +1890,9 @@ _Libraries for data analysis, machine learning, and AI_
 </details>
 <details><summary>Show 12 hidden projects...</summary>
 
-- <b><a href="https://github.com/haifengl/smile">smile</a></b> (🥇25 ·  ⭐ 5.8K) - Statistical Machine Intelligence & Learning Engine. <code>❗Unlicensed</code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/haifengl/smile">smile</a></b> (🥈25 ·  ⭐ 5.8K) - Statistical Machine Intelligence & Learning Engine. <code>❗Unlicensed</code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/spark-notebook/spark-notebook">spark-notebook</a></b> (🥈21 ·  ⭐ 3.1K · 💀) - Interactive and Reactive Data Science using Scala and.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
-- <b><a href="https://github.com/charles-river-analytics/figaro">figaro</a></b> (🥈16 ·  ⭐ 760 · 💤) - Figaro Programming Language and Core Libraries. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/charles-river-analytics/figaro">figaro</a></b> (🥉16 ·  ⭐ 760 · 💤) - Figaro Programming Language and Core Libraries. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/picnicml/doddle-model">doddle-model</a></b> (🥉13 ·  ⭐ 140 · 💀) - doddle-model: machine learning in Scala. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 - <b><a href="https://github.com/to-ithaca/libra">libra</a></b> (🥉10 ·  ⭐ 200 · 💀) - A dimensional analysis library based on dependent types. <code>❗Unlicensed</code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/Clustering4Ever/Clustering4Ever">clustering4ever</a></b> (🥉10 ·  ⭐ 130 · 💀) - C4E, a JVM friendly library written in Scala for both.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
@@ -1904,7 +1913,7 @@ _Libraries for processing and handling big data sets_
 
 <details><summary><b><a href="https://github.com/apache/spark">spark</a></b> (🥇29 ·  ⭐ 37K) - Apache Spark - A unified analytics engine for large-scale data processing. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/apache/spark) (👨‍💻 3K · 🔀 28K · ⏱️ 12.10.2023):
+- [GitHub](https://github.com/apache/spark) (👨‍💻 3K · 🔀 28K · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/apache/spark
@@ -1912,7 +1921,7 @@ _Libraries for processing and handling big data sets_
 </details>
 <details><summary><b><a href="https://github.com/apache/flink">flink</a></b> (🥇29 ·  ⭐ 22K) - Apache Flink. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/apache/flink) (👨‍💻 1.8K · 🔀 12K · 📦 18 · ⏱️ 12.10.2023):
+- [GitHub](https://github.com/apache/flink) (👨‍💻 1.8K · 🔀 12K · 📦 19 · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/apache/flink
@@ -1920,7 +1929,7 @@ _Libraries for processing and handling big data sets_
 </details>
 <details><summary><b><a href="https://github.com/spotify/scio">scio</a></b> (🥈27 ·  ⭐ 2.5K) - A Scala API for Apache Beam and Google Cloud Dataflow. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/spotify/scio) (👨‍💻 210 · 🔀 510 · 📥 11K · 📋 1.3K - 12% open · ⏱️ 12.10.2023):
+- [GitHub](https://github.com/spotify/scio) (👨‍💻 210 · 🔀 510 · 📥 11K · 📋 1.3K - 12% open · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/spotify/scio
@@ -1928,7 +1937,7 @@ _Libraries for processing and handling big data sets_
 </details>
 <details><summary><b><a href="https://github.com/TouK/nussknacker">nussknacker</a></b> (🥈23 ·  ⭐ 510) - Low-code tool for automating actions on real time data | Stream.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/TouK/nussknacker) (👨‍💻 71 · 🔀 87 · 📥 310 · 📋 450 - 16% open · ⏱️ 12.10.2023):
+- [GitHub](https://github.com/TouK/nussknacker) (👨‍💻 71 · 🔀 88 · 📥 320 · 📋 450 - 16% open · ⏱️ 18.10.2023):
 
 	```
 	git clone https://github.com/touk/nussknacker
@@ -1942,7 +1951,7 @@ _Libraries for processing and handling big data sets_
 	git clone https://github.com/twitter/scalding
 	```
 </details>
-<details><summary><b><a href="https://github.com/galliaproject/gallia-core">gallia-core</a></b> (🥉13 ·  ⭐ 78 · 📈) - A schema-aware Scala library for data transformation. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/galliaproject/gallia-core">gallia-core</a></b> (🥉13 ·  ⭐ 79) - A schema-aware Scala library for data transformation. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/galliaproject/gallia-core) (👨‍💻 1 · 🔀 4 · ⏱️ 10.10.2023):
 
@@ -1978,7 +1987,7 @@ _Libraries and frameworks for building and maintaining distributed systems and f
 
 <details><summary><b><a href="https://github.com/apache/kafka">kafka</a></b> (🥇29 ·  ⭐ 26K) - Mirror of Apache Kafka. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/apache/kafka) (👨‍💻 1.3K · 🔀 13K · 📦 22 · ⏱️ 12.10.2023):
+- [GitHub](https://github.com/apache/kafka) (👨‍💻 1.3K · 🔀 13K · 📦 23 · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/apache/kafka
@@ -1986,7 +1995,7 @@ _Libraries and frameworks for building and maintaining distributed systems and f
 </details>
 <details><summary><b><a href="https://github.com/twitter/finagle">finagle</a></b> (🥈27 ·  ⭐ 8.7K) - A fault tolerant, protocol-agnostic RPC system. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/twitter/finagle) (👨‍💻 520 · 🔀 1.5K · 📦 18 · 📋 410 - 15% open · ⏱️ 22.09.2023):
+- [GitHub](https://github.com/twitter/finagle) (👨‍💻 520 · 🔀 1.5K · 📦 19 · 📋 410 - 15% open · ⏱️ 16.10.2023):
 
 	```
 	git clone https://github.com/twitter/finagle
@@ -2000,28 +2009,20 @@ _Libraries and frameworks for building and maintaining distributed systems and f
 	git clone https://github.com/lagom/lagom
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/incubator-pekko">pekko</a></b> (🥈20 ·  ⭐ 720) - Build highly concurrent, distributed, and resilient message-driven.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/apache/incubator-pekko">pekko</a></b> (🥈20 ·  ⭐ 740) - Build highly concurrent, distributed, and resilient message-driven.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/apache/incubator-pekko) (👨‍💻 1.1K · 🔀 73 · 📋 190 - 37% open · ⏱️ 11.10.2023):
+- [GitHub](https://github.com/apache/incubator-pekko) (👨‍💻 1.1K · 🔀 74 · 📋 190 - 36% open · ⏱️ 18.10.2023):
 
 	```
 	git clone https://github.com/apache/incubator-pekko
 	```
 </details>
-<details><summary><b><a href="https://github.com/parapet-io/parapet">parapet</a></b> (🥉11 ·  ⭐ 130) - A purely functional library to build distributed and event-driven.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/parapet-io/parapet">parapet</a></b> (🥉11 ·  ⭐ 140) - A purely functional library to build distributed and event-driven.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/parapet-io/parapet) (👨‍💻 5 · 🔀 6 · 📋 26 - 30% open · ⏱️ 30.04.2023):
 
 	```
 	git clone https://github.com/parapet-io/parapet
-	```
-</details>
-<details><summary><b><a href="https://github.com/annetteplatform/annette">annette</a></b> (🥉10 ·  ⭐ 15) - Platform to build distributed, scalable, enterprise-wide business.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
-
-- [GitHub](https://github.com/annetteplatform/annette) (⏱️ 18.07.2023):
-
-	```
-	git clone https://github.com/annetteplatform/annette
 	```
 </details>
 <details><summary><b><a href="https://github.com/yakivy/poppet">poppet</a></b> (🥉9 ·  ⭐ 25) - Minimal, type-safe RPC Scala library. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
@@ -2030,6 +2031,14 @@ _Libraries and frameworks for building and maintaining distributed systems and f
 
 	```
 	git clone https://github.com/yakivy/poppet
+	```
+</details>
+<details><summary><b><a href="https://github.com/annetteplatform/annette">annette</a></b> (🥉9 ·  ⭐ 15) - Platform to build distributed, scalable, enterprise-wide business.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/annetteplatform/annette) (⏱️ 18.07.2023):
+
+	```
+	git clone https://github.com/annetteplatform/annette
 	```
 </details>
 <details><summary>Show 4 hidden projects...</summary>
@@ -2049,7 +2058,7 @@ _Libraries purely built for Scala.js_
 
 <details><summary><b><a href="https://github.com/scala-js/scala-js">scala-js</a></b> (🥇25 ·  ⭐ 4.5K) - Scala.js, the Scala to JavaScript compiler. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/scala-js/scala-js) (👨‍💻 100 · 🔀 390 · 📋 2.2K - 1% open · ⏱️ 25.09.2023):
+- [GitHub](https://github.com/scala-js/scala-js) (👨‍💻 100 · 🔀 390 · 📋 2.2K - 1% open · ⏱️ 18.10.2023):
 
 	```
 	git clone https://github.com/scala-js/scala-js
@@ -2063,9 +2072,9 @@ _Libraries purely built for Scala.js_
 	git clone https://github.com/japgolly/scalajs-react
 	```
 </details>
-<details><summary><b><a href="https://github.com/raquo/Laminar">Laminar</a></b> (🥉13 ·  ⭐ 670) - Simple, expressive, and safe UI library for Scala.js. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/raquo/Laminar">Laminar</a></b> (🥉14 ·  ⭐ 670) - Simple, expressive, and safe UI library for Scala.js. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/raquo/Laminar) (👨‍💻 13 · 🔀 43 · 📋 92 - 19% open · ⏱️ 11.10.2023):
+- [GitHub](https://github.com/raquo/Laminar) (👨‍💻 13 · 🔀 43 · 📋 93 - 19% open · ⏱️ 13.10.2023):
 
 	```
 	git clone https://github.com/raquo/Laminar
@@ -2088,7 +2097,7 @@ _Libraries for working with and generating logs._
 
 <details><summary><b><a href="https://github.com/tinylog-org/tinylog">tinylog</a></b> (🥇26 ·  ⭐ 630) - tinylog is a lightweight logging framework for Java, Kotlin, Scala,.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/tinylog-org/tinylog) (👨‍💻 19 · 🔀 73 · 📥 27K · 📦 1.2K · 📋 230 - 8% open · ⏱️ 27.09.2023):
+- [GitHub](https://github.com/tinylog-org/tinylog) (👨‍💻 19 · 🔀 73 · 📥 28K · 📦 1.2K · 📋 230 - 8% open · ⏱️ 19.10.2023):
 
 	```
 	git clone https://github.com/tinylog-org/tinylog
@@ -2123,7 +2132,7 @@ _Libraries for working with and generating logs._
 </details>
 <details><summary><b><a href="https://github.com/sangria-graphql/sangria">sangria</a></b> (🥇24 ·  ⭐ 2K) - Scala GraphQL implementation. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/sangria-graphql/sangria) (👨‍💻 65 · 🔀 220 · 📋 460 - 12% open · ⏱️ 12.10.2023):
+- [GitHub](https://github.com/sangria-graphql/sangria) (👨‍💻 65 · 🔀 220 · 📋 460 - 12% open · ⏱️ 17.10.2023):
 
 	```
 	git clone https://github.com/sangria-graphql/sangria
@@ -2131,7 +2140,7 @@ _Libraries for working with and generating logs._
 </details>
 <details><summary><b><a href="https://github.com/pureconfig/pureconfig">pureconfig</a></b> (🥇21 ·  ⭐ 1.4K) - A boilerplate-free library for loading configuration files. <code><a href="http://bit.ly/3postzC">MPL-2.0</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/pureconfig/pureconfig) (👨‍💻 86 · 🔀 170 · 📋 290 - 15% open · ⏱️ 09.10.2023):
+- [GitHub](https://github.com/pureconfig/pureconfig) (👨‍💻 86 · 🔀 170 · 📋 290 - 15% open · ⏱️ 17.10.2023):
 
 	```
 	git clone https://github.com/pureconfig/pureconfig
@@ -2139,13 +2148,13 @@ _Libraries for working with and generating logs._
 </details>
 <details><summary><b><a href="https://github.com/softwaremill/bootzooka">bootzooka</a></b> (🥇21 ·  ⭐ 700) - Simple project to quickly start developing a Scala-based.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/softwaremill/bootzooka) (👨‍💻 63 · 🔀 150 · 📋 110 - 10% open · ⏱️ 10.10.2023):
+- [GitHub](https://github.com/softwaremill/bootzooka) (👨‍💻 63 · 🔀 150 · 📋 110 - 10% open · ⏱️ 18.10.2023):
 
 	```
 	git clone https://github.com/softwaremill/bootzooka
 	```
 </details>
-<details><summary><b><a href="https://github.com/iheartradio/play-swagger">play-swagger</a></b> (🥇20 ·  ⭐ 400) - Swagger spec generator for play framework. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/iheartradio/play-swagger">play-swagger</a></b> (🥇19 ·  ⭐ 400 · 📉) - Swagger spec generator for play framework. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/iheartradio/play-swagger) (👨‍💻 54 · 🔀 130 · 📋 250 - 35% open · ⏱️ 28.07.2023):
 
@@ -2163,7 +2172,7 @@ _Libraries for working with and generating logs._
 </details>
 <details><summary><b><a href="https://github.com/erikvanoosten/metrics-scala">metrics-scala</a></b> (🥈18 ·  ⭐ 430) - The scala API for Dropwizards Metrics. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/erikvanoosten/metrics-scala) (👨‍💻 90 · 🔀 61 · 📋 74 - 2% open · ⏱️ 09.10.2023):
+- [GitHub](https://github.com/erikvanoosten/metrics-scala) (👨‍💻 90 · 🔀 61 · 📋 74 - 2% open · ⏱️ 16.10.2023):
 
 	```
 	git clone https://github.com/erikvanoosten/metrics-scala
@@ -2171,7 +2180,7 @@ _Libraries for working with and generating logs._
 </details>
 <details><summary><b><a href="https://github.com/laserdisc-io/fs2-aws">fs2-aws</a></b> (🥈18 ·  ⭐ 170) - fs2 utilities to interact with AWS. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/laserdisc-io/fs2-aws) (👨‍💻 27 · 🔀 41 · 📋 70 - 38% open · ⏱️ 09.10.2023):
+- [GitHub](https://github.com/laserdisc-io/fs2-aws) (👨‍💻 27 · 🔀 41 · 📋 70 - 38% open · ⏱️ 16.10.2023):
 
 	```
 	git clone https://github.com/laserdisc-io/fs2-aws
@@ -2179,7 +2188,7 @@ _Libraries for working with and generating logs._
 </details>
 <details><summary><b><a href="https://github.com/ruippeixotog/scala-scraper">scala-scraper</a></b> (🥈17 ·  ⭐ 710) - A Scala library for scraping content from HTML pages. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/ruippeixotog/scala-scraper) (👨‍💻 15 · 🔀 100 · 📋 61 - 13% open · ⏱️ 10.10.2023):
+- [GitHub](https://github.com/ruippeixotog/scala-scraper) (👨‍💻 15 · 🔀 100 · 📋 61 - 13% open · ⏱️ 17.10.2023):
 
 	```
 	git clone https://github.com/ruippeixotog/scala-scraper
@@ -2227,7 +2236,7 @@ _Libraries for working with and generating logs._
 </details>
 <details><summary><b><a href="https://github.com/plokhotnyuk/rtree2d">rtree2d</a></b> (🥈13 ·  ⭐ 130) - RTree2D is a 2D immutable R-tree for ultra-fast nearest and.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/plokhotnyuk/rtree2d) (👨‍💻 6 · 🔀 11 · 📋 18 - 44% open · ⏱️ 06.10.2023):
+- [GitHub](https://github.com/plokhotnyuk/rtree2d) (👨‍💻 6 · 🔀 11 · 📋 18 - 44% open · ⏱️ 17.10.2023):
 
 	```
 	git clone https://github.com/plokhotnyuk/rtree2d
@@ -2235,7 +2244,7 @@ _Libraries for working with and generating logs._
 </details>
 <details><summary><b><a href="https://github.com/azavea/franklin">franklin</a></b> (🥈13 ·  ⭐ 70) - A STAC/OGC API Features Web Service. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/azavea/franklin) (👨‍💻 12 · 🔀 18 · 📋 200 - 48% open · ⏱️ 10.10.2023):
+- [GitHub](https://github.com/azavea/franklin) (👨‍💻 12 · 🔀 18 · 📋 200 - 48% open · ⏱️ 18.10.2023):
 
 	```
 	git clone https://github.com/azavea/franklin
@@ -2251,7 +2260,7 @@ _Libraries for working with and generating logs._
 </details>
 <details><summary><b><a href="https://github.com/lambdaworks/scountries">scountries</a></b> (🥉10 ·  ⭐ 20) - Scala library that provides an enumeration of ISO 3166 codes.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/lambdaworks/scountries) (👨‍💻 5 · 🔀 1 · ⏱️ 22.09.2023):
+- [GitHub](https://github.com/lambdaworks/scountries) (👨‍💻 5 · 🔀 1 · ⏱️ 17.10.2023):
 
 	```
 	git clone https://github.com/lambdaworks/scountries
@@ -2267,7 +2276,7 @@ _Libraries for working with and generating logs._
 </details>
 <details><summary><b><a href="https://github.com/lambdaworks/scurl-detector">scurl-detector</a></b> (🥉10 ·  ⭐ 17) - Scala library that detects and extracts URLs from text. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/lambdaworks/scurl-detector) (👨‍💻 7 · 🔀 2 · 📋 10 - 10% open · ⏱️ 22.09.2023):
+- [GitHub](https://github.com/lambdaworks/scurl-detector) (👨‍💻 7 · 🔀 2 · 📋 10 - 10% open · ⏱️ 18.10.2023):
 
 	```
 	git clone https://github.com/lambdaworks/scurl-detector
