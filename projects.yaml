@@ -1417,3 +1417,6 @@ projects:
     - name: Snowplow
       github_id: snowplow/snowplow
       category: sci
+    - name: Remora
+      github_id: zalando-incubator/remora
+      category: distributed
