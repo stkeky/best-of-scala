@@ -1420,3 +1420,15 @@ projects:
     - name: Remora
       github_id: zalando-incubator/remora
       category: distributed
+    - name: sharaf
+      github_id: sake92/sharaf
+      category: web-frameworks
+      labels: [scala3]
+    - name: tupson
+      github_id: sake92/tupson
+      category: json
+      labels: [scala3, scalajs]
+    - name: squery
+      github_id: sake92/squery
+      category: db-clients
+      labels: [scala3]
