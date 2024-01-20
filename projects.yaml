@@ -84,6 +84,46 @@ labels:
      description: Projects compatible with Scala 3
 
 projects:
+    - name: otavia
+      github_id: otavia-projects/otavia
+      maven_id: cc.otavia:otavia-runtime_3
+      category: reactive
+      labels: [scala3]
+    - name: otavia-all
+      github_id: otavia-projects/otavia
+      maven_id: cc.otavia:otavia-all_3
+      category: toolkits
+      labels: [scala3]
+    - name: otavia-runtime
+      github_id: otavia-projects/otavia
+      maven_id: cc.otavia:otavia-runtime_3
+      category: di
+      labels: [scala3]
+    - name: otavia-codec-http
+      github_id: otavia-projects/otavia
+      maven_id: cc.otavia:otavia-codec-http_3
+      category: http
+      labels: [scala3]
+    - name: otavia-serde-json
+      github_id: otavia-projects/otavia
+      maven_id: cc.otavia:otavia-serde-json_3
+      category: json
+      labels: [scala3]
+    - name: otavia-sql
+      github_id: otavia-projects/otavia
+      maven_id: cc.otavia:otavia-sql_3
+      category: db-clients
+      labels: [scala3]
+    - name: otavia-postgres-driver
+      github_id: otavia-projects/otavia
+      maven_id: cc.otavia:otavia-postgres-driver_3
+      category: db-clients
+      labels: [scala3]
+    - name: otavia-mysql-driver
+      github_id: otavia-projects/otavia
+      maven_id: cc.otavia:otavia-mysql-driver_3
+      category: db-clients
+      labels: [scala3]
     - name: scountries
       github_id: lambdaworks/scountries
       maven_id: io.lambdaworks:scountries_3
