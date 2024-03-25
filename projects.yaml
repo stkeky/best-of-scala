@@ -1472,3 +1472,7 @@ projects:
       github_id: sake92/squery
       category: db-clients
       labels: [scala3]
+    - name: ldbc
+      github_id: takapi327/ldbc
+      category: db-clients
+      labels: [scala3, scalajs]
