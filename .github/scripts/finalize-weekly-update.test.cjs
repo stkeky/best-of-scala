@@ -22,7 +22,7 @@ function release(id, version, extra = {}) {
 
 function fixture({pulls = [], releases = [], files, tagSha = latest, annotated = true,
   comparison = 'ahead', mergeResult = {merged: true}, publishError, currentPulls = {},
-  currentReleases = {}} = {}) {
+  currentReleases = {}, dryRun = false} = {}) {
   const writes = [];
   const logs = [];
   const rest = {
@@ -64,7 +64,7 @@ function fixture({pulls = [], releases = [], files, tagSha = latest, annotated =
     writes, logs,
     run: () => finalize({
       github: {rest, paginate: async (method, params) => (await method(params)).data},
-      context: {repo: repository}, core: {info: (message) => logs.push(message)},
+      context: {repo: repository}, core: {info: (message) => logs.push(message)}, dryRun,
     }),
   };
 }
@@ -94,6 +94,16 @@ test('does nothing when all weekly updates are already published', async () => {
   await f.run();
   assert.deepEqual(f.writes, []);
   assert.deepEqual(f.logs, ['No pending weekly updates.']);
+});
+
+test('read-only verification never merges, publishes, closes PRs, or deletes releases', async () => {
+  const f = fixture({pulls: [pull(343, latest), pull(342, previous)],
+    releases: [release(3, latest), release(2, previous)], dryRun: true});
+  await f.run();
+  assert.deepEqual(f.writes, []);
+  for (const action of ['Would merge', 'Would publish', 'Would close', 'Would discard']) {
+    assert.ok(f.logs.some((message) => message.startsWith(action)), action);
+  }
 });
 
 test('does not fall back to an older update when the newest release draft is missing', async () => {

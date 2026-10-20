@@ -5,8 +5,13 @@ on:
     workflows: [update-best-of-list]
     branches: [main]
     types: [completed]
-  # Retry publication or cleanup after a partial failure.
+  # Uncheck dry_run to retry publication or cleanup after a partial failure.
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Preview actions without changing PRs or releases
+        type: boolean
+        default: true
   push:
     branches: [main]
     paths:
@@ -47,7 +52,9 @@ jobs:
           ref: main
           persist-credentials: false
       - uses: actions/github-script@v9
+        env:
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
         with:
           script: |
             const finalize = require('./.github/scripts/finalize-weekly-update.cjs');
-            await finalize({github, context, core});
+            await finalize({github, context, core, dryRun: process.env.DRY_RUN === 'true'});

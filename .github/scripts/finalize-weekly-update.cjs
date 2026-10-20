@@ -1,6 +1,7 @@
 const VERSION = /^\d{4}\.\d{2}\.\d{2}(?:-\d{2}\.\d{2})?$/;
 
-module.exports = async function finalize({github, context, core}) {
+module.exports = async function finalize({github, context, core, dryRun = false}) {
+  if (dryRun) core.info('Read-only verification: PRs and releases will not be changed.');
   const repo = context.repo;
   const fullName = `${repo.owner}/${repo.repo}`.toLowerCase();
   const pullVersion = (pull) => {
@@ -54,11 +55,13 @@ module.exports = async function finalize({github, context, core}) {
       throw new Error(`PR #${pull.number} contains changes outside the generated weekly snapshot.`);
     }
     if (pull.state === 'open') {
-      const {data: result} = await github.rest.pulls.merge({
-        ...repo, pull_number: pull.number, sha: pull.head.sha, merge_method: 'merge',
-      });
-      if (!result.merged) throw new Error(`Could not merge PR #${pull.number}: ${result.message}`);
-      core.info(`Merged PR #${pull.number} (${version}).`);
+      if (!dryRun) {
+        const {data: result} = await github.rest.pulls.merge({
+          ...repo, pull_number: pull.number, sha: pull.head.sha, merge_method: 'merge',
+        });
+        if (!result.merged) throw new Error(`Could not merge PR #${pull.number}: ${result.message}`);
+      }
+      core.info(`${dryRun ? 'Would merge' : 'Merged'} PR #${pull.number} (${version}).`);
     } else if (!pull.merged) {
       throw new Error(`PR #${pull.number} was closed without merging.`);
     }
@@ -73,23 +76,25 @@ module.exports = async function finalize({github, context, core}) {
   }
 
   if (release.draft) {
-    await github.rest.repos.updateRelease({
-      ...repo, release_id: release.id, draft: false, make_latest: 'true',
-    });
-    core.info(`Published ${version} as the latest release.`);
+    if (!dryRun) {
+      await github.rest.repos.updateRelease({
+        ...repo, release_id: release.id, draft: false, make_latest: 'true',
+      });
+    }
+    core.info(`${dryRun ? 'Would publish' : 'Published'} ${version} as the latest release.`);
   }
 
   // Keep the alternatives until the newest snapshot is merged and published.
   for (const old of pulls.filter((pull) => pullVersion(pull) < version)) {
     const {data: current} = await github.rest.pulls.get({...repo, pull_number: old.number});
     if (current.state !== 'open' || pullVersion(current) !== pullVersion(old)) continue;
-    await github.rest.pulls.update({...repo, pull_number: old.number, state: 'closed'});
-    core.info(`Closed superseded PR #${old.number}.`);
+    if (!dryRun) await github.rest.pulls.update({...repo, pull_number: old.number, state: 'closed'});
+    core.info(`${dryRun ? 'Would close' : 'Closed'} superseded PR #${old.number}.`);
   }
   for (const old of releases.filter((item) => item.draft && item.tag_name < version)) {
     const {data: current} = await github.rest.repos.getRelease({...repo, release_id: old.id});
     if (!current.draft || releaseVersion(current) !== old.tag_name) continue;
-    await github.rest.repos.deleteRelease({...repo, release_id: old.id});
-    core.info(`Discarded draft ${old.tag_name}.`);
+    if (!dryRun) await github.rest.repos.deleteRelease({...repo, release_id: old.id});
+    core.info(`${dryRun ? 'Would discard' : 'Discarded'} draft ${old.tag_name}.`);
   }
 };
