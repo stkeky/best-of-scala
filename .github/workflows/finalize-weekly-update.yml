@@ -1,0 +1,53 @@
+name: finalize-weekly-update
+
+on:
+  workflow_run:
+    workflows: [update-best-of-list]
+    branches: [main]
+    types: [completed]
+  # Retry publication or cleanup after a partial failure.
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/scripts/finalize-weekly-update*
+      - .github/workflows/finalize-weekly-update.yml
+      - .github/workflows/update-best-of-list.yml
+  pull_request:
+    paths:
+      - .github/scripts/finalize-weekly-update*
+      - .github/workflows/finalize-weekly-update.yml
+      - .github/workflows/update-best-of-list.yml
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: node --test .github/scripts/finalize-weekly-update.test.cjs
+
+  finalize:
+    needs: test
+    if: >-
+      (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main') ||
+      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-latest
+    concurrency:
+      group: weekly-update
+      cancel-in-progress: false
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/github-script@v9
+        with:
+          script: |
+            const finalize = require('./.github/scripts/finalize-weekly-update.cjs');
+            await finalize({github, context, core});

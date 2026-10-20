@@ -10,6 +10,10 @@ on:
   schedule:
     - cron: "0 18 * * 4" # Every thursday at 6pm
 
+concurrency:
+  group: weekly-update
+  cancel-in-progress: false
+
 env:
   BRANCH_PREFIX: "update/"
   DEFAULT_BRANCH: "main"
@@ -24,7 +28,7 @@ jobs:
       - if: ${{ ! (env.VERSION != null && env.VERSION != '') }}
         name: set-version-via-date
         run: echo "VERSION=$(date '+%Y.%m.%d')" >> $GITHUB_ENV
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: check-version-tag
         shell: bash
         run: |
@@ -36,7 +40,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           branch: "${{ env.BRANCH_PREFIX }}${{ env.VERSION }}"
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
           ref: ${{ env.BRANCH_PREFIX }}${{ env.VERSION }}
@@ -64,7 +68,7 @@ jobs:
           # Stops script execution if a command has an error
           set -e
           curl -fsSL https://github.com/github/hub/raw/master/script/get | bash -s 2.14.2
-          bin/hub pull-request -b ${{ env.DEFAULT_BRANCH }} -h ${{ env.BRANCH_PREFIX }}${{ env.VERSION  }} --no-edit -m "Best-of update: ${{ env.VERSION  }}" -m "To finish this update: Select <code>Merge pull request</code> below and <code>Confirm merge</code>. Also, make sure to publish the created draft release in the [releases section](../releases) as well." || true
+          bin/hub pull-request -b ${{ env.DEFAULT_BRANCH }} -h ${{ env.BRANCH_PREFIX }}${{ env.VERSION  }} --no-edit -m "Best-of update: ${{ env.VERSION  }}" -m "After this workflow succeeds, finalize-weekly-update merges the newest weekly update and publishes its release, then closes superseded weekly update PRs and discards their release drafts." || true
           rm bin/hub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
