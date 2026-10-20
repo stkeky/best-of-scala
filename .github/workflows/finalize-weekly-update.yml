@@ -5,7 +5,7 @@ on:
     workflows: [update-best-of-list]
     branches: [main]
     types: [completed]
-  # Uncheck dry_run to retry publication or cleanup after a partial failure.
+  # Uncheck dry_run to retry merging or publication after a partial failure.
   workflow_dispatch:
     inputs:
       dry_run:

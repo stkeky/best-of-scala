@@ -21,11 +21,12 @@ module.exports = async function finalize({github, context, core, dryRun = false}
     ...repo, per_page: 100,
   })).filter(releaseVersion);
   const version = [...pulls.map(pullVersion), ...releases.map(releaseVersion)].sort().at(-1);
-  if (!version || (!pulls.length && !releases.some((release) => release.draft))) {
+  const release = releases.find((item) => item.tag_name === version);
+  const candidate = pulls.find((pull) => pullVersion(pull) === version);
+  if (!version || (!candidate && !release?.draft)) {
     core.info('No pending weekly updates.');
     return;
   }
-  const release = releases.find((item) => item.tag_name === version);
   if (!release) throw new Error(`Missing release draft for newest update ${version}.`);
 
   // Annotated tags must resolve to the snapshot that is actually being merged.
@@ -35,7 +36,6 @@ module.exports = async function finalize({github, context, core, dryRun = false}
   }
   if (object.type !== 'commit') throw new Error(`Release tag ${version} is not a commit.`);
 
-  const candidate = pulls.find((pull) => pullVersion(pull) === version);
   if (candidate) {
     const {data: pull} = await github.rest.pulls.get({...repo, pull_number: candidate.number});
     if (pullVersion(pull) !== version || pull.draft || pull.head.sha !== object.sha) {
@@ -82,19 +82,5 @@ module.exports = async function finalize({github, context, core, dryRun = false}
       });
     }
     core.info(`${dryRun ? 'Would publish' : 'Published'} ${version} as the latest release.`);
-  }
-
-  // Keep the alternatives until the newest snapshot is merged and published.
-  for (const old of pulls.filter((pull) => pullVersion(pull) < version)) {
-    const {data: current} = await github.rest.pulls.get({...repo, pull_number: old.number});
-    if (current.state !== 'open' || pullVersion(current) !== pullVersion(old)) continue;
-    if (!dryRun) await github.rest.pulls.update({...repo, pull_number: old.number, state: 'closed'});
-    core.info(`${dryRun ? 'Would close' : 'Closed'} superseded PR #${old.number}.`);
-  }
-  for (const old of releases.filter((item) => item.draft && item.tag_name < version)) {
-    const {data: current} = await github.rest.repos.getRelease({...repo, release_id: old.id});
-    if (!current.draft || releaseVersion(current) !== old.tag_name) continue;
-    if (!dryRun) await github.rest.repos.deleteRelease({...repo, release_id: old.id});
-    core.info(`${dryRun ? 'Would discard' : 'Discarded'} draft ${old.tag_name}.`);
   }
 };

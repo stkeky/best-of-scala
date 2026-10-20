@@ -21,15 +21,14 @@ function release(id, version, extra = {}) {
 }
 
 function fixture({pulls = [], releases = [], files, tagSha = latest, annotated = true,
-  comparison = 'ahead', mergeResult = {merged: true}, publishError, currentPulls = {},
-  currentReleases = {}, dryRun = false} = {}) {
+  comparison = 'ahead', mergeResult = {merged: true}, publishError, dryRun = false} = {}) {
   const writes = [];
   const logs = [];
   const rest = {
     pulls: {
       list: async () => ({data: structuredClone(pulls)}),
       get: async ({pull_number}) => ({data: structuredClone(
-        currentPulls[pull_number] || pulls.find((item) => item.number === pull_number))}),
+        pulls.find((item) => item.number === pull_number))}),
       listFiles: async () => ({data: files || [
         {filename: 'README.md'}, {filename: 'latest-changes.md'},
         {filename: 'history/2026-10-15_changes.md'}, {filename: 'history/2026-10-15_projects.csv'},
@@ -38,7 +37,6 @@ function fixture({pulls = [], releases = [], files, tagSha = latest, annotated =
         writes.push(['merge', params]);
         return {data: mergeResult};
       },
-      update: async (params) => { writes.push(['close', params]); },
     },
     repos: {
       listReleases: async () => ({data: structuredClone(releases)}),
@@ -51,9 +49,6 @@ function fixture({pulls = [], releases = [], files, tagSha = latest, annotated =
         if (publishError) throw new Error(publishError);
         return {data: {...releases.find((item) => item.id === params.release_id), draft: false}};
       },
-      getRelease: async ({release_id}) => ({data: structuredClone(
-        currentReleases[release_id] || releases.find((item) => item.id === release_id))}),
-      deleteRelease: async (params) => { writes.push(['delete', params]); },
     },
     git: {
       getRef: async () => ({data: {object: {type: annotated ? 'tag' : 'commit', sha: tagSha}}}),
@@ -69,7 +64,7 @@ function fixture({pulls = [], releases = [], files, tagSha = latest, annotated =
   };
 }
 
-test('merges newest snapshot, publishes it, then cleans only older weekly updates', async () => {
+test('merges and publishes only the newest snapshot, leaving older updates untouched', async () => {
   const f = fixture({
     pulls: [pull(342, previous), pull(343, latest), pull(341, oldest),
       pull(344, latest, {title: 'Add a library'}),
@@ -82,10 +77,6 @@ test('merges newest snapshot, publishes it, then cleans only older weekly update
   assert.deepEqual(f.writes, [
     ['merge', {...repository, pull_number: 343, sha: latest, merge_method: 'merge'}],
     ['publish', {...repository, release_id: 3, draft: false, make_latest: 'true'}],
-    ['close', {...repository, pull_number: 342, state: 'closed'}],
-    ['close', {...repository, pull_number: 341, state: 'closed'}],
-    ['delete', {...repository, release_id: 2}],
-    ['delete', {...repository, release_id: 1}],
   ]);
 });
 
@@ -96,12 +87,12 @@ test('does nothing when all weekly updates are already published', async () => {
   assert.deepEqual(f.logs, ['No pending weekly updates.']);
 });
 
-test('read-only verification never merges, publishes, closes PRs, or deletes releases', async () => {
+test('read-only verification never merges or publishes', async () => {
   const f = fixture({pulls: [pull(343, latest), pull(342, previous)],
     releases: [release(3, latest), release(2, previous)], dryRun: true});
   await f.run();
   assert.deepEqual(f.writes, []);
-  for (const action of ['Would merge', 'Would publish', 'Would close', 'Would discard']) {
+  for (const action of ['Would merge', 'Would publish']) {
     assert.ok(f.logs.some((message) => message.startsWith(action)), action);
   }
 });
@@ -132,7 +123,7 @@ test('refuses renaming a code file into an allowed generated file', async () => 
   assert.deepEqual(f.writes, []);
 });
 
-test('does not publish or clean up when GitHub refuses the merge', async () => {
+test('does not publish when GitHub refuses the merge', async () => {
   const f = fixture({pulls: [pull(343, latest), pull(342, previous)],
     releases: [release(3, latest), release(2, previous)],
     mergeResult: {merged: false, message: 'Required status check has not passed'} });
@@ -140,17 +131,17 @@ test('does not publish or clean up when GitHub refuses the merge', async () => {
   assert.deepEqual(f.writes.map(([action]) => action), ['merge']);
 });
 
-test('keeps older PRs and drafts when publishing fails after merging', async () => {
+test('reports a publication failure after merging', async () => {
   const f = fixture({pulls: [pull(343, latest), pull(342, previous)],
     releases: [release(3, latest), release(2, previous)], publishError: 'API unavailable'});
   await assert.rejects(f.run(), /API unavailable/);
   assert.deepEqual(f.writes.map(([action]) => action), ['merge', 'publish']);
 });
 
-test('reruns can publish an already merged snapshot and finish cleanup', async () => {
+test('reruns can publish an already merged snapshot', async () => {
   const f = fixture({pulls: [pull(342, previous)], releases: [release(3, latest), release(2, previous)]});
   await f.run();
-  assert.deepEqual(f.writes.map(([action]) => action), ['publish', 'close', 'delete']);
+  assert.deepEqual(f.writes.map(([action]) => action), ['publish']);
 });
 
 test('does not publish a draft whose PR is closed without merging', async () => {
@@ -159,23 +150,9 @@ test('does not publish a draft whose PR is closed without merging', async () => 
   assert.deepEqual(f.writes, []);
 });
 
-test('a newer published release supersedes older open PRs without merging them', async () => {
+test('does nothing to older updates when the newest release is already published', async () => {
   const f = fixture({pulls: [pull(342, previous)],
     releases: [release(3, latest, {draft: false}), release(2, previous)]});
-  await f.run();
-  assert.deepEqual(f.writes.map(([action]) => action), ['close', 'delete']);
-});
-
-test('preserves an older draft that was published during the run', async () => {
-  const f = fixture({releases: [release(3, latest, {draft: false}), release(2, previous)],
-    currentReleases: {2: release(2, previous, {draft: false})}});
-  await f.run();
-  assert.deepEqual(f.writes, []);
-});
-
-test('preserves a PR that no longer matches a weekly update during cleanup', async () => {
-  const f = fixture({pulls: [pull(342, previous)], releases: [release(3, latest, {draft: false})],
-    currentPulls: {342: pull(342, previous, {title: 'Manual changes to review'})}});
   await f.run();
   assert.deepEqual(f.writes, []);
 });
