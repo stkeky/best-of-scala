@@ -178,7 +178,7 @@ _Libraries for connecting to, operating, and querying databases._
 
 <details><summary><b><a href="https://github.com/slick/slick">slick</a></b> (🥇18 ·  ⭐ 2.7K) - Slick (Scala Language Integrated Connection Kit) is a modern.. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/slick/slick) (👨‍💻 210 · 🔀 610):
+- [GitHub](https://github.com/slick/slick) (👨‍💻 220 · 🔀 610):
 
 	```
 	git clone https://github.com/slick/slick
@@ -288,7 +288,7 @@ _Libraries for connecting to, operating, and querying databases._
 	git clone https://github.com/zio/zio-dynamodb
 	```
 </details>
-<details><summary><b><a href="https://github.com/lambdaworks/zio-elasticsearch">zio-elasticsearch</a></b> (🥈11 ·  ⭐ 62 · 📉) - ZIO Elasticsearch is a type-safe and streaming-.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://zio.dev/img/navbar_brand.png" style="display:inline;" width="13" height="13"></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/lambdaworks/zio-elasticsearch">zio-elasticsearch</a></b> (🥈11 ·  ⭐ 62) - ZIO Elasticsearch is a type-safe and streaming-.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://zio.dev/img/navbar_brand.png" style="display:inline;" width="13" height="13"></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/lambdaworks/zio-elasticsearch) (👨‍💻 24 · 🔀 21):
 
@@ -498,7 +498,7 @@ _Libraries that handle JSON format._
 </details>
 <details><summary><b><a href="https://github.com/zio/zio-json">zio-json</a></b> (🥈16 ·  ⭐ 430) - Fast, secure JSON library with tight ZIO integration. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://zio.dev/img/navbar_brand.png" style="display:inline;" width="13" height="13"></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/zio/zio-json) (👨‍💻 76 · 🔀 160):
+- [GitHub](https://github.com/zio/zio-json) (👨‍💻 78 · 🔀 160):
 
 	```
 	git clone https://github.com/zio/zio-json
@@ -619,7 +619,7 @@ _Libraries that handle JSON format._
 </details>
 <details><summary><b><a href="https://github.com/UdashFramework/udash-core">udash-core</a></b> (🥈15 ·  ⭐ 450) - Scala framework for building beautiful and maintainable web.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/UdashFramework/udash-core) (👨‍💻 47 · 🔀 39 · 📦 2):
+- [GitHub](https://github.com/UdashFramework/udash-core) (👨‍💻 47 · 🔀 47 · 📦 2):
 
 	```
 	git clone https://github.com/UdashFramework/udash-core
@@ -754,7 +754,7 @@ _Libraries that handle common file formats including YAML, CSV, etc._
 	git clone https://github.com/sbt/sbt-release
 	```
 </details>
-<details><summary><b><a href="https://github.com/rtimush/sbt-updates">sbt-updates</a></b> (🥈11 ·  ⭐ 770 · 📈) - sbt plugin that can check Maven and Ivy repositories for.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/rtimush/sbt-updates">sbt-updates</a></b> (🥈11 ·  ⭐ 770) - sbt plugin that can check Maven and Ivy repositories for dependency.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/rtimush/sbt-updates) (👨‍💻 30 · 🔀 58):
 
@@ -810,7 +810,7 @@ _Libraries that handle common file formats including YAML, CSV, etc._
 	git clone https://github.com/47degrees/sbt-microsites
 	```
 </details>
-<details><summary><b><a href="https://github.com/sbt/sbt-ci-release">sbt-ci-release</a></b> (🥈10 ·  ⭐ 310 · 📉) - sbt plugin to automate Sonatype releases from GitHub.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/sbt/sbt-ci-release">sbt-ci-release</a></b> (🥈10 ·  ⭐ 310) - sbt plugin to automate Sonatype releases from GitHub Actions. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/sbt/sbt-ci-release) (👨‍💻 68 · 🔀 76):
 
@@ -1250,13 +1250,13 @@ _Libraries and frameworks for various types of code testing_
 </details>
 <details><summary><b><a href="https://github.com/scalameta/munit">munit</a></b> (🥈20 ·  ⭐ 470) - Scala testing library with actionable errors and extensible.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/scalameta/munit) (👨‍💻 75 · 🔀 110):
+- [GitHub](https://github.com/scalameta/munit) (👨‍💻 76 · 🔀 110):
 
 	```
 	git clone https://github.com/scalameta/munit
 	```
 </details>
-<details><summary><b><a href="https://github.com/gatling/gatling">gatling</a></b> (🥈17 ·  ⭐ 7K · 📈) - Modern Load Testing as Code. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/gatling/gatling">gatling</a></b> (🥈17 ·  ⭐ 7K) - Modern Load Testing as Code. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/gatling/gatling) (👨‍💻 250 · 🔀 1.2K · 📦 26):
 
@@ -1389,7 +1389,7 @@ _Libraries for data binding, validation, and serialization_
 
 <details><summary><b><a href="https://github.com/com-lihaoyi/upickle">upickle</a></b> (🥇18 ·  ⭐ 760) - uPickle: a simple, fast, dependency-free JSON & Binary.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code> <code><img src="https://www.scala-js.org/assets/img/scala-js-logo.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/com-lihaoyi/upickle) (👨‍💻 69 · 🔀 180):
+- [GitHub](https://github.com/com-lihaoyi/upickle) (👨‍💻 67 · 🔀 180):
 
 	```
 	git clone https://github.com/com-lihaoyi/upickle
@@ -1427,7 +1427,7 @@ _Libraries for data binding, validation, and serialization_
 	git clone https://github.com/sksamuel/avro4s
 	```
 </details>
-<details><summary><b><a href="https://github.com/jap-company/fields">fields</a></b> (🥉6 ·  ⭐ 49 · 📉) - Scala validation library. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/jap-company/fields">fields</a></b> (🥉6 ·  ⭐ 49) - Scala validation library. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/jap-company/fields) (👨‍💻 1 · 🔀 3):
 
@@ -1607,7 +1607,7 @@ _Libraries for data analysis, machine learning, and AI_
 
 <details><summary><b><a href="https://github.com/intel/ipex-llm">bigdl</a></b> (🥇22 ·  ⭐ 8.8K) - Accelerate local LLM inference and finetuning (LLaMA, Mistral,.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/intel/ipex-llm) (👨‍💻 120 · 🔀 1.4K · 📥 900 · 📋 3K - 40% open · ⏱️ 28.01.2026):
+- [GitHub](https://github.com/intel/ipex-llm) (👨‍💻 120 · 🔀 1.4K · 📥 910 · 📋 3K - 40% open · ⏱️ 28.01.2026):
 
 	```
 	git clone https://github.com/intel-analytics/bigdl
@@ -1882,7 +1882,7 @@ _Libraries for working with and generating logs._
 
 <details><summary><b><a href="https://github.com/pureconfig/pureconfig">pureconfig</a></b> (🥇17 ·  ⭐ 1.5K) - A boilerplate-free library for loading configuration files. <code><a href="http://bit.ly/3postzC">MPL-2.0</a></code> <code><img src="https://scalac.io/wp-content/uploads/2021/02/image-125-1.svg" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/pureconfig/pureconfig) (👨‍💻 94 · 🔀 180):
+- [GitHub](https://github.com/pureconfig/pureconfig) (👨‍💻 95 · 🔀 180):
 
 	```
 	git clone https://github.com/pureconfig/pureconfig
